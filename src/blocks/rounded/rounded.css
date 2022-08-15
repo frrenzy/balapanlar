@@ -1,0 +1,5 @@
+.rounded {
+  box-sizing: border-box;
+  border-radius: 60px;
+  overflow: hidden;
+}
