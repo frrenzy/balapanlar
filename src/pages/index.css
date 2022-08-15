@@ -1,2 +1,5 @@
 @import '../vendor/normalize.css';
 @import '../vendor/fonts/montserrat/montserrat.css';
+
+@import '../blocks/page/page.css';
+@import '../blocks/content/content.css';
