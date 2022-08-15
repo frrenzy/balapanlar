@@ -14,8 +14,7 @@
     "test": "npm run editorconfig && npm run stylelint",
     "prepare": "husky install",
     "staged": "lint-staged",
-    "ci-npm": "rm -rf node_modules && npm install",
-    "ci": "rm -rf node_modules && yarn"
+    "ci": "rm -rf node_modules && yarn --frozen-lockfile"
   },
   "author": "",
   "license": "ISC",
