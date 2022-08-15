@@ -1,20 +1,27 @@
 {
-  "name": "",
+  "name": "balapanlar",
   "version": "",
   "description": "",
   "main": "/src/components/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
     "dev": "webpack serve",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint \"src/**/*.css\"",
+    "stylelint:fix": "stylelint \"src/**/*.css\" --fix",
+    "test": "npm run editorconfig && npm run stylelint",
+    "prepare": "husky install",
+    "staged": "lint-staged",
+    "ci": "rm -rf node_modules && yarn --frozen-lockfile"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.18.5",
     "@babel/preset-env": "^7.18.2",
+    "@htmlacademy/editorconfig-cli": "^1.0.0",
     "autoprefixer": "^10.4.7",
     "babel-loader": "^8.2.5",
     "clean-webpack-plugin": "^4.0.0",
@@ -22,13 +29,24 @@
     "cssnano": "^5.1.11",
     "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "mini-css-extract-plugin": "^2.6.0",
     "postcss-loader": "^7.0.0",
+    "stylelint": "^14.10.0",
+    "stylelint-order": "^5.0.0",
     "webpack": "^5.73.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.9.2"
   },
   "dependencies": {
     "core-js": "^3.22.8"
+  },
+  "editorconfig-cli": [
+    "*.json",
+    "src/**/*.*"
+  ],
+  "lint-staged": {
+    "*": "npm run test"
   }
 }
