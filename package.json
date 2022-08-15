@@ -44,7 +44,7 @@
   },
   "editorconfig-cli": [
     "*.json",
-    "src/**/*.*"
+    "src/**/*.{js,css,html}"
   ],
   "lint-staged": {
     "*": "npm run test"
