@@ -19,4 +19,4 @@
 - `npm install` - первоначальная установка
 - `npm ci` - синхронизация с командой :)
 
-### [Github Pages](https://frrenzy.github.io/balapanlar)
+### [GitHub Pages](https://frrenzy.github.io/balapanlar)
