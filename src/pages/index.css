@@ -5,3 +5,8 @@
 
 @import '../blocks/list/list.css';
 @import '../blocks/column/column.css';
+
+/* blocks */
+
+@import '../blocks/page/page.css';
+@import '../blocks/content/content.css';

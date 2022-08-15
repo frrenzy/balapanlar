@@ -122,8 +122,10 @@
       "always",
       {
         "except": [
-          "blockless-after-blockless",
           "first-nested"
+        ],
+        "ignore": [
+          "blockless-after-blockless"
         ]
       }
     ],
