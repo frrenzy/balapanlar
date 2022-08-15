@@ -1,5 +1,12 @@
 @import '../vendor/normalize.css';
 @import '../vendor/fonts/montserrat/montserrat.css';
 
+/* mixins */
+
+@import '../blocks/list/list.css';
+@import '../blocks/column/column.css';
+
+/* blocks */
+
 @import '../blocks/page/page.css';
 @import '../blocks/content/content.css';
