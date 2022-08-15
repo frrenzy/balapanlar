@@ -6,6 +6,8 @@
 @import '../blocks/list/list.css';
 @import '../blocks/column/column.css';
 @import '../blocks/rounded/rounded.css';
+@import '../blocks/list/_type/list_type_checked.css';
+@import '../blocks/list/_type/list_type_crossed.css';
 
 /* blocks */
 
