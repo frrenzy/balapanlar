@@ -19,4 +19,14 @@
 - `npm install` - первоначальная установка
 - `npm ci` - синхронизация с командой :)
 
-### [Github Pages](https://frrenzy.github.io/balapanlar)
+### Работа с git
+[Git guide](./docs/Commits.md)
+
+### Запуск
+- Для пользователей Yarn:
+`yarn dev`
+
+- Для пользователей npm:
+`npm run dev`
+
+### [GitHub Pages](https://frrenzy.github.io/balapanlar)
