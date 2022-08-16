@@ -35,8 +35,8 @@
 @import '../blocks/courses/__skills/courses__skills.css';
 @import '../blocks/courses/__buttons/courses__buttons.css';
 @import '../blocks/courses/__all-button/courses__all-button.css';
-@import "../blocks/courses/__others/courses__others.css";
-@import "../blocks/courses/__others-list/courses__others-list.css";
-@import "../blocks/courses/__price/cources__price.css";
+@import '../blocks/courses/__others/courses__others.css';
+@import '../blocks/courses/__others-list/courses__others-list.css';
+@import '../blocks/courses/__price/cources__price.css';
 
 @import '../blocks/content/__element/content__element.css';
