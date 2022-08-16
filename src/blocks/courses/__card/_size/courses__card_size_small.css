@@ -1,0 +1,9 @@
+.courses__card_size_small {
+  width: calc((100% - 40px) / 3);
+  min-width: 320px;
+  min-height: 563px;
+}
+
+.courses__card_size_small:nth-child(3n+2) {
+  width: calc((100% + 20px) / 3);
+}
