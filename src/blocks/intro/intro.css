@@ -5,11 +5,11 @@
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   height: 852px;
   background-image: url('../../images/intro_image.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  aspect-ratio: auto;
+  /* aspect-ratio: auto; */
 }
