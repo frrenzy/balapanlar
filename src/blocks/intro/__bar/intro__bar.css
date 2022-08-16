@@ -1,0 +1,8 @@
+.intro__bar {
+  display: flex;
+  align-items: center;
+  width: 83%;
+  margin: 0 auto 10px;
+  padding-right: 10px;
+  background-color: #ae46ff;
+}
