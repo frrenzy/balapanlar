@@ -15,3 +15,4 @@
 @import '../blocks/main/main.css';
 
 @import '../blocks/tag/tag.css';
+@import '../blocks/tag/_without-border/tag_without-border.css';
