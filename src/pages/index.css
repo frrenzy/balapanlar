@@ -25,6 +25,9 @@
 
 @import '../blocks/main/main.css';
 
+
+@import '../blocks/tag/tag.css';
+@import '../blocks/tag/_without-border/tag_without-border.css';
 @import '../blocks/courses/courses.css';
 @import '../blocks/courses/__title/courses__title.css';
 @import '../blocks/courses/__wrapper/courses__wrapper.css';
