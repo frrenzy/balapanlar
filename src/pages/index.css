@@ -52,3 +52,6 @@
 @import '../blocks/courses/__price/cources__price.css';
 
 @import '../blocks/content/__element/content__element.css';
+@import '../blocks/content/_wrapper/content_wrapper.css';
+
+@import '../blocks/wrapper/wrapper.css';
