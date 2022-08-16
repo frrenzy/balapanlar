@@ -1,0 +1,6 @@
+.principles__list {
+  display: flex;
+  padding: 0;
+  overflow-x: hidden;
+  list-style: none;
+}

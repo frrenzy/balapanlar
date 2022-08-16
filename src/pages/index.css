@@ -25,7 +25,6 @@
 
 @import '../blocks/main/main.css';
 
-
 @import '../blocks/tag/tag.css';
 @import '../blocks/tag/_without-border/tag_without-border.css';
 @import '../blocks/courses/courses.css';
@@ -50,5 +49,13 @@
 @import '../blocks/courses/__others/courses__others.css';
 @import '../blocks/courses/__others-list/courses__others-list.css';
 @import '../blocks/courses/__price/cources__price.css';
+
+@import '../blocks/principles/principles.css';
+@import '../blocks/principles/__heading/principles__heading.css';
+@import '../blocks/principles/__list/principles__list.css';
+@import '../blocks/principles/__item/principles__item.css';
+@import '../blocks/principles/__image/principles__image.css';
+@import '../blocks/principles/__image/_size/principles__image_size_m.css';
+@import '../blocks/principles/__text/principles__text.css';
 
 @import '../blocks/content/__element/content__element.css';
