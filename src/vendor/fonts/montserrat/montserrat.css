@@ -3,7 +3,7 @@
   font-style:  normal;
   font-weight: 600;
   font-display: swap;
-  src: url("Montserrat-SemiBold.ttf") format("ttf");
+  src: url("Montserrat-SemiBold.ttf");
 }
 
 @font-face {
@@ -11,5 +11,5 @@
   font-style:  normal;
   font-weight: 500;
   font-display: swap;
-  src: url("Montserrat-Medium.ttf") format("ttf");
+  src: url("Montserrat-Medium.ttf");
 }
