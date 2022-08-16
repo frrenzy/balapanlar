@@ -2,7 +2,6 @@
   max-height: 100%;
   margin: 0 0 15px;
   padding: 0;
-  overflow: hidden;
   color: #000000;
   font-weight: 500;
   font-size: 18px;
@@ -10,4 +9,13 @@
   line-height: 22px;
   text-overflow: ellipsis;
   font-feature-settings: 'pnum' on, 'lnum' on;
+  min-height: min-content;
+}
+
+.courses__skills .courses__card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
