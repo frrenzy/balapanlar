@@ -15,3 +15,12 @@
 @import '../blocks/content/content.css';
 
 @import '../blocks/main/main.css';
+
+/* button */
+
+@import '../blocks/button/button.css';
+@import '../blocks/button/_size/button_size_l.css';
+@import '../blocks/button/_size/button_size_m.css';
+@import '../blocks/button/_size/button_size_s.css';
+@import '../blocks/button/_color/button_color_orange.css';
+@import '../blocks/button/_color/button_color_black.css';
