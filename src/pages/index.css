@@ -1,5 +1,5 @@
-@import '../vendor/normalize.css';
 @import '../vendor/fonts/montserrat/montserrat.css';
+@import '../vendor/normalize.css';
 
 /* mixins */
 
@@ -17,10 +17,21 @@
 
 @import '../blocks/main/main.css';
 
-@import "../blocks/courses/courses.css";
-@import "../blocks/courses/__title/courses__title.css";
-@import "../blocks/courses/__wrapper/courses__wrapper.css";
-@import "../blocks/courses/__code/courses__code.css";
-@import "../blocks/courses/__code-title/courses__code-title.css";
-@import "../blocks/courses/__code-text/courses__code-text.css";
-
+@import '../blocks/courses/courses.css';
+@import '../blocks/courses/__title/courses__title.css';
+@import '../blocks/courses/__wrapper/courses__wrapper.css';
+@import '../blocks/courses/__code/courses__code.css';
+@import '../blocks/courses/__code-title/courses__code-title.css';
+@import '../blocks/courses/__code-text/courses__code-text.css';
+@import '../blocks/courses/__code-list/courses__code-list.css';
+@import '../blocks/courses/__card/courses__card.css';
+@import '../blocks/courses/__card/_size/courses__card_size_big.css';
+@import '../blocks/courses/__card-title/courses__card-title.css';
+@import '../blocks/courses/__spec/courses__spec.css';
+@import '../blocks/courses/__tags/courses__tags.css';
+@import '../blocks/courses/__spec-pic/courses__spec-pic.css';
+@import '../blocks/courses/__spec-text/courses__spec-text.css';
+@import '../blocks/courses/__card-text/courses__card-text.css';
+@import '../blocks/courses/__skills/courses__skills.css';
+@import '../blocks/courses/__buttons/courses__buttons.css';
+@import '../blocks/courses/__all-button/courses__all-button.css';

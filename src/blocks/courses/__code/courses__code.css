@@ -1,7 +1,7 @@
 .courses__code {
   width: 100%;
-  background-color: #FFD643;
-  border-radius: 70px;
   margin: 0;
-  padding: 0;
+  padding: 0 0 10px;
+  background-color: #ffd643;
+  border-radius: 70px;
 }

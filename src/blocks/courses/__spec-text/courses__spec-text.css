@@ -1,12 +1,11 @@
-.courses__code-text {
-  width: 730px;
-  margin: 0 0 40px;
+.courses__spec-text {
+  margin: 0;
   padding: 0;
-  color: #000000;
-  font-weight: 500;
+  color: #2b2b2b;
+  font-weight: 600;
   font-size: 18px;
   font-style: normal;
   line-height: 22px;
-  text-align: center;
+  letter-spacing: -0.5px;
   font-feature-settings: 'pnum' on, 'lnum' on;
 }

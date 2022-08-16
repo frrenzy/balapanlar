@@ -1,12 +1,11 @@
-.courses__title {
-  align-self: start;
-  margin: 0 0 40px 10px;
+.courses__card-title {
+  margin: 0 0 30px;
   padding: 0;
   color: #000000;
   font-weight: 600;
-  font-size: 60px;
+  font-size: 36px;
   font-style: normal;
-  line-height: 68px;
+  line-height: 44px;
   letter-spacing: -1px;
   font-feature-settings: 'pnum' on, 'lnum' on;
 }
