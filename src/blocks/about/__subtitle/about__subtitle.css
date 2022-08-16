@@ -1,0 +1,11 @@
+.about__subtitle {
+  width: 915px;
+  margin: 0 0 60px 0;
+  color: #000000;
+  font-weight: 600;
+  font-size: 36px;
+  font-style: normal;
+  line-height: 44px;
+  letter-spacing: -1px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
