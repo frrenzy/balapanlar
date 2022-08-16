@@ -76,7 +76,7 @@
     "declaration-block-trailing-semicolon": "always",
     "declaration-empty-line-before": "never",
     "declaration-property-unit-allowed-list": {
-      "line-height": []
+      "line-height": ["px"]
     },
     "block-closing-brace-empty-line-before": "never",
     "block-closing-brace-newline-after": "always-multi-line",
