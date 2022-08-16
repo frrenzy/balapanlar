@@ -9,6 +9,15 @@
 @import '../blocks/list/_type/list_type_checked.css';
 @import '../blocks/list/_type/list_type_crossed.css';
 
+/* button */
+
+@import '../blocks/button/button.css';
+@import '../blocks/button/_size/button_size_l.css';
+@import '../blocks/button/_size/button_size_m.css';
+@import '../blocks/button/_size/button_size_s.css';
+@import '../blocks/button/_color/button_color_orange.css';
+@import '../blocks/button/_color/button_color_black.css';
+
 /* blocks */
 
 @import '../blocks/page/page.css';
