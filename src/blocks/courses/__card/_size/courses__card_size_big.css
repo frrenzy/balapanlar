@@ -1,0 +1,4 @@
+.courses__card_size_big {
+  width: calc(50% - 5px);
+  min-height: 553px;
+}
