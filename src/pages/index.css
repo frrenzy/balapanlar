@@ -13,5 +13,14 @@
 
 @import '../blocks/page/page.css';
 @import '../blocks/content/content.css';
+@import '../blocks/content/__element/content__element.css';
 
 @import '../blocks/main/main.css';
+
+@import "../blocks/courses/courses.css";
+@import "../blocks/courses/__title/courses__title.css";
+@import "../blocks/courses/__wrapper/courses__wrapper.css";
+@import "../blocks/courses/__code/courses__code.css";
+@import "../blocks/courses/__code-title/courses__code-title.css";
+@import "../blocks/courses/__code-text/courses__code-text.css";
+

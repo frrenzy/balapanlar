@@ -1,0 +1,11 @@
+.courses__code-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
