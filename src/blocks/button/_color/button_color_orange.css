@@ -1,6 +1,5 @@
 .button_color_orange {
   background-color: #ff7628;
-  transition: all 0.3s;
 }
 
 .button_color_orange:hover {

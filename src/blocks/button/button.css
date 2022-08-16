@@ -6,6 +6,7 @@
   text-decoration: none;
   font-feature-settings: 'pnum' on, 'lnum' on;
   border-radius: 50px;
+  transition: all 0.3s;
 }
 
 .button:hover {
