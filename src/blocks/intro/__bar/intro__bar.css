@@ -2,8 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 83%;
+  width: 84%;
   margin: 0 auto 10px;
   padding-right: 10px;
   background-color: #ae46ff;
+}
+
+@media screen and (max-width: 500px) {
+  .intro__bar {
+    display: none;
+  }
 }

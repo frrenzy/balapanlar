@@ -3,3 +3,10 @@
   height: 22px;
   margin: 25px 10px 25px 20px;
 }
+
+@media screen and (max-width: 720px) {
+  .intro__text {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}

@@ -4,3 +4,12 @@
   line-height: 1.22;
   letter-spacing: -0.5px;
 }
+
+@media screen and (max-width: 900px) {
+  .button_size_l {
+    padding: 16px 22px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0;
+  }
+}

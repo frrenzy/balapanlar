@@ -1,8 +1,17 @@
 .intro {
   justify-content: space-between;
-  height: 852px;
-  background-image: url('../../images/intro_image.png');
+  /* height: 852px; */
+  background-image: url('../../images/image-109150.jpg');
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-position: 63% 73%;
+  background-size: 159%;
+  aspect-ratio: 120 / 71;
+}
+
+@media screen and (max-width: 600px) {
+  .intro {
+    background-position: 59% 58%;
+    background-size: 308%;
+    aspect-ratio: 160 / 281;
+  }
 }
