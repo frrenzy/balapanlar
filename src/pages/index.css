@@ -1,18 +1,6 @@
 @import '../vendor/fonts/montserrat/montserrat.css';
 @import '../vendor/normalize.css';
 
-/* header */
-
-@import '../blocks/header/header.css';
-@import '../blocks/header/__nav/header__nav.css';
-@import '../blocks/header/__menu/header__menu.css';
-@import '../blocks/header/__link/header__link.css';
-
-/* logo */
-
-@import '../blocks/logo/logo.css';
-@import '../blocks/logo/__img/logo__img.css';
-
 /* mixins */
 
 @import '../blocks/list/list.css';
@@ -31,6 +19,14 @@
 @import '../blocks/button/_color/button_color_black.css';
 
 /* blocks */
+
+@import '../blocks/header/header.css';
+@import '../blocks/header/__nav/header__nav.css';
+@import '../blocks/header/__menu/header__menu.css';
+@import '../blocks/header/__link/header__link.css';
+
+@import '../blocks/logo/logo.css';
+@import '../blocks/logo/__img/logo__img.css';
 
 @import '../blocks/page/page.css';
 @import '../blocks/content/content.css';
