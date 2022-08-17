@@ -18,7 +18,6 @@
 /* blocks */
 
 @import '../blocks/page/page.css';
-@import '../blocks/content/content.css';
 
 @import '../blocks/main/main.css';
 
@@ -48,4 +47,4 @@
 @import '../blocks/courses/__others-list/courses__others-list.css';
 @import '../blocks/courses/__price/cources__price.css';
 
-@import '../blocks/content/__element/content__element.css';
+@import '../blocks/page/__element/page__element.css';
