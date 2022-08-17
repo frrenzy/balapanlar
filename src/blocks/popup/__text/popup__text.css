@@ -1,0 +1,10 @@
+.popup__text {
+  margin: 0;
+  padding-top: 15px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.popup__text:first-of-type {
+  padding-top: 0;
+}

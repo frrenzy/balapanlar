@@ -8,20 +8,17 @@
 @import '../blocks/rounded/rounded.css';
 @import '../blocks/list/_type/list_type_checked.css';
 @import '../blocks/list/_type/list_type_crossed.css';
-
-/* button */
-
 @import '../blocks/button/button.css';
 @import '../blocks/button/_size/button_size_l.css';
 @import '../blocks/button/_size/button_size_m.css';
 @import '../blocks/button/_size/button_size_s.css';
 @import '../blocks/button/_color/button_color_orange.css';
 @import '../blocks/button/_color/button_color_black.css';
+@import '../blocks/button/_color/button_color_transparent.css';
 
 /* blocks */
 
 @import '../blocks/page/page.css';
-@import '../blocks/content/content.css';
 
 @import '../blocks/intro/intro.css';
 @import '../blocks/intro/__info/intro__info.css';
@@ -35,7 +32,6 @@
 @import '../blocks/info/__paragraph/info__paragraph.css';
 
 @import '../blocks/main/main.css';
-
 
 @import '../blocks/tag/tag.css';
 @import '../blocks/tag/_without-border/tag_without-border.css';
@@ -51,15 +47,27 @@
 @import '../blocks/courses/__card/_size/courses__card_size_small.css';
 @import '../blocks/courses/__card-title/courses__card-title.css';
 @import '../blocks/courses/__spec/courses__spec.css';
+@import '../blocks/courses/__spec/_type/courses__spec_type_human.css';
+@import '../blocks/courses/__spec/_type/courses__spec_type_time.css';
 @import '../blocks/courses/__tags/courses__tags.css';
-@import '../blocks/courses/__spec-pic/courses__spec-pic.css';
 @import '../blocks/courses/__spec-text/courses__spec-text.css';
 @import '../blocks/courses/__card-text/courses__card-text.css';
 @import '../blocks/courses/__skills/courses__skills.css';
+@import '../blocks/courses/__skills-list/courses__skills-list.css';
+@import '../blocks/courses/__skills-item/courses__skills-item.css';
 @import '../blocks/courses/__buttons/courses__buttons.css';
 @import '../blocks/courses/__all-button/courses__all-button.css';
 @import '../blocks/courses/__others/courses__others.css';
 @import '../blocks/courses/__others-list/courses__others-list.css';
 @import '../blocks/courses/__price/cources__price.css';
 
-@import '../blocks/content/__element/content__element.css';
+@import '../blocks/page/__element/page__element.css';
+@import '../blocks/popup/popup.css';
+@import '../blocks/popup/__container/popup__container.css';
+@import '../blocks/popup/__close/popup__close.css';
+@import '../blocks/popup/__title/popup__title.css';
+@import '../blocks/popup/__text/popup__text.css';
+@import '../blocks/popup/__figure/popup__figure.css';
+@import '../blocks/popup/__img/popup__img.css';
+@import '../blocks/popup/_opened/popup_opened.css';
+@import '../blocks/popup/_type/popup_type_course.css';
