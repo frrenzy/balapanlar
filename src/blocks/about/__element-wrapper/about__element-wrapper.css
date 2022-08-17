@@ -1,0 +1,7 @@
+.about__element-wrapper {
+  position: relative;
+  top: auto;
+  left: auto;
+  z-index: 0;
+  width: 100%;
+}

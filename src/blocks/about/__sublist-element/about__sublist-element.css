@@ -1,0 +1,5 @@
+.about__sublist-element {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}

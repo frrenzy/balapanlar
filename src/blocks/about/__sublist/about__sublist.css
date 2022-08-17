@@ -1,0 +1,8 @@
+.about__sublist {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  width: 100%;
+  max-width: 472px;
+  margin-left: 28px;
+}

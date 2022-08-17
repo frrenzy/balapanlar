@@ -59,3 +59,14 @@
 @import '../blocks/about/about.css';
 @import '../blocks/about/__title/about__title.css';
 @import '../blocks/about/__subtitle/about__subtitle.css';
+@import '../blocks/about/__list/about__list.css';
+@import '../blocks/about/__element/about__element.css';
+@import '../blocks/about/__element-wrapper/about__element-wrapper.css';
+@import '../blocks/about/__image/about__image.css';
+@import '../blocks/about/__image-line/about__image-line.css';
+@import '../blocks/about/__image-title/about__image-title.css';
+@import '../blocks/about/__image-title/_white/about__image-title_white.css';
+@import '../blocks/about/__image-subtitle/about__image-subtitle.css';
+@import '../blocks/about/__sublist/about__sublist.css';
+@import '../blocks/about/__sublist-element/about__sublist-element.css';
+@import '../blocks/about/__sublist-text/about__sublist-text.css';
