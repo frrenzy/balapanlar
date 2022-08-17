@@ -3,7 +3,6 @@
 
 /* mixins */
 
-@import '../blocks/p/p.css';
 @import '../blocks/list/list.css';
 @import '../blocks/column/column.css';
 @import '../blocks/rounded/rounded.css';
@@ -59,6 +58,7 @@
 @import '../blocks/popup/__container/popup__container.css';
 @import '../blocks/popup/__close/popup__close.css';
 @import '../blocks/popup/__title/popup__title.css';
+@import '../blocks/popup/__text/popup__text.css';
 @import '../blocks/popup/__figure/popup__figure.css';
 @import '../blocks/popup/__img/popup__img.css';
 @import '../blocks/popup/_opened/popup_opened.css';
