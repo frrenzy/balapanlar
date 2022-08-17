@@ -14,6 +14,7 @@
 @import '../blocks/button/_size/button_size_s.css';
 @import '../blocks/button/_color/button_color_orange.css';
 @import '../blocks/button/_color/button_color_black.css';
+@import '../blocks/button/_color/button_color_transparent.css';
 
 /* blocks */
 
@@ -35,8 +36,8 @@
 @import '../blocks/courses/__card/_size/courses__card_size_small.css';
 @import '../blocks/courses/__card-title/courses__card-title.css';
 @import '../blocks/courses/__spec/courses__spec.css';
-@import "../blocks/courses/__spec/_type/courses__spec_type_human.css";
-@import "../blocks/courses/__spec/_type/courses__spec_type_time.css";
+@import '../blocks/courses/__spec/_type/courses__spec_type_human.css';
+@import '../blocks/courses/__spec/_type/courses__spec_type_time.css';
 @import '../blocks/courses/__tags/courses__tags.css';
 @import '../blocks/courses/__spec-text/courses__spec-text.css';
 @import '../blocks/courses/__card-text/courses__card-text.css';
