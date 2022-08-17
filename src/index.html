@@ -223,25 +223,25 @@
     </section>
 
     <div class="wrapper content_wrapper rounded column">
-      <section class="about">
+      <section class="about column">
         <h2 class="about__title">О нас</h2>
         <h3 class="about__subtitle">
           Мы&nbsp;привозим лучшие практики неформального образования для тех,
           кто не&nbsp;может позволить своим детям полноценно развиваться
         </h3>
         <ul class="list about__list">
-          <li class="about__element">
-            <div class="about__element-wrapper rounded">
+          <li class="about__element column">
+            <article class="about__element-wrapper rounded">
               <img src="<%=require('./images/kids.png')%>"
                    class="about__image rounded"
               >
               <img src="<%=require('./images/yellow_line.svg')%>"
                    class="about__image-line"
               >
-              <h2 class="about__image-title">
+              <h3 class="about__image-title about__image-title_color_black">
                 Досуговый центр &laquo;Уя&raquo;
-              </h2>
-            </div>
+              </h3>
+            </article>
             <p class="about__image-subtitle">
               &mdash;&nbsp;это место для общения, учёбы, встреч и&nbsp;досуга аульских детей.
               В&nbsp;наши летние школы мы&nbsp;тоже привозим самые разные практики,
@@ -252,7 +252,7 @@
               <li class="about__sublist-element">
                 <img src="<%=require('./images/geo_tag.svg')%>"
                      alt="Значок геопозиции"
-                     class="list_type_geotag"
+                     class="about__sublist-pic-geotag"
                 >
                 <p class="about__sublist-text">
                   Аул Икон-Халк, Карачаево-Черкесия
@@ -261,7 +261,7 @@
               <li class="about__sublist-element">
                 <img src="<%=require('./images/check_mark.svg')%>"
                      alt="Галочка"
-                     class="list_type_checked">
+                     class="about__sublist-pic-checked">
                 <p class="about__sublist-text">
                   Занятия весь год
                 </p>
@@ -269,7 +269,7 @@
               <li class="about__sublist-element">
                 <img src="<%=require('./images/check_mark.svg')%>"
                      alt="Галочка"
-                     class="list_type_checked">
+                     class="about__sublist-pic-checked">
                 <p class="about__sublist-text">
                   Углублённый подход к&nbsp;темам
                 </p>
@@ -277,7 +277,7 @@
               <li class="about__sublist-element">
                 <img src="<%=require('./images/check_mark.svg')%>"
                      alt="Галочка"
-                     class="list_type_checked">
+                     class="about__sublist-pic-checked">
                 <p class="about__sublist-text">
                   Небольшие группы
                 </p>
@@ -285,7 +285,7 @@
               <li class="about__sublist-element">
                 <img src="<%=require('./images/check_mark.svg')%>"
                      alt="Галочка"
-                     class="list_type_checked">
+                     class="about__sublist-pic-checked">
                 <p class="about__sublist-text">
                   Местные преподаватели, которые всегда на&nbsp;связи
                 </p>
@@ -293,7 +293,7 @@
               <li class="about__sublist-element">
                 <img src="<%=require('./images/check_mark.svg')%>"
                      alt="Галочка"
-                     class="list_type_checked">
+                     class="about__sublist-pic-checked">
                 <p class="about__sublist-text">
                   Постоянная площадка, где все могут приходить в&nbsp;
                   любое время, общаться, учиться и&nbsp;учить, читать книги,
@@ -302,18 +302,18 @@
               </li>
             </ul>
           </li>
-          <li class="about__element">
-            <div class="about__element-wrapper rounded">
+          <li class="about__element column">
+            <article class="about__element-wrapper rounded">
               <img src="<%=require('./images/school.png')%>"
                    class="about__image rounded"
               >
               <img src="<%=require('./images/orange_line.svg')%>"
                    class="about__image-line"
               >
-              <h2 class="about__image-title about__image-title_white">
+              <h3 class="about__image-title about__image-title_color_white">
                 Летние школы &laquo;Балапанлар&raquo;
-              </h2>
-            </div>
+              </h3>
+            </article>
             <p class="about__image-subtitle">
               &mdash;&nbsp;это 12-дневная неформальная программа для детей в&nbsp;аулах и&nbsp;сёлах.
               Наша команда и&nbsp;преподаватели приезжают к&nbsp;местным детям и&nbsp;проводят
@@ -323,7 +323,7 @@
               <li class="about__sublist-element">
                 <img src="<%=require('./images/geo_tag.svg')%>"
                      alt="Значок геопозиции"
-                     class="list_type_geotag"
+                     class="about__sublist-pic-geotag"
                 >
                 <p class="about__sublist-text">
                   Аул Икон-Халк, Карачаево-Черкесия
@@ -332,7 +332,7 @@
               <li class="about__sublist-element">
                 <img src="<%=require('./images/check_mark.svg')%>"
                      alt="Галочка"
-                     class="list_type_checked">
+                     class="about__sublist-pic-checked">
                 <p class="about__sublist-text">
                   Занятия только в&nbsp;каникулы
                 </p>
@@ -340,7 +340,7 @@
               <li class="about__sublist-element">
                 <img src="<%=require('./images/check_mark.svg')%>"
                      alt="Галочка"
-                     class="list_type_checked">
+                     class="about__sublist-pic-checked">
                 <p class="about__sublist-text">
                   Много разных занятий сразу
                 </p>
@@ -348,7 +348,7 @@
               <li class="about__sublist-element">
                 <img src="<%=require('./images/check_mark.svg')%>"
                      alt="Галочка"
-                     class="list_type_checked">
+                     class="about__sublist-pic-checked">
                 <p class="about__sublist-text">
                   Небольшие группы, но&nbsp;много участников сразу
                 </p>
@@ -356,7 +356,7 @@
               <li class="about__sublist-element">
                 <img src="<%=require('./images/check_mark.svg')%>"
                      alt="Галочка"
-                     class="list_type_checked">
+                     class="about__sublist-pic-checked">
                 <p class="about__sublist-text">
                   Преподаватели со&nbsp;всей России, вдохновляющие своим примером
                 </p>
@@ -364,7 +364,7 @@
               <li class="about__sublist-element">
                 <img src="<%=require('./images/check_mark.svg')%>"
                      alt="Галочка"
-                     class="list_type_checked">
+                     class="about__sublist-pic-checked">
                 <p class="about__sublist-text">
                   Компания совершенно разных талантливых людей,
                   с&nbsp;которыми можно воплотить самую дерзкую идею

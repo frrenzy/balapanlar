@@ -51,7 +51,6 @@
 @import '../blocks/courses/__others-list/courses__others-list.css';
 @import '../blocks/courses/__price/cources__price.css';
 
-@import '../blocks/content/__element/content__element.css';
 @import '../blocks/content/_wrapper/content_wrapper.css';
 
 @import '../blocks/wrapper/wrapper.css';
@@ -65,8 +64,11 @@
 @import '../blocks/about/__image/about__image.css';
 @import '../blocks/about/__image-line/about__image-line.css';
 @import '../blocks/about/__image-title/about__image-title.css';
-@import '../blocks/about/__image-title/_white/about__image-title_white.css';
+@import '../blocks/about/__image-title/_color/_white/about__image-title_color_white.css';
+@import '../blocks/about/__image-title/_color/_black/about__image-title_color_black.css';
 @import '../blocks/about/__image-subtitle/about__image-subtitle.css';
 @import '../blocks/about/__sublist/about__sublist.css';
 @import '../blocks/about/__sublist-element/about__sublist-element.css';
 @import '../blocks/about/__sublist-text/about__sublist-text.css';
+@import '../blocks/about/__sublist-pic-checked/about__list-pic-checked.css';
+@import '../blocks/about/__sublist-pic-geotag/about__list-pic-geotag.css';
