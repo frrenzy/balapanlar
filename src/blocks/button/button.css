@@ -1,12 +1,13 @@
 .button {
+  max-width: 70%;
   color: #ffffff;
   font-weight: 600;
   font-style: normal;
   text-align: center;
   text-decoration: none;
-  font-feature-settings: 'pnum' on, 'lnum' on;
   border-radius: 50px;
   transition: all 0.3s;
+  font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 .button:hover {
