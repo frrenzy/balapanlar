@@ -11,229 +11,34 @@
 <body class="page">
   <div class="content column">
     <header class="header">
-      <nav class="header__nav">
-        <a href="index.html" class="logo">
-          <img src="<%=require('./images/logo.svg')%>" alt="Логотип" class="logo__img">
-        </a>
-        <ul class="header__menu list">
-          <li class="header__links">
-            <a href="#courses" class="header__link">Наши курсы</a>
-          </li>
-          <li class="header__links">
-            <a href="#about" class="header__link">О нас</a>
-          </li>
-          <li class="header__links">
-            <a href="#team" class="header__link">Команда</a>
-          </li>
-          <li class="header__links">
-            <a href="#contacts" class="header__link">Как нас найти</a>
-          </li>
-          <li class="header__links">
-            <a href="#support" class="header__link">Поддержать проект</a>
-          </li>
-        </ul>
-        <a href="#" class="button button_color_black button_size_s">Записаться на
-          курсы</a>
-      </nav>
-
+      <div class="content">
+        <nav class="header__nav">
+          <a href="index.html" class="logo">
+            <img src="<%=require('./images/logo.svg')%>" alt="Логотип" class="logo__img">
+          </a>
+          <ul class="header__menu list">
+            <li class="header__links">
+              <a href="#courses" class="header__link">Наши курсы</a>
+            </li>
+            <li class="header__links">
+              <a href="#about" class="header__link">О нас</a>
+            </li>
+            <li class="header__links">
+              <a href="#team" class="header__link">Команда</a>
+            </li>
+            <li class="header__links">
+              <a href="#contacts" class="header__link">Как нас найти</a>
+            </li>
+            <li class="header__links">
+              <a href="#support" class="header__link">Поддержать проект</a>
+            </li>
+          </ul>
+          <a href="#" class="button button_color_black button_size_s">Записаться на
+            курсы</a>
+        </nav>
+      </div>
     </header>
     <main class="main column">
-
-      <section class="content__element courses column">
-        <h2 class="courses__title">Наши курсы</h2>
-        <ul class="courses__wrapper column list">
-          <li class="courses__code column">
-            <h3 class="courses__code-title">Программирование</h3>
-            <p class="courses__code-text">
-              Наши курсы программирования созданы в&nbsp;международной школе
-              &laquo;Алгоритмика&raquo;. Их&nbsp;программы
-              уже успешно работают в&nbsp;55&nbsp;странах и&nbsp;по&nbsp;ним
-              занимаются 250&nbsp;тыс. студентов. Благодаря
-              онлайн-платформе каждое занятие детей отслеживают кураторы
-              головного офиса и&nbsp;дают советы нашим
-              преподавателям на&nbsp;местах.
-            </p>
-            <ul class="courses__code-list list">
-
-              <li class="column courses__card courses__card_size_big rounded">
-                <h4 class="courses__card-title">Python Start</h4>
-                <ul class="list">
-                  <li class="courses__spec">
-                    <img src="<%=require('./images/human.svg')%>" alt="иконка человека" class="courses__spec-pic">
-                    <p class="courses__spec-text">группы 8+&nbsp;лет</p>
-                  </li>
-                  <li class="courses__spec">
-                    <img src="<%=require('./images/time.svg')%>" alt="иконка часов" class="courses__spec-pic">
-                    <p class="courses__spec-text">блоки по&nbsp;3&nbsp;месяца
-                    </p>
-                  </li>
-                </ul>
-                <ul class="courses__tags">
-                  <!-- TODO tags -->
-                  p{aboba}
-                </ul>
-                <p class="courses__card-text">
-                  На&nbsp;нашем курсе студенты освоят создание web-сайтов,
-                  узнают об&nbsp;отличиях и&nbsp;особенностях
-                  платформ, поймут, как работает аналитика и&nbsp;алгоритмы
-                  поиска.
-                </p>
-                <p class="courses__card-text">
-                  Это как самостоятельная, так и&nbsp;командная работа:
-                  разработка самого сайта, создание дизайна
-                  и&nbsp;контента позволяют окунуться с&nbsp;головой
-                  и&nbsp;приобрести действительно нужный
-                  и&nbsp;актуальный навык.
-                </p>
-                <div class="courses__buttons">
-                  <a href="#" class="button button_color_black button_size_m">Записаться</a>
-                  <a href="#" class="courses__all-button">Смотреть все
-                    навыки</a>
-                </div>
-              </li>
-              <li class="column courses__card courses__card_size_big rounded">
-                <h4 class="courses__card-title">Python Start</h4>
-                <ul class="list">
-                  <li class="courses__spec">
-                    <img src="<%=require('./images/human.svg')%>" alt="иконка человека" class="courses__spec-pic">
-                    <p class="courses__spec-text">группы 8+&nbsp;лет</p>
-                  </li>
-                  <li class="courses__spec">
-                    <img src="<%=require('./images/time.svg')%>" alt="иконка часов" class="courses__spec-pic">
-                    <p class="courses__spec-text">блоки по&nbsp;3&nbsp;месяца
-                    </p>
-                  </li>
-                </ul>
-                <ul class="courses__tags">
-                  <!-- TODO tags -->
-                  p{aboba}
-                </ul>
-                <p class="courses__card-text">
-                  На&nbsp;нашем курсе студенты освоят создание web-сайтов,
-                  узнают об&nbsp;отличиях и&nbsp;особенностях
-                  платформ, поймут, как работает аналитика и&nbsp;алгоритмы
-                  поиска.
-                </p>
-                <ol class="courses__skills">
-                  <li>
-                    <p class="courses__card-text">
-                      Это как самостоятельная, так и&nbsp;командная работа:
-                      разработка самого сайта, создание дизайна
-                      и&nbsp;контента позволяют окунуться с&nbsp;головой
-                      и&nbsp;приобрести действительно нужный
-                      и&nbsp;актуальный навык. Это как самостоятельная, так
-                      и&nbsp;командная работа: разработка самого сайта, создание
-                      дизайна
-                      и&nbsp;контента позволяют окунуться с&nbsp;головой
-                      и&nbsp;приобрести действительно нужный
-                      и&nbsp;актуальный навык.
-                    </p>
-                  </li> <!-- TODO text ellipsis -->
-                </ol>
-                <div class="courses__buttons">
-                  <a href="#" class="button button_color_black button_size_m">Записаться</a>
-                  <a href="#" class="courses__all-button">Смотреть все
-                    навыки</a>
-                </div>
-              </li>
-
-            </ul>
-          </li>
-
-          <li class="courses__others">
-            <ul class="courses__others-list list">
-              <li class="column courses__card courses__card_size_small rounded">
-                <h3 class="courses__card-title">3D технологии</h3>
-                <ul class="list">
-                  <li class="courses__spec">
-                    <img src="<%=require('./images/human.svg')%>" alt="иконка человека" class="courses__spec-pic">
-                    <p class="courses__spec-text">группы 8+&nbsp;лет</p>
-                  </li>
-                  <li class="courses__spec">
-                    <img src="<%=require('./images/time.svg')%>" alt="иконка часов" class="courses__spec-pic">
-                    <p class="courses__spec-text">блоки по&nbsp;3&nbsp;месяца
-                    </p>
-                  </li>
-                </ul>
-                <ul class="courses__tags">
-                  <!-- TODO tags -->
-                  p{aboba}
-                </ul>
-                <p class="courses__card-text">
-                  Мы&nbsp;запускаем курс для новичков. На&nbsp;нем участники
-                  научатся читать, писать и&nbsp;вести диалоги
-                  на&nbsp;корейском. Студенты узнают об&nbsp;истории
-                  и&nbsp;культуре Кореи и&nbsp;особенностях в&nbsp;общении.
-                </p>
-                <div class="courses__buttons">
-                  <a href="#" class="button button_color_black button_size_m">Записаться</a>
-                </div>
-              </li>
-              <li class="column courses__card courses__card_size_small rounded">
-                <h3 class="courses__card-title">3D технологии</h3>
-                <ul class="list">
-                  <li class="courses__spec">
-                    <img src="<%=require('./images/human.svg')%>" alt="иконка человека" class="courses__spec-pic">
-                    <p class="courses__spec-text">группы 8+&nbsp;лет</p>
-                  </li>
-                  <li class="courses__spec">
-                    <img src="<%=require('./images/time.svg')%>" alt="иконка часов" class="courses__spec-pic">
-                    <p class="courses__spec-text">блоки по&nbsp;3&nbsp;месяца
-                    </p>
-                  </li>
-                </ul>
-                <ul class="courses__tags">
-                  <!-- TODO tags -->
-                  p{aboba}
-                </ul>
-                <p class="courses__card-text">
-                  Мы&nbsp;запускаем курс для новичков. На&nbsp;нем участники
-                  научатся читать, писать и&nbsp;вести диалоги
-                  на&nbsp;корейском. Студенты узнают об&nbsp;истории
-                  и&nbsp;культуре Кореи и&nbsp;особенностях в&nbsp;общении.
-                </p>
-                <div class="courses__buttons">
-                  <a href="#" class="button button_color_black button_size_m">Записаться</a>
-                </div>
-              </li>
-              <li class="column courses__card courses__card_size_small rounded">
-                <h3 class="courses__card-title">3D технологии</h3>
-                <ul class="list">
-                  <li class="courses__spec">
-                    <img src="<%=require('./images/human.svg')%>" alt="иконка человека" class="courses__spec-pic">
-                    <p class="courses__spec-text">группы 8+&nbsp;лет</p>
-                  </li>
-                  <li class="courses__spec">
-                    <img src="<%=require('./images/time.svg')%>" alt="иконка часов" class="courses__spec-pic">
-                    <p class="courses__spec-text">блоки по&nbsp;3&nbsp;месяца
-                    </p>
-                  </li>
-                </ul>
-                <ul class="courses__tags">
-                  <!-- TODO tags -->
-                  p{aboba}
-                </ul>
-                <p class="courses__card-text">
-                  Мы&nbsp;запускаем курс для новичков. На&nbsp;нем участники
-                  научатся читать, писать и&nbsp;вести диалоги
-                  на&nbsp;корейском. Студенты узнают об&nbsp;истории
-                  и&nbsp;культуре Кореи и&nbsp;особенностях в&nbsp;общении.
-                </p>
-                <div class="courses__buttons">
-                  <a href="#" class="button button_color_black button_size_m">Записаться</a>
-                </div>
-              </li>
-            </ul>
-          </li>
-
-          <li class="cources__price rounded">
-            <h3 class="courses__price-title">Стоимость курсов 3500 руб./мес.
-            </h3>
-            <a href="#" class="button courses__price-pay"></a>
-        </ul>
-
-      </section>
-
     </main>
     <footer class="footer"></footer>
   </div>
