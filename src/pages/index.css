@@ -17,7 +17,6 @@
 @import '../blocks/button/_size/button_size_s.css';
 @import '../blocks/button/_color/button_color_orange.css';
 @import '../blocks/button/_color/button_color_black.css';
-@import '../blocks/button/_align/button_align_center.css';
 
 /* blocks */
 
@@ -28,6 +27,7 @@
 @import '../blocks/intro/__info/intro__info.css';
 @import '../blocks/intro/__headline/intro__headline.css';
 @import '../blocks/intro/__bar/intro__bar.css';
+@import '../blocks/intro/__icon-area/intro__icon-area.css';
 @import '../blocks/intro/__icon/intro__icon.css';
 @import '../blocks/intro/__text/intro__text.css';
 

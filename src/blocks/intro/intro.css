@@ -1,8 +1,6 @@
 .intro {
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  height: 90vh;
+  height: 852px;
   background-image: url('../../images/intro_image.png');
   background-repeat: no-repeat;
   background-position: center;
