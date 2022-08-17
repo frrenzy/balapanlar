@@ -1,4 +1,6 @@
 .about__image-line {
-  background-position: 0 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   background-size: cover;
 }

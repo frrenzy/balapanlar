@@ -1,3 +1,5 @@
 .about__image-line_yellow {
+  width: 77%;
+  height: 56%;
   background-image: url('../../../../images/yellow_line.svg');
 }

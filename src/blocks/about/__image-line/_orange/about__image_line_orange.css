@@ -1,3 +1,5 @@
 .about__image_line_orange {
+  width: 82%;
+  height: 48%;
   background-image: url('../../../../images/orange_line.svg');
 }
