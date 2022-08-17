@@ -188,18 +188,10 @@
     <div class="popup__container rounded">
       <h2 class="popup__title">3D технологии</h2>
       <ul class="list">
-        <li class="courses__spec">
-          <img src="<%=require('./images/human.svg')%>"
-               alt="иконка человека"
-               class="courses__spec-pic"
-          >
+        <li class="courses__spec courses__spec_type_human">
           <p class="courses__spec-text">группы 8+&nbsp;лет</p>
         </li>
-        <li class="courses__spec">
-          <img src="<%=require('./images/time.svg')%>"
-               alt="иконка часов"
-               class="courses__spec-pic"
-          >
+        <li class="courses__spec courses__spec_type_time">
           <p class="courses__spec-text">блоки по&nbsp;3&nbsp;месяца</p>
         </li>
       </ul>
@@ -234,14 +226,16 @@
   <div class="popup popup_type_partner" aria-hidden="true">
     <div class="popup__container rounded">
       <figure class="popup__figure rounded">
-        <img class="popup__img" src="<%=require('./images/partners/himbio.png')%>" alt="Логотип компании ХимБио">
+        <img class="popup__img"
+             src="<%=require('./images/partners/himbio.png')%>"
+             alt="Логотип компании ХимБио"
+        >
       </figure>
       <p class="popup__text">Фонд работает в 45 регионах и с осени 2021 мы их единственные партнёры в Карачаево-Черкесии.</p>
       <p class="popup__text">Совместно проводим программу профориентации «Поколение Выбор». В 2021–2022 в ней приняли участие 35 подростков из 2 школ аула Икон-Халк и посёлка Эркен-Шахар. В сезоне 2022–2023 планируются ещё две школы.</p>
       <button type="button" class="button popup__close">Закрыть</button>
     </div>
   </div>
-
 
 </body>
 </html>
