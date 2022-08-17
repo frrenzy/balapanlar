@@ -1,3 +1,10 @@
 .principles__image_size_m {
   width: 610px;
 }
+
+@media screen and (max-width: 615px) {
+  .principles__image_size_m {
+    width: 230px;
+    height: 158px;
+  }
+}

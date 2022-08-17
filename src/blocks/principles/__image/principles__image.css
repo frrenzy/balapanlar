@@ -3,3 +3,11 @@
   height: 420px;
   margin-bottom: 40px;
 }
+
+@media screen and (max-width: 615px) {
+  .principles__image {
+    width: 230px;
+    height: 230px;
+    margin-bottom: 30px;
+  }
+}
