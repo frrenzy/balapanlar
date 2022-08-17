@@ -45,6 +45,8 @@
 @import '../blocks/courses/__spec-text/courses__spec-text.css';
 @import '../blocks/courses/__card-text/courses__card-text.css';
 @import '../blocks/courses/__skills/courses__skills.css';
+@import '../blocks/courses/__skills-list/courses__skills-list.css';
+@import '../blocks/courses/__skills-item/courses__skills-item.css';
 @import '../blocks/courses/__buttons/courses__buttons.css';
 @import '../blocks/courses/__all-button/courses__all-button.css';
 @import '../blocks/courses/__others/courses__others.css';
@@ -70,5 +72,4 @@
 @import '../blocks/about/__sublist/about__sublist.css';
 @import '../blocks/about/__sublist-element/about__sublist-element.css';
 @import '../blocks/about/__sublist-text/about__sublist-text.css';
-@import '../blocks/about/__sublist-pic-checked/about__list-pic-checked.css';
-@import '../blocks/about/__sublist-pic-geotag/about__list-pic-geotag.css';
+
