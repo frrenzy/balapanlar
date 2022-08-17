@@ -2,12 +2,8 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0"
-  >
-  <meta http-equiv="X-UA-Compatible"
-        content="ie=edge"
-  >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible"content="ie=edge">
   <title></title>
 </head>
 <body class="page">
@@ -223,6 +219,65 @@
 
   </main>
   <footer class="footer"></footer>
+
+  <div class="popup popup_type_course" aria-hidden="true">
+    <div class="popup__container rounded">
+      <h2 class="popup__title">3D технологии</h2>
+      <ul class="list">
+        <li class="courses__spec">
+          <img src="<%=require('./images/human.svg')%>"
+               alt="иконка человека"
+               class="courses__spec-pic"
+          >
+          <p class="courses__spec-text">группы 8+&nbsp;лет</p>
+        </li>
+        <li class="courses__spec">
+          <img src="<%=require('./images/time.svg')%>"
+               alt="иконка часов"
+               class="courses__spec-pic"
+          >
+          <p class="courses__spec-text">блоки по&nbsp;3&nbsp;месяца</p>
+        </li>
+      </ul>
+      <ul class="courses__tags list">
+        <li class="tag">язык Python</li>
+        <li class="tag">разработка своих проектов</li>
+        <li class="tag">создание своего портфолио</li>
+        <li class="tag">создание web-сайтов</li>
+      </ul>
+      <p class="courses__card-text">
+        Студенты к концу курса будут сами создавать приложения. А ещё они научатся: 
+      </p>
+      <ul class="list courses__skills-list">
+        <li class="courses__skills-item">Разбираться в основах алгоритмики и объектно-ориентированного программирования</li>
+        <li class="courses__skills-item">Разрабатывать графические интерактивные игры для ПК, используя библиотеку PyGame</li>
+        <li class="courses__skills-item">Работать с графикой и использовать библиотеку Turtle</li>
+        <li class="courses__skills-item">Решать реальные задачи, используя Python, и применять итеративный подход</li>
+        <li class="courses__skills-item">Применять принципы проектной работы при создании проектов</li>
+        <li class="courses__skills-item">Писать и читать код на языке Python и работать со структурами данных</li>
+        <li class="courses__skills-item">Разрабатывать сложные игры и приложения для ПК, используя библиотеки PyGame и PyQT</li>
+        <li class="courses__skills-item">Проектировать интерфейсы</li>
+        <li class="courses__skills-item">Автоматизировать работу с графическими файлами</li>
+        <li class="courses__skills-item">Работать в команде и создавать проекты от идеи до их публичной презентации</li>
+      </ul>
+      <div class="popup__buttons">
+        <a href="#" class="button button_size_m button_color_black">Записаться</a>
+        <button type="button" class="button button_size_m popup__close">Закрыть</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup popup_type_partner" aria-hidden="true">
+    <div class="popup__container rounded">
+      <figure class="popup__figure rounded">
+        <img class="popup__img" src="<%=require('./images/partners/himbio.png')%>" alt="Логотип компании ХимБио">
+      </figure>
+      <p class="p">Фонд работает в 45 регионах и с осени 2021 мы их единственные партнёры в Карачаево-Черкесии.</p>
+      <p class="p">Совместно проводим программу профориентации «Поколение Выбор». В 2021–2022 в ней приняли участие 35 подростков из 2 школ аула Икон-Халк и посёлка Эркен-Шахар. В сезоне 2022–2023 планируются ещё две школы.</p>
+      <button type="button" class="button popup__close">Закрыть</button>
+    </div>
+  </div>
+
 </div>
 </body>
 </html>

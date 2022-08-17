@@ -1,0 +1,9 @@
+.popup__figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+  margin: 0;
+  margin-bottom: 30px;
+  border: 2px solid #eaf0ff;
+}
