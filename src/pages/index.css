@@ -4,6 +4,7 @@
 /* mixins */
 
 @import '../blocks/list/list.css';
+@import ' ../blocks/list/__item/list__item.css';
 @import '../blocks/column/column.css';
 @import '../blocks/rounded/rounded.css';
 @import '../blocks/list/_type/list_type_checked.css';
@@ -50,5 +51,8 @@
 @import '../blocks/courses/__others/courses__others.css';
 @import '../blocks/courses/__others-list/courses__others-list.css';
 @import '../blocks/courses/__price/cources__price.css';
+@import '../blocks/courses/__price-pay/courses__price-pay.css';
+@import '../blocks/courses/__price-title/courses__price-title.css';
+@import '../blocks/courses/__includs-title/courses__includs-title.css';
 
 @import '../blocks/content/__element/content__element.css';

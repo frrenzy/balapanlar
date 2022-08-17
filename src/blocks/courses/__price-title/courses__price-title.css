@@ -1,0 +1,8 @@
+.courses__price-title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -1px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}

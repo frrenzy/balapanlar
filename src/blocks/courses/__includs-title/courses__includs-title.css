@@ -1,0 +1,10 @@
+.courses__includs-title {
+  margin: 0;
+  margin-left: -30px;
+  padding-bottom: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.5px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
