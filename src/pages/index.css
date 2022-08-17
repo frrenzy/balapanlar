@@ -6,8 +6,9 @@
 @import '../blocks/list/list.css';
 @import '../blocks/column/column.css';
 @import '../blocks/rounded/rounded.css';
-@import '../blocks/list/_type/list_type_checked.css';
-@import '../blocks/list/_type/list_type_crossed.css';
+@import '../blocks/list/__item/_type/list__item_type_checked.css';
+@import '../blocks/list/__item/_type/list__item_type_crossed.css';
+@import '../blocks/paragraph/paragraph.css';
 
 /* button */
 
@@ -65,6 +66,8 @@
 @import '../blocks/about/__element-wrapper/about__element-wrapper.css';
 @import '../blocks/about/__image/about__image.css';
 @import '../blocks/about/__image-line/about__image-line.css';
+@import '../blocks/about/__image-line/_yellow/about__image-line_yellow.css';
+@import '../blocks/about/__image-line/_orange/about__image_line_orange.css';
 @import '../blocks/about/__image-title/about__image-title.css';
 @import '../blocks/about/__image-title/_color/_white/about__image-title_color_white.css';
 @import '../blocks/about/__image-title/_color/_black/about__image-title_color_black.css';
@@ -72,4 +75,5 @@
 @import '../blocks/about/__sublist/about__sublist.css';
 @import '../blocks/about/__sublist-element/about__sublist-element.css';
 @import '../blocks/about/__sublist-text/about__sublist-text.css';
+@import '../blocks/about/__geotag/about__geotag.css';
 

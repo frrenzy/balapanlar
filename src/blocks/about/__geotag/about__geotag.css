@@ -1,0 +1,8 @@
+.about__geotag {
+  width: 100%;
+  margin: 0 0 12px 29px;
+  padding-left: 35px;
+  background-image: url('../../../images/geo_tag.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}

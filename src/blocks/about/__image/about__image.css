@@ -1,5 +1,6 @@
 .about__image {
+  z-index: 0;
   display: block;
-  width: 594px;
+  width: 595px;
   height: 524px;
 }
