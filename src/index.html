@@ -1,20 +1,45 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
+  <meta name="viewport" 
         content="width=device-width, initial-scale=1.0"
   >
-  <meta http-equiv="X-UA-Compatible"
+  <meta http-equiv="X-UA-Compatible" 
         content="ie=edge"
   >
-  <title></title>
+  <title>Балапанлар</title>
 </head>
 <body class="page">
-  <header class="header"></header>
+  <header class="header">
+    <nav class="header__nav">
+      <a href="index.html" class="logo">
+        <img src="<%=require('./images/logo.svg')%>" alt="Логотип" class="logo__img">
+      </a>
+      <ul class="header__menu list">
+        <li class="header__links">
+          <a href="#courses" class="header__link">Наши курсы</a>
+        </li>
+        <li class="header__links">
+          <a href="#about" class="header__link">О нас</a>
+        </li>
+        <li class="header__links">
+          <a href="#team" class="header__link">Команда</a>
+        </li>
+        <li class="header__links">
+          <a href="#contacts" class="header__link">Как нас найти</a>
+        </li>
+        <li class="header__links">
+          <a href="#support" class="header__link">Поддержать проект</a>
+        </li>
+      </ul>
+      <a href="#" class="button button_color_black button_size_s">Записаться на курсы</a>
+    </nav>
+  </header>
+  
   <main class="main column">
-
-
+  
     <section class="page__element courses column">
       <h2 class="courses__title">Наши курсы</h2>
 
