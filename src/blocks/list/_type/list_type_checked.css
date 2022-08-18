@@ -1,3 +1,7 @@
 .list_type_checked {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   list-style-image: url('../../../images/check_mark.svg');
 }
+
