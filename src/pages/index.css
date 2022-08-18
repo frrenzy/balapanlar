@@ -65,10 +65,9 @@
 @import '../blocks/about/__element/about__element.css';
 @import '../blocks/about/__element-wrapper/about__element-wrapper.css';
 @import '../blocks/about/__image-container/about__image-container.css';
+@import '../blocks/about/__image-container/_kids/about__image-container_kids.css';
+@import '../blocks/about/__image-container/_yellow-line/about__image-container_yellow-line.css';
 @import '../blocks/about/__image/about__image.css';
-@import '../blocks/about/__image-line/about__image-line.css';
-@import '../blocks/about/__image-line/_yellow/about__image-line_yellow.css';
-@import '../blocks/about/__image-line/_orange/about__image_line_orange.css';
 @import '../blocks/about/__image-title/about__image-title.css';
 @import '../blocks/about/__image-title/_color/_white/about__image-title_color_white.css';
 @import '../blocks/about/__image-title/_color/_black/about__image-title_color_black.css';
