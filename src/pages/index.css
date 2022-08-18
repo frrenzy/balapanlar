@@ -84,7 +84,8 @@
 @import '../blocks/about/__element/about__element.css';
 @import '../blocks/about/__image-container/about__image-container.css';
 @import '../blocks/about/__image-container/_photo/about__image-container_photo_kids.css';
-@import '../blocks/about/__image-container/_line/about__image-container_yellow-line.css';
+@import '../blocks/about/__image-container/_line/about__image-container_line_yellow.css';
+@import '../blocks/about/__image-container/_line/about__image-container_line_orange.css';
 @import '../blocks/about/__image-container/_photo/about__image-container_photo_school.css';
 @import '../blocks/about/__image/about__image.css';
 @import '../blocks/about/__image-title/about__image-title.css';
