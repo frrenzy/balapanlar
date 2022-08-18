@@ -1,5 +1,6 @@
 .list__item_type_checked {
-  padding-top: 1px;
+  padding-top: 2px;
+  padding-right: 1px;
   padding-left: 35px;
   background-image: url('../../../../images/check_mark.svg');
   background-repeat: no-repeat;
