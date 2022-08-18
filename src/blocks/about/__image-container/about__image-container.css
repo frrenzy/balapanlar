@@ -1,0 +1,18 @@
+.about__image-container {
+  position: relative;
+  width: 595px;
+  height: 524px;
+  margin: 0;
+  padding: 0;
+}
+
+.about__image-container::before {
+  position: absolute;
+  z-index: 2;
+  width: 76%;
+  height: 50%;
+  background-image: url('../../../images/yellow_line.svg');
+  background-position: left bottom;
+  background-size: cover;
+  content: '';
+}

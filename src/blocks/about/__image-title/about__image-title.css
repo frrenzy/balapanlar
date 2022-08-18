@@ -2,11 +2,10 @@
   position: absolute;
   bottom: 30px;
   left: 30px;
-  z-index: 2;
+  z-index: 3;
   width: 100%;
   max-width: 429px;
   margin: 0;
-  overflow: hidden;
   font-weight: 600;
   font-size: 48px;
   font-style: normal;
@@ -14,3 +13,4 @@
   letter-spacing: -1px;
   font-feature-settings: 'pnum' on, 'lnum' on;
 }
+

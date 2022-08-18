@@ -64,6 +64,7 @@
 @import '../blocks/about/__list/about__list.css';
 @import '../blocks/about/__element/about__element.css';
 @import '../blocks/about/__element-wrapper/about__element-wrapper.css';
+@import '../blocks/about/__image-container/about__image-container.css';
 @import '../blocks/about/__image/about__image.css';
 @import '../blocks/about/__image-line/about__image-line.css';
 @import '../blocks/about/__image-line/_yellow/about__image-line_yellow.css';
