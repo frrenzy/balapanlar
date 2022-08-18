@@ -63,6 +63,8 @@
 @import '../blocks/courses/__price/cources__price.css';
 
 @import '../blocks/page/__element/page__element.css';
+@import '../blocks/page/__element/_offset/page__element_offset_l.css';
+@import '../blocks/page/__element/_offset/page__element_offset_xl.css';
 @import '../blocks/popup/popup.css';
 @import '../blocks/popup/__container/popup__container.css';
 @import '../blocks/popup/__close/popup__close.css';
@@ -81,8 +83,9 @@
 @import '../blocks/about/__list/about__list.css';
 @import '../blocks/about/__element/about__element.css';
 @import '../blocks/about/__image-container/about__image-container.css';
-@import '../blocks/about/__image-container/_kids/about__image-container_kids.css';
-@import '../blocks/about/__image-container/_yellow-line/about__image-container_yellow-line.css';
+@import '../blocks/about/__image-container/_photo/about__image-container_photo_kids.css';
+@import '../blocks/about/__image-container/_line/about__image-container_yellow-line.css';
+@import '../blocks/about/__image-container/_photo/about__image-container_photo_school.css';
 @import '../blocks/about/__image/about__image.css';
 @import '../blocks/about/__image-title/about__image-title.css';
 @import '../blocks/about/__image-title/_color/_white/about__image-title_color_white.css';
