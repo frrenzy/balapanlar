@@ -24,7 +24,7 @@
 .main{margin:0 auto;max-width:1440px;padding:0;width:100%}
 .tag{font-feature-settings:"pnum" on,"lnum" on;background-color:#fff;border:1px solid #000;border-radius:50px;box-sizing:border-box;display:inline-block;font-size:18px;font-style:normal;font-weight:500;height:42px;line-height:22px;padding:9px;text-align:center}
 .tag_no-border{border:none;font-size:24px;font-weight:600;height:49px;letter-spacing:-.5px;line-height:29px;padding:10px 14px}
-.courses{margin:0;max-width:1220px;padding:0;width:100%}
+.courses{margin:0;max-width:1220px;padding:0;scroll-margin-top:79px;width:100%}
 .courses__title{font-feature-settings:"pnum" on,"lnum" on;align-self:start;color:#000;font-size:60px;font-style:normal;font-weight:600;letter-spacing:-1px;line-height:68px;margin:0 0 40px 10px;padding:0}
 .courses__wrapper{gap:10px;margin:0;padding:0;width:100%}
 .courses__code{background-color:#ffd643;border-radius:70px;margin:0;padding:0 0 10px;width:100%}
@@ -62,7 +62,7 @@
 .popup_opened{opacity:1;visibility:visible}
 .popup_type_course .popup__container{max-width:1200px}
 .wrapper{background-color:#fff;padding:120px 0 0;width:100%}
-.about{align-items:flex-start;max-width:1200px;width:100%}
+.about{align-items:flex-start;max-width:1200px;scroll-margin-top:120px;width:100%}
 .about__title{font-feature-settings:"pnum" on,"lnum" on;color:#000;font-size:60px;font-style:normal;font-weight:600;letter-spacing:-1px;line-height:68px;margin:0 0 40px;padding:0;width:100%}
 .about__subtitle{font-feature-settings:"pnum" on,"lnum" on;color:#000;font-size:36px;font-style:normal;font-weight:600;letter-spacing:-1px;line-height:44px;margin:0 0 60px;width:915px}
 .about__list{display:flex;flex-direction:row;gap:10px;margin:0;width:100%}
