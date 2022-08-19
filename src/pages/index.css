@@ -93,7 +93,6 @@
 @import '../blocks/about/__image-title/_color/about__image-title_color_white.css';
 @import '../blocks/about/__image-title/_color/about__image-title_color_black.css';
 @import '../blocks/about/__image-subtitle/about__image-subtitle.css';
-@import '../blocks/about/__sublist/about__sublist.css';
-@import '../blocks/about/__sublist-element/about__sublist-element.css';
-@import '../blocks/about/__sublist-text/about__sublist-text.css';
+@import '../blocks/about/__features/about__features.css';
+@import '../blocks/about/__feature/about__feature.css';
 @import '../blocks/about/__geotag/about__geotag.css';
