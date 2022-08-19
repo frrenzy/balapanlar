@@ -11,5 +11,6 @@ window.addEventListener("scroll", () => {
     logo.src = logoScroll;
   } else {
     logo.src = logoBig;
+    logo.style.margin = '0';
   }
 });
