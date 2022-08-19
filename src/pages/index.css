@@ -33,15 +33,6 @@
 
 @import '../blocks/page/page.css';
 
-@import '../blocks/intro/intro.css';
-@import '../blocks/intro/__headline/intro__headline.css';
-@import '../blocks/intro/__bar/intro__bar.css';
-@import '../blocks/intro/__icon/intro__icon.css';
-@import '../blocks/intro/__text/intro__text.css';
-
-@import '../blocks/info/info.css';
-@import '../blocks/info/__paragraph/info__paragraph.css';
-
 @import '../blocks/main/main.css';
 
 @import '../blocks/tag/tag.css';
