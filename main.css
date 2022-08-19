@@ -3,8 +3,10 @@
 .list{list-style:none;padding-left:0}
 .column{align-items:center;display:flex;flex-direction:column}
 .rounded{border-radius:30px;box-sizing:border-box;overflow:hidden}@media screen and (min-width:768px){.rounded{border-radius:60px}}
-.list_type_checked{list-style-image:url(e81decbd4fbc358d00e8.svg)}
-.list_type_crossed{list-style-image:url(802e513a34f7e42a8a7a.svg)}
+.list__item{background-position:0 0;background-repeat:no-repeat;background-size:24px 24px;padding-left:35px;padding-right:1px;padding-top:2px}
+.list__item_type_checked{background-image:url(ce2cc2ff4a651a9934a9.svg)}
+.list__item_type_crossed{list-style-image:url(802e513a34f7e42a8a7a.svg)}
+.paragraph{font-feature-settings:"pnum" on,"lnum" on;font-size:18px;font-style:normal;font-weight:500;line-height:22px;margin:0}
 .button{font-feature-settings:"pnum" on,"lnum" on;border-radius:50px;color:#fff;font-style:normal;font-weight:600;max-width:70%;outline:none;text-align:center;text-decoration:none;transition:all .3s}.button:hover{cursor:pointer}
 .button_size_l{font-size:28px;letter-spacing:-.5px;line-height:1.22;padding:35px 45px}
 .button_size_m{font-size:20px;line-height:1.2;padding:20px 28px}
@@ -12,6 +14,12 @@
 .button_color_orange{background-color:#ff7628}.button_color_orange:hover{background-color:#ff8540}
 .button_color_black{background-color:#252525}.button_color_black:hover{background-color:#333}
 .button_color_transparent{background:none;border:none;color:#000}
+.header{background-color:#fff;position:-webkit-sticky;position:sticky;top:0;width:100%;z-index:10}
+.header__nav{align-items:center;box-sizing:border-box;display:flex;justify-content:space-between;margin:0 auto;max-width:1440px;padding-left:20px;padding-right:20px}
+.header__menu{align-items:center;display:flex;gap:30px;margin:0;padding:0 30px}
+.header__link{color:#000;cursor:pointer;font-family:Montserrat;font-size:18px;font-style:normal;font-weight:500;line-height:1.2;text-decoration:none}.header__link:hover{opacity:.6;transition:all .3s ease-in-out}
+.logo{padding:10px 120px 10px 0}
+.logo__img{display:block}
 .page{background-color:#eaf0ff;box-sizing:border-box;font-family:Montserrat,Helvetica,Arial,sans-serif;margin:0;padding:0;width:100%}
 .main{margin:0 auto;max-width:1440px;padding:0;width:100%}
 .tag{font-feature-settings:"pnum" on,"lnum" on;background-color:#fff;border:1px solid #000;border-radius:50px;box-sizing:border-box;display:inline-block;font-size:18px;font-style:normal;font-weight:500;height:42px;line-height:22px;padding:9px;text-align:center}
@@ -35,13 +43,15 @@
 .courses__card-text{font-feature-settings:"pnum" on,"lnum" on;color:#000;font-size:18px;font-style:normal;font-weight:500;line-height:22px;margin:0 0 15px;max-height:100%;min-height:-webkit-min-content;min-height:-moz-min-content;min-height:min-content;padding:0;text-overflow:ellipsis}.courses__skills .courses__card-text{-webkit-line-clamp:3;-webkit-box-orient:vertical;display:-webkit-box;overflow:hidden;text-overflow:ellipsis}
 .courses__skills{list-style-position:outside;margin-bottom:30px;padding-left:25px}
 .courses__skills-list{display:flex;flex-wrap:wrap;justify-content:space-between;margin:0;padding:0}@media screen and (min-width:768px){.courses__skills-list{padding-top:15px}}
-.courses__skills-item{flex-basis:100%;font-size:18px;line-height:22px;padding:0 0 25px 32px;position:relative}.courses__skills-item:before{background-image:url(e81decbd4fbc358d00e8.svg);background-repeat:no-repeat;content:"";display:inline-block;height:30px;left:-3px;position:absolute;top:-3px;width:30px}@media screen and (min-width:768px){.courses__skills-item{flex-basis:calc(48% - 34px)}}
+.courses__skills-item{flex-basis:100%;font-size:18px;line-height:22px;padding:0 0 25px 32px;position:relative}.courses__skills-item:before{background-image:url(ce2cc2ff4a651a9934a9.svg);background-repeat:no-repeat;content:"";display:inline-block;height:30px;left:-3px;position:absolute;top:-3px;width:30px}@media screen and (min-width:768px){.courses__skills-item{flex-basis:calc(48% - 34px)}}
 .courses__buttons{display:flex;margin-top:auto}
 .courses__all-button{font-feature-settings:"pnum" on,"lnum" on;color:#000;font-size:20px;font-style:normal;font-weight:600;line-height:24px;margin:0 0 0 30px;padding:0;text-align:center;text-decoration:none}
 .courses__others{width:100%}
 .courses__others-list{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:10px 0 0;padding:0 10px}
 .courses__price{display:grid;margin:0;padding:30px}
 .page__element{margin-bottom:120px}
+.page__element_offset_l{margin-bottom:80px}
+.page__element_offset_xl{margin-bottom:120px}
 .popup{background-color:rgba(0,0,0,.5);border:0;display:flex;height:100%;left:0;margin:0;opacity:0;padding:0;position:fixed;top:0;transition:all .25s ease-in-out;visibility:hidden;width:100%}
 .popup__container{background-color:#fff;box-sizing:border-box;margin:auto;max-height:90%;max-width:404px;overflow-y:scroll;padding:25px 22px;position:relative;width:calc(100% - 38px)}@media screen and (min-width:468px){.popup__container{padding:34px 36px 37px}}
 .popup__close:focus,.popup__close:hover{color:#555}.popup__close:not(.button_size_m){font-size:20px;line-height:1;padding:15px 0 0}
@@ -51,4 +61,23 @@
 .popup__img{padding:102px 0;text-align:center}
 .popup_opened{opacity:1;visibility:visible}
 .popup_type_course .popup__container{max-width:1200px}
+.wrapper{background-color:#fff;padding:120px 0 0;width:100%}
+.about{align-items:flex-start;max-width:1200px;width:100%}
+.about__title{font-feature-settings:"pnum" on,"lnum" on;color:#000;font-size:60px;font-style:normal;font-weight:600;letter-spacing:-1px;line-height:68px;margin:0 0 40px;padding:0;width:100%}
+.about__subtitle{font-feature-settings:"pnum" on,"lnum" on;color:#000;font-size:36px;font-style:normal;font-weight:600;letter-spacing:-1px;line-height:44px;margin:0 0 60px;width:915px}
+.about__list{display:flex;flex-direction:row;gap:10px;margin:0;width:100%}
+.about__element{width:100%}
+.about__image-container{align-items:flex-end;display:flex;height:524px;margin:0;padding:0;position:relative;width:595px;z-index:1}.about__image-container:before{background-position:0 100%;background-repeat:no-repeat;content:"";height:100%;position:absolute;width:100%;z-index:-1}
+.about__image-container_photo_kids{background-image:url(edf2688a5b122f37e94e.png)}
+.about__image-container_line_yellow:before{background-image:url(84bc5840e43d336bf5cc.svg)}
+.about__image-container_line_orange:before{background-image:url(c55edaad8618008088c8.svg)}
+.about__image-container_photo_school{background-image:url(0e64e3445d63843553b0.png)}
+.about__image{display:block;height:524px;width:595px;z-index:-1}
+.about__image-title{font-feature-settings:"pnum" on,"lnum" on;font-size:48px;font-style:normal;font-weight:600;letter-spacing:-1px;line-height:56px;margin:0;max-width:429px;padding:0 0 30px 30px;width:100%;z-index:3}
+.about__image-title_color_white{color:#fff}
+.about__image-title_color_black{color:#1e1e1e}
+.about__image-subtitle{font-feature-settings:"pnum" on,"lnum" on;color:#000;font-size:24px;font-style:normal;font-weight:600;letter-spacing:-.5px;line-height:29px;margin:40px 0 39px 29px}
+.about__features{align-items:flex-start;gap:13px;margin-left:28px;max-width:472px;width:100%}
+.about__feature{margin:0;width:100%}
+.about__geotag{background-image:url(d68e41e59b191be8dc79.svg);background-repeat:no-repeat;background-size:contain;margin:0 0 13px 27px;padding-left:36px;padding-top:1px;width:100%}
 
