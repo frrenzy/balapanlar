@@ -1,0 +1,4 @@
+.about__image-container_line_orange::before {
+  background-image: url('../../../../images/orange_line.svg');
+}
+

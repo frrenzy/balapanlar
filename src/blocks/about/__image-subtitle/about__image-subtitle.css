@@ -1,0 +1,10 @@
+.about__image-subtitle {
+  margin: 40px 0 39px 29px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 29px;
+  letter-spacing: -0.5px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}

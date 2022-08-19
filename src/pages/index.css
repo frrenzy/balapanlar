@@ -6,8 +6,13 @@
 @import '../blocks/list/list.css';
 @import '../blocks/column/column.css';
 @import '../blocks/rounded/rounded.css';
-@import '../blocks/list/_type/list_type_checked.css';
-@import '../blocks/list/_type/list_type_crossed.css';
+@import '../blocks/list/__item/list__item.css';
+@import '../blocks/list/__item/_type/list__item_type_checked.css';
+@import '../blocks/list/__item/_type/list__item_type_crossed.css';
+@import '../blocks/paragraph/paragraph.css';
+
+/* button */
+
 @import '../blocks/button/button.css';
 @import '../blocks/button/_size/button_size_l.css';
 @import '../blocks/button/_size/button_size_m.css';
@@ -59,6 +64,8 @@
 @import '../blocks/courses/__price/cources__price.css';
 
 @import '../blocks/page/__element/page__element.css';
+@import '../blocks/page/__element/_offset/page__element_offset_l.css';
+@import '../blocks/page/__element/_offset/page__element_offset_xl.css';
 @import '../blocks/popup/popup.css';
 @import '../blocks/popup/__container/popup__container.css';
 @import '../blocks/popup/__close/popup__close.css';
@@ -68,3 +75,24 @@
 @import '../blocks/popup/__img/popup__img.css';
 @import '../blocks/popup/_opened/popup_opened.css';
 @import '../blocks/popup/_type/popup_type_course.css';
+
+@import '../blocks/wrapper/wrapper.css';
+
+@import '../blocks/about/about.css';
+@import '../blocks/about/__title/about__title.css';
+@import '../blocks/about/__subtitle/about__subtitle.css';
+@import '../blocks/about/__list/about__list.css';
+@import '../blocks/about/__element/about__element.css';
+@import '../blocks/about/__image-container/about__image-container.css';
+@import '../blocks/about/__image-container/_photo/about__image-container_photo_kids.css';
+@import '../blocks/about/__image-container/_line/about__image-container_line_yellow.css';
+@import '../blocks/about/__image-container/_line/about__image-container_line_orange.css';
+@import '../blocks/about/__image-container/_photo/about__image-container_photo_school.css';
+@import '../blocks/about/__image/about__image.css';
+@import '../blocks/about/__image-title/about__image-title.css';
+@import '../blocks/about/__image-title/_color/about__image-title_color_white.css';
+@import '../blocks/about/__image-title/_color/about__image-title_color_black.css';
+@import '../blocks/about/__image-subtitle/about__image-subtitle.css';
+@import '../blocks/about/__features/about__features.css';
+@import '../blocks/about/__feature/about__feature.css';
+@import '../blocks/about/__geotag/about__geotag.css';
