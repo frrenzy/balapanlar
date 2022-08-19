@@ -9,9 +9,9 @@
   font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .intro__text {
     margin: 0;
-    font-size: 12px;
+    font-size: 14px;
   }
 }
