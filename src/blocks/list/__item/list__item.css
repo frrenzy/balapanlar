@@ -1,0 +1,8 @@
+.list__item {
+  padding-top: 2px;
+  padding-right: 1px;
+  padding-left: 35px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 24px 24px;
+}
