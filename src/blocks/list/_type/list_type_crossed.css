@@ -1,6 +1,0 @@
-.list_type_crossed {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  list-style-image: url('../../../images/cross_mark.svg');
-}

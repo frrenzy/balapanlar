@@ -7,8 +7,10 @@
 @import ' ../blocks/list/__item/list__item.css';
 @import '../blocks/column/column.css';
 @import '../blocks/rounded/rounded.css';
-@import '../blocks/list/_type/list_type_checked.css';
-@import '../blocks/list/_type/list_type_crossed.css';
+@import '../blocks/list/__item/list__item.css';
+@import '../blocks/list/__item/_type/list__item_type_checked.css';
+@import '../blocks/list/__item/_type/list__item_type_crossed.css';
+@import '../blocks/paragraph/paragraph.css';
 
 /* button */
 
@@ -18,14 +20,21 @@
 @import '../blocks/button/_size/button_size_s.css';
 @import '../blocks/button/_color/button_color_orange.css';
 @import '../blocks/button/_color/button_color_black.css';
+@import '../blocks/button/_color/button_color_transparent.css';
 
 /* blocks */
 
+@import '../blocks/header/header.css';
+@import '../blocks/header/__nav/header__nav.css';
+@import '../blocks/header/__menu/header__menu.css';
+@import '../blocks/header/__link/header__link.css';
+
+@import '../blocks/logo/logo.css';
+@import '../blocks/logo/__img/logo__img.css';
+
 @import '../blocks/page/page.css';
-@import '../blocks/content/content.css';
 
 @import '../blocks/main/main.css';
-
 
 @import '../blocks/tag/tag.css';
 @import '../blocks/tag/_without-border/tag_without-border.css';
@@ -41,11 +50,14 @@
 @import '../blocks/courses/__card/_size/courses__card_size_small.css';
 @import '../blocks/courses/__card-title/courses__card-title.css';
 @import '../blocks/courses/__spec/courses__spec.css';
+@import '../blocks/courses/__spec/_type/courses__spec_type_human.css';
+@import '../blocks/courses/__spec/_type/courses__spec_type_time.css';
 @import '../blocks/courses/__tags/courses__tags.css';
-@import '../blocks/courses/__spec-pic/courses__spec-pic.css';
 @import '../blocks/courses/__spec-text/courses__spec-text.css';
 @import '../blocks/courses/__card-text/courses__card-text.css';
 @import '../blocks/courses/__skills/courses__skills.css';
+@import '../blocks/courses/__skills-list/courses__skills-list.css';
+@import '../blocks/courses/__skills-item/courses__skills-item.css';
 @import '../blocks/courses/__buttons/courses__buttons.css';
 @import '../blocks/courses/__all-button/courses__all-button.css';
 @import '../blocks/courses/__others/courses__others.css';
@@ -54,5 +66,38 @@
 @import '../blocks/courses/__price-pay/courses__price-pay.css';
 @import '../blocks/courses/__price-title/courses__price-title.css';
 @import '../blocks/courses/__includs-title/courses__includs-title.css';
+@import '../blocks/courses/__list/courses__list.css';
 
-@import '../blocks/content/__element/content__element.css';
+@import '../blocks/page/__element/page__element.css';
+@import '../blocks/page/__element/_offset/page__element_offset_l.css';
+@import '../blocks/page/__element/_offset/page__element_offset_xl.css';
+@import '../blocks/popup/popup.css';
+@import '../blocks/popup/__container/popup__container.css';
+@import '../blocks/popup/__close/popup__close.css';
+@import '../blocks/popup/__title/popup__title.css';
+@import '../blocks/popup/__text/popup__text.css';
+@import '../blocks/popup/__figure/popup__figure.css';
+@import '../blocks/popup/__img/popup__img.css';
+@import '../blocks/popup/_opened/popup_opened.css';
+@import '../blocks/popup/_type/popup_type_course.css';
+
+@import '../blocks/wrapper/wrapper.css';
+
+@import '../blocks/about/about.css';
+@import '../blocks/about/__title/about__title.css';
+@import '../blocks/about/__subtitle/about__subtitle.css';
+@import '../blocks/about/__list/about__list.css';
+@import '../blocks/about/__element/about__element.css';
+@import '../blocks/about/__image-container/about__image-container.css';
+@import '../blocks/about/__image-container/_photo/about__image-container_photo_kids.css';
+@import '../blocks/about/__image-container/_line/about__image-container_line_yellow.css';
+@import '../blocks/about/__image-container/_line/about__image-container_line_orange.css';
+@import '../blocks/about/__image-container/_photo/about__image-container_photo_school.css';
+@import '../blocks/about/__image/about__image.css';
+@import '../blocks/about/__image-title/about__image-title.css';
+@import '../blocks/about/__image-title/_color/about__image-title_color_white.css';
+@import '../blocks/about/__image-title/_color/about__image-title_color_black.css';
+@import '../blocks/about/__image-subtitle/about__image-subtitle.css';
+@import '../blocks/about/__features/about__features.css';
+@import '../blocks/about/__feature/about__feature.css';
+@import '../blocks/about/__geotag/about__geotag.css';

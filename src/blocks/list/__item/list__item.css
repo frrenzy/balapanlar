@@ -1,9 +1,8 @@
 .list__item {
-  padding-left: 10px;
-  font-weight: 500;
-  font-size: 18px;
-  font-family: 'Montserrat';
-  font-style: normal;
-  line-height: 22px;
-  font-feature-settings: 'pnum' on, 'lnum' on;
+  padding-top: 2px;
+  padding-right: 1px;
+  padding-left: 35px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 24px 24px;
 }
