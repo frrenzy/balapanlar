@@ -1,6 +1,8 @@
 .about__image-container {
   position: relative;
   z-index: 1;
+  display: flex;
+  align-items: flex-end;
   width: 595px;
   height: 524px;
   margin: 0;

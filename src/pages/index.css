@@ -6,6 +6,7 @@
 @import '../blocks/list/list.css';
 @import '../blocks/column/column.css';
 @import '../blocks/rounded/rounded.css';
+@import '../blocks/list/__item/list__item.css';
 @import '../blocks/list/__item/_type/list__item_type_checked.css';
 @import '../blocks/list/__item/_type/list__item_type_crossed.css';
 @import '../blocks/paragraph/paragraph.css';
@@ -89,8 +90,8 @@
 @import '../blocks/about/__image-container/_photo/about__image-container_photo_school.css';
 @import '../blocks/about/__image/about__image.css';
 @import '../blocks/about/__image-title/about__image-title.css';
-@import '../blocks/about/__image-title/_color/_white/about__image-title_color_white.css';
-@import '../blocks/about/__image-title/_color/_black/about__image-title_color_black.css';
+@import '../blocks/about/__image-title/_color/about__image-title_color_white.css';
+@import '../blocks/about/__image-title/_color/about__image-title_color_black.css';
 @import '../blocks/about/__image-subtitle/about__image-subtitle.css';
 @import '../blocks/about/__sublist/about__sublist.css';
 @import '../blocks/about/__sublist-element/about__sublist-element.css';

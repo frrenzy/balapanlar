@@ -1,11 +1,9 @@
 .about__image-title {
-  position: absolute;
-  bottom: 30px;
-  left: 30px;
   z-index: 3;
   width: 100%;
   max-width: 429px;
   margin: 0;
+  padding: 0 0 30px 30px;
   font-weight: 600;
   font-size: 48px;
   font-style: normal;
