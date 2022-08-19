@@ -3,6 +3,4 @@
   top: 0;
   width: 100%;
   background-color: #ffffff;
-  /* не работает */
-  transition: all 0.5s ease-out;
 }
