@@ -5,12 +5,12 @@
 
 .popup__close:not(.button) {
   position: absolute;
-  top: 30px;
-  right: 25px;
+  top: -30px;
+  right: 0;
   width: 20px;
   height: 20px;
   background-color: unset;
-  background-image: url('../../../images/icons/close-black.svg');
+  background-image: url('../../../images/icons/close.svg');
   background-repeat: no-repeat;
   background-size: 20px;
   border: 0;
@@ -20,6 +20,7 @@
   .popup__close:not(.button) {
     top: 50px;
     right: 45px;
+    background-image: url('../../../images/icons/close-black.svg');
   }
 }
 

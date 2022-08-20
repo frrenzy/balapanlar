@@ -3,16 +3,10 @@
   box-sizing: border-box;
   width: calc(100% - 10px * 2);
   max-width: 404px;
-  max-height: 90%;
   margin: auto;
   padding: 25px 22px;
-  overflow-y: scroll;
+  overflow: visible;
   background-color: #ffffff;
-  scrollbar-width: none;
-}
-
-.popup__container::-webkit-scrollbar {
-  display: none;
 }
 
 @media screen and (min-width: 768px) {

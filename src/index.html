@@ -12,6 +12,7 @@
   <title>Балапанлар</title>
 </head>
 <body class="page">
+
   <header class="header">
     <nav class="header__nav">
       <a href="index.html" class="logo">
@@ -323,8 +324,8 @@
       </section>
     </div>
   </main>
-  <footer class="footer"></footer> -->
 
+  <footer class="footer"></footer>
 
   <div class="popup popup_type_course" aria-hidden="true">
     <div class="popup__container rounded">
@@ -368,11 +369,9 @@
 
   <div class="popup popup_type_partner popup_opened" aria-hidden="true">
     <div class="popup__container rounded">
+      <button type="button" class="popup__close"></button>
       <figure class="popup__figure rounded">
-        <img class="popup__img"
-             src="<%=require('./images/partners/himbio.png')%>"
-             alt="Логотип компании ХимБио"
-        >
+        <img class="popup__img" src="<%=require('./images/partners/himbio.png')%>" alt="Логотип компании ХимБио">
       </figure>
       <p class="popup__text">Фонд работает в 45 регионах и с осени 2021 мы их единственные партнёры в Карачаево-Черкесии.</p>
       <p class="popup__text">Совместно проводим программу профориентации «Поколение Выбор». В 2021–2022 в ней приняли участие 35 подростков из 2 школ аула Икон-Халк и посёлка Эркен-Шахар. В сезоне 2022–2023 планируются ещё две школы.</p>
