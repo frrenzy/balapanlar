@@ -34,6 +34,15 @@
 
 @import '../blocks/page/page.css';
 
+@import '../blocks/intro/intro.css';
+@import '../blocks/intro/__headline/intro__headline.css';
+@import '../blocks/intro/__bar/intro__bar.css';
+@import '../blocks/intro/__icon/intro__icon.css';
+@import '../blocks/intro/__text/intro__text.css';
+
+@import '../blocks/info/info.css';
+@import '../blocks/info/__paragraph/info__paragraph.css';
+
 @import '../blocks/main/main.css';
 
 @import '../blocks/tag/tag.css';
@@ -65,6 +74,7 @@
 @import '../blocks/courses/__price/cources__price.css';
 @import '../blocks/courses/__price-pay/courses__price-pay.css';
 @import '../blocks/courses/__price-title/courses__price-title.css';
+@import '../blocks/courses/__includs/courses__includs.css';
 @import '../blocks/courses/__includs-title/courses__includs-title.css';
 @import '../blocks/courses/__list/courses__list.css';
 
