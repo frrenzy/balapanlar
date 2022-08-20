@@ -12,10 +12,7 @@
   <header class="header">
     <nav class="header__nav">
       <a href="index.html" class="logo">
-        <img src="<%=require('./images/logo.svg')%>"
-             alt="Логотип"
-             class="logo__img"
-        >
+        <img src="<%=require('./images/logo.svg')%>" alt="Логотип" class="logo__img">
       </a>
       <ul class="header__menu list">
         <li class="header__links">
@@ -46,14 +43,11 @@
       </h1>
       <a href="#" target="_blank" class="button button_size_l button_color_orange">Записаться на курсы</a>
       <div class="intro__bar rounded">
-        <img
-        src="<%=require('./images/telegram_icon.svg')%>"
-        alt="Иконка телеграма"
-        class="intro__icon">
-      <p class="intro__text">
-        Следите за&nbsp;последними анонсами и&nbsp;событиями
-        &laquo;Уя&raquo; в&nbsp;нашем Telegram канале
-      </p>
+        <img src="<%=require('./images/telegram_icon.svg')%>" alt="Иконка телеграма" class="intro__icon">
+        <p class="intro__text">
+          Следите за&nbsp;последними анонсами и&nbsp;событиями
+          &laquo;Уя&raquo; в&nbsp;нашем Telegram канале
+        </p>
         <a href="#" target="_blank" class="button button_size_s button_color_black">Подписаться</a>
       </div>
     </section>
@@ -64,9 +58,7 @@
       </p>
     </section>
 
-    <section class="page__element courses column"
-             id="courses"
-    >
+    <section class="page__element courses column" id="courses">
       <h2 class="courses__title">Наши курсы</h2>
 
       <section class="courses__code column">
@@ -230,8 +222,10 @@
       </section>
 
       <li class="courses__price rounded">
-        <h3 class="courses__price-title">Стоимость курсов 3500 руб./мес.</h3>
-        <a href="#" class="button button_color_black button_size_s courses__price-pay">Оплатить курсы</a>
+        <div class="courses__wrap">
+          <h3 class="courses__price-title">Стоимость курсов 3500 руб./мес.</h3>
+          <a href="#" class="button button_color_black button_size_s courses__price-pay">Оплатить курсы</a>
+        </div>
 
         <article class="courses__includs">
           <h4 class="courses__includs-title">Что входит в&nbsp;стоимость?</h4>
@@ -259,9 +253,7 @@
     </section>
 
     <div class="wrapper rounded column">
-      <section class="about column page__element page__element_offset_l"
-               id="about"
-      >
+      <section class="about column page__element page__element_offset_l" id="about">
         <h2 class="about__title">О нас</h2>
         <p class="about__subtitle">
           Мы&nbsp;привозим лучшие практики неформального образования для тех,
