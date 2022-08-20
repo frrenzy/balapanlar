@@ -1,6 +1,5 @@
 .courses__price-pay {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
+  grid-area: button;
+  margin: 0 0 30px 30px;
+  width: max-content;
 }

@@ -74,8 +74,9 @@
 @import '../blocks/courses/__price/cources__price.css';
 @import '../blocks/courses/__price-pay/courses__price-pay.css';
 @import '../blocks/courses/__price-title/courses__price-title.css';
-@import '../blocks/courses/__includs/courses__includs.css';
-@import '../blocks/courses/__includs-title/courses__includs-title.css';
+@import '../blocks/courses/__not-includes/courses__not-includes.css';
+@import '../blocks/courses/__includes/courses__includes.css';
+@import '../blocks/courses/__includes-title/courses__includes-title.css';
 @import '../blocks/courses/__list/courses__list.css';
 
 @import '../blocks/page/__element/page__element.css';
