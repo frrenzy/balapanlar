@@ -1,0 +1,7 @@
+.courses__list {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin: 12px 10px 0 0;
+}
+
