@@ -5,3 +5,11 @@
   width: 100%;
   margin: 0;
 }
+
+@media screen and (max-width: 468px){
+  .about__list {
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+  }
+}

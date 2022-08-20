@@ -19,3 +19,9 @@
   content: '';
 }
 
+@media screen and (max-width: 468px) {
+  .about__image-container {
+    background-size: cover;
+  }
+}
+

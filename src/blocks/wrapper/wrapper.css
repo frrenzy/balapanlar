@@ -3,3 +3,9 @@
   padding: 120px 0 0;
   background-color: #ffffff;
 }
+
+@media screen and (max-width: 468px) {
+  .wrapper {
+    padding-top: 30px;
+  }
+}

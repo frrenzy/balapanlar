@@ -2,3 +2,9 @@
   background-image: url('../../../../images/yellow_line.svg');
 }
 
+@media screen and (max-width: 468px) {
+  .about__image-container_line_yellow::before {
+    background-image: url('../../../../images/yellow_line_mobile.svg');
+  }
+}
+

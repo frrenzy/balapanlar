@@ -5,3 +5,10 @@
   max-width: 472px;
   margin-left: 28px;
 }
+
+@media screen and (max-width: 468px){
+  .about__features {
+    margin-bottom: 60px;
+    margin-left: 0;
+  }
+}
