@@ -1,0 +1,16 @@
+.partners__list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: calc(100vw - 30px);
+}
+
+@media screen and (max-width: 767px) {
+  .partners__list-item {
+    width: 290px;
+    height: 200px;
+    border: 2px solid #eaf0ff;
+    border-radius: 30px;
+  }
+}

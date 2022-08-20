@@ -107,3 +107,9 @@
 @import '../blocks/about/__features/about__features.css';
 @import '../blocks/about/__feature/about__feature.css';
 @import '../blocks/about/__geotag/about__geotag.css';
+
+@import '../blocks/partners/partners.css';
+@import '../blocks/partners/__heading/partners__heading.css';
+@import '../blocks/partners/__list/partners__list.css';
+@import '../blocks/partners/__list-item/partners__list-item.css';
+@import '../blocks/partners/__img/partners__img.css';
