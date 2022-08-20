@@ -2,7 +2,7 @@
   padding: 35px 45px;
   font-size: 28px;
   line-height: 1.22;
-  letter-spacing: -0.5px;
+  letter-spacing: -.5px;
 }
 
 @media screen and (max-width: 1050px) {
