@@ -110,7 +110,7 @@
             </p>
             <div class="courses__buttons">
               <a href="#" class="button button_color_black button_size_m">Записаться</a>
-              <button type="button" class="button button_color_transparent button_size_m">Смотреть все навыки</button>
+              <button type="button" class="button button_color_transparent button_size_m" data-course-id="1">Смотреть все навыки</button>
             </div>
           </li>
 
@@ -330,6 +330,29 @@
   <div class="popup popup_type_course" aria-hidden="true">
     <div class="popup__container rounded">
       <button type="button" class="popup__close"></button>
+      <div class="popup__buttons">
+        <a href="#" class="button button_size_m button_color_black">Записаться</a>
+        <button type="button" class="button button_size_m button_color_transparent popup__close">Закрыть</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup popup_type_partner" aria-hidden="true">
+    <div class="popup__container rounded">
+      <button type="button" class="popup__close"></button>
+      <figure class="popup__figure rounded">
+        <img class="popup__img" src="<%=require('./images/partners/himbio.png')%>" alt="Логотип компании ХимБио">
+      </figure>
+      <p class="popup__text">Фонд работает в 45 регионах и с осени 2021 мы их единственные партнёры в Карачаево-Черкесии.</p>
+      <p class="popup__text">Совместно проводим программу профориентации «Поколение Выбор». В 2021–2022 в ней приняли участие 35 подростков из 2 школ аула Икон-Халк и посёлка Эркен-Шахар. В сезоне 2022–2023 планируются ещё две школы.</p>
+      <div class="popup__buttons">
+        <a href="#" class="button button_size_m button_color_black">Сайт партнёра</a>
+      </div>
+    </div>
+  </div>
+
+  <template id="course-id-1" data-link="https://practicum.yandex.ru/">
+    <div class="popup__content">
       <h2 class="popup__title">3D технологии</h2>
       <ul class="list">
         <li class="courses__spec courses__spec_type_human">
@@ -360,26 +383,8 @@
         <li class="courses__skills-item">Автоматизировать работу с графическими файлами</li>
         <li class="courses__skills-item">Работать в команде и создавать проекты от идеи до их публичной презентации</li>
       </ul>
-      <div class="popup__buttons">
-        <a href="#" class="button button_size_m button_color_black">Записаться</a>
-        <button type="button" class="button button_size_m button_color_transparent popup__close">Закрыть</button>
-      </div>
     </div>
-  </div>
-
-  <div class="popup popup_type_partner" aria-hidden="true">
-    <div class="popup__container rounded">
-      <button type="button" class="popup__close"></button>
-      <figure class="popup__figure rounded">
-        <img class="popup__img" src="<%=require('./images/partners/himbio.png')%>" alt="Логотип компании ХимБио">
-      </figure>
-      <p class="popup__text">Фонд работает в 45 регионах и с осени 2021 мы их единственные партнёры в Карачаево-Черкесии.</p>
-      <p class="popup__text">Совместно проводим программу профориентации «Поколение Выбор». В 2021–2022 в ней приняли участие 35 подростков из 2 школ аула Икон-Халк и посёлка Эркен-Шахар. В сезоне 2022–2023 планируются ещё две школы.</p>
-      <div class="popup__buttons">
-        <a href="#" class="button button_size_m button_color_black">Сайт партнёра</a>
-      </div>
-    </div>
-  </div>
+  </template>
 
 </body>
 </html>
