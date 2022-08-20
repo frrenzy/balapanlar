@@ -31,8 +31,10 @@
 
 @import '../blocks/logo/logo.css';
 @import '../blocks/logo/__img/logo__img.css';
+@import '../blocks/logo/__img/_scrolled/logo__img_scrolled.css';
 
 @import '../blocks/page/page.css';
+@import '../blocks/page/_scrolled/page_scrolled.css';
 
 @import '../blocks/intro/intro.css';
 @import '../blocks/intro/__headline/intro__headline.css';

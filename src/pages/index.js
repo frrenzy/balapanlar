@@ -8,12 +8,12 @@ const page = document.querySelector('.page');
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > 0) {
-    logo.style.margin = '12px 0';
-    page.style.background = 'linear-gradient(180deg, #ffffff 140px, #eaf0ff 0)';
+    logo.classList.add('logo__img_scrolled');
+    page.classList.add('page_scrolled');
     logo.src = logoScroll;
   } else {
     logo.src = logoBig;
-    page.style.background = 'linear-gradient(180deg, #ffffff 180px, #eaf0ff 0)';
-    logo.style.margin = '0';
+    page.classList.remove('page_scrolled');
+    logo.classList.remove('logo__img_scrolled');
   }
 });
