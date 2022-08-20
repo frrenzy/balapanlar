@@ -8,3 +8,13 @@
   letter-spacing: -0.5px;
   font-feature-settings: 'pnum' on, 'lnum' on;
 }
+
+@media screen and (max-width: 468px) {
+  .about__image-subtitle {
+    width: 290px;
+    margin: 0 0 28px 0;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.5px;
+  }
+}

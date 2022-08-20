@@ -5,5 +5,14 @@
   padding-left: 36px;
   background-image: url('../../../images/geo_tag.svg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 22px 22px;
+}
+
+@media screen and (max-width: 468px) {
+  .about__geotag {
+    width: 255px;
+    margin-left: 0;
+    padding-top: 4px;
+    padding-left: 35px;
+  }
 }

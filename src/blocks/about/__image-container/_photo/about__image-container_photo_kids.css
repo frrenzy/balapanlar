@@ -1,3 +1,11 @@
 .about__image-container_photo_kids {
   background-image: url('../../../../images/kids.png');
 }
+
+@media screen and (max-width: 468px) {
+  .about__image-container_photo_kids {
+    width: 289px;
+    height: 255px;
+    margin-bottom: 30px;
+  }
+}
