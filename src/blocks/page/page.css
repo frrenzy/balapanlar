@@ -4,5 +4,11 @@
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
-  background-color: #eaf0ff;
+  background: linear-gradient(180deg, #ffffff 180px, #eaf0ff 0%);
+}
+
+@media screen and (max-width: 600px) {
+  .page {
+    background: linear-gradient(180deg, #ffffff 72px, #eaf0ff 0%);
+  }
 }
