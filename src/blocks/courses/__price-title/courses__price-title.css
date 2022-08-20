@@ -1,6 +1,6 @@
 .courses__price-title {
-  margin: 30px 0 0 30px;
   grid-area: title;
+  margin: 30px 0 0 30px;
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;

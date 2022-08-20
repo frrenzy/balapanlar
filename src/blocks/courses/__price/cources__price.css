@@ -1,12 +1,12 @@
 .courses__price {
   display: grid;
-  grid-template-columns: 1fr calc(33.33333% + 6.66667px) 1fr;
   grid-template-rows: 1fr 94px;
-  grid-template-areas: "title includes not-includes"
-                       "button includes not-includes";
+  grid-template-columns: 1fr calc((100% + 20px) / 3) 1fr;
+  grid-template-areas:
+    'title includes not-includes'
+    'button includes not-includes';
   width: calc(100% - 20px);
   margin: 0;
-  /*padding: 30px;*/
   column-gap: 10px;
   background-color: #d0ddff;
 }
