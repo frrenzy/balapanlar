@@ -1,16 +1,21 @@
 .popup__container {
   position: relative;
   box-sizing: border-box;
-  width: calc(100% - 19px * 2);
+  width: calc(100% - 10px * 2);
   max-width: 404px;
   max-height: 90%;
   margin: auto;
   padding: 25px 22px;
   overflow-y: scroll;
   background-color: #ffffff;
+  scrollbar-width: none;
 }
 
-@media screen and (min-width: 468px) {
+.popup__container::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
   .popup__container {
     padding: 34px 36px 37px 36px;
   }
