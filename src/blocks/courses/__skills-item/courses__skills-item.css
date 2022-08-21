@@ -6,6 +6,10 @@
   line-height: 22px;
 }
 
+.courses__skills-item:last-of-type {
+  padding-bottom: 0;
+}
+
 .courses__skills-item::before {
   position: absolute;
   top: -3px;

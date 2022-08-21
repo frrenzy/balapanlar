@@ -2,8 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 240px;
+  height: 200px;
   margin: 0;
   margin-bottom: 30px;
   border: 2px solid #eaf0ff;
+}
+
+@media screen and (min-width: 390px) {
+  .popup__figure {
+    height: 240px;
+    margin: 0 auto;
+    border: unset;
+  }
 }

@@ -1,0 +1,6 @@
+.courses__not-includes {
+  grid-area: not-includes;
+  margin: 48px 0 48px 30px;
+  padding: 0 50px 0 0;
+}
+
