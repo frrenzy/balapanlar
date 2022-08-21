@@ -47,7 +47,7 @@
     "function-parentheses-space-inside": "never-single-line",
     "function-url-quotes": "always",
     "function-whitespace-after": "always",
-    "number-leading-zero": "always",
+    "number-leading-zero": "never",
     "number-no-trailing-zeros": true,
     "string-quotes": "single",
     "length-zero-no-unit": true,
