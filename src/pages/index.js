@@ -1,11 +1,13 @@
 import './index.css';
 
 import { PopupTypeCourse } from '../components/PopupTypeCourse';
+import { PopupTypePartner } from '../components/PopupTypePartner';
 
 import logoBig from '../images/logo.svg';
 import logoScroll from '../images/logo-small.svg';
 
 const coursePopup = new PopupTypeCourse('.popup_type_course');
+const partnerPopup = new PopupTypePartner('.popup_type_partner');
 const logo = document.querySelector('.logo__img');
 const page = document.querySelector('.page');
 
@@ -22,9 +24,14 @@ window.addEventListener('scroll', () => {
 });
 
 window.addEventListener('click', (evt) => {
-  if (!evt.target.hasAttribute('data-course-id')) {
-    return;
-  }
-
+  if (!evt.target.hasAttribute('data-course-id')) return;
   coursePopup.open(evt.target.dataset.courseId);
 });
+
+document.querySelectorAll('.partners__button').forEach(button => {
+  button.addEventListener('click', (evt) => {
+    if (!evt.currentTarget.hasAttribute('data-partner-id')) return;
+    partnerPopup.open(evt.currentTarget.dataset.partnerId);
+  });
+});
+

@@ -118,4 +118,5 @@
 @import '../blocks/partners/__heading/partners__heading.css';
 @import '../blocks/partners/__list/partners__list.css';
 @import '../blocks/partners/__list-item/partners__list-item.css';
+@import '../blocks/partners/__button/partners__button.css';
 @import '../blocks/partners/__img/partners__img.css';
