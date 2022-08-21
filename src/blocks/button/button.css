@@ -7,7 +7,7 @@
   text-decoration: none;
   border-radius: 50px;
   outline: none;
-  transition: all 0.3s;
+  transition: all .3s;
   font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
