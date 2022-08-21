@@ -18,8 +18,8 @@
 
 @media screen and (min-width: 768px) {
   .popup__close:not(.button) {
-    top: 50px;
-    right: 45px;
+    top: 35px;
+    right: 35px;
     background-image: url('../../../images/icons/close-black.svg');
   }
 }

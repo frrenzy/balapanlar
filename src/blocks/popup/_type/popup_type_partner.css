@@ -1,16 +1,15 @@
 .popup_type_partner .popup__container {
   max-width: 885px;
-}
-
-@media screen and (max-width: 767px) {
-  .popup_type_partner .popup__container {
-    padding: 15px;
-  }
+  padding: 15px;
 }
 
 @media screen and (min-width: 768px) {
   .popup_type_partner .popup__buttons {
     justify-content: center;
     padding-top: 40px;
+  }
+
+  .popup_type_partner .popup__container {
+    padding: 40px 42px;
   }
 }
