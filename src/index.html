@@ -14,6 +14,7 @@
 </head>
 
 <body class="page">
+
   <header class="header">
     <nav class="header__nav">
       <a href="index.html" class="logo">
@@ -78,7 +79,7 @@
 
           <li class="column courses__card courses__card_size_big rounded">
             <h4 class="courses__card-title">Python Start</h4>
-            <ul class="list">
+            <ul class="courses__spec-list list">
               <li class="courses__spec courses__spec_type_human">
                 <p class="courses__spec-text">группы 8+&nbsp;лет</p>
               </li>
@@ -109,7 +110,7 @@
 
           <li class="column courses__card courses__card_size_big rounded">
             <h4 class="courses__card-title">Python Start</h4>
-            <ul class="list">
+            <ul class="courses__spec-list list">
               <li class="courses__spec courses__spec_type_human">
                 <p class="courses__spec-text">группы 8+&nbsp;лет</p>
               </li>
@@ -149,7 +150,7 @@
         <ul class="courses__others-list list">
           <li class="column courses__card courses__card_size_small rounded">
             <h3 class="courses__card-title">3D технологии</h3>
-            <ul class="list">
+            <ul class="courses__spec-list list">
               <li class="courses__spec courses__spec_type_human">
                 <p class="courses__spec-text">группы 8+&nbsp;лет</p>
               </li>
@@ -174,7 +175,7 @@
 
           <li class="column courses__card courses__card_size_small rounded">
             <h3 class="courses__card-title">3D технологии</h3>
-            <ul class="list">
+            <ul class="courses__spec-list list">
               <li class="courses__spec courses__spec_type_human">
                 <p class="courses__spec-text">группы 8+&nbsp;лет</p>
               </li>
@@ -200,7 +201,7 @@
 
           <li class="column courses__card courses__card_size_small rounded">
             <h3 class="courses__card-title">3D технологии</h3>
-            <ul class="list">
+            <ul class="courses__spec-list list">
               <li class="courses__spec courses__spec_type_human">
                 <p class="courses__spec-text">группы 8+&nbsp;лет</p>
               </li>
@@ -356,12 +357,14 @@
       </section>
     </div>
   </main>
+
   <footer class="footer"></footer>
 
   <div class="popup popup_type_course" aria-hidden="true">
     <div class="popup__container rounded">
+      <button type="button" class="popup__close"></button>
       <h2 class="popup__title">3D технологии</h2>
-      <ul class="list">
+      <ul class="courses__spec-list list">
         <li class="courses__spec courses__spec_type_human">
           <p class="courses__spec-text">группы 8+&nbsp;лет</p>
         </li>
@@ -376,7 +379,7 @@
         <li class="tag">создание web-сайтов</li>
       </ul>
       <p class="courses__card-text">
-        Студенты к концу курса будут сами создавать приложения. А ещё они научатся:
+        Студенты к концу курса будут сами создавать приложения. А ещё они научатся: 
       </p>
       <ul class="list courses__skills-list">
         <li class="courses__skills-item">Разбираться в основах алгоритмики и объектно-ориентированного программирования
@@ -402,15 +405,18 @@
 
   <div class="popup popup_type_partner" aria-hidden="true">
     <div class="popup__container rounded">
+      <button type="button" class="popup__close"></button>
       <figure class="popup__figure rounded">
         <img class="popup__img" src="<%=require('./images/partners/himbio.png')%>" alt="Логотип компании ХимБио">
       </figure>
-      <p class="popup__text">Фонд работает в 45 регионах и с осени 2021 мы их единственные партнёры
-        в Карачаево-Черкесии.</p>
-      <p class="popup__text">Совместно проводим программу профориентации «Поколение Выбор». В 2021–2022 в ней приняли
-        участие 35 подростков из 2 школ аула Икон-Халк и посёлка Эркен-Шахар. В сезоне 2022–2023 планируются ещё две
-        школы.</p>
-      <button type="button" class="button button_color_transparent popup__close">Закрыть</button>
+      <p class="popup__text">Фонд работает в 45 регионах и с осени 2021 мы их единственные партнёры в Карачаево-Черкесии.</p>
+      <p class="popup__text">
+        Совместно проводим программу профориентации «Поколение Выбор». В 2021–2022 в ней приняли участие 35 
+        подростков из 2 школ аула Икон-Халк и посёлка Эркен-Шахар. В сезоне 2022–2023 планируются ещё две школы.
+      </p>
+      <div class="popup__buttons">
+        <a href="#" class="button button_size_m button_color_black">Сайт партнёра</a>
+      </div>
     </div>
   </div>
 
