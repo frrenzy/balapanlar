@@ -358,13 +358,19 @@
         <h2 class="partners__heading">Наши партнёры</h2>
         <ul class="list partners__list rounded">
           <li class="partners__list-item">
-            <img class="partners__img" src="<%=require('./images/partners/lecture.png')%>" alt="Логотип партнёра «Lectures Without Borders»">
+            <button type="button" class="partners__button" data-partner-id="1">
+              <img class="partners__img" src="<%=require('./images/partners/lecture.png')%>" alt="Логотип партнёра «Lectures Without Borders»">
+            </button>
           </li>
           <li class="partners__list-item">
-            <img class="partners__img" src="<%=require('./images/partners/horizons.png')%>" alt="Логотип партнёра «Открывая горизонты»">
+            <button type="button" class="partners__button" data-partner-id="2">
+              <img class="partners__img" src="<%=require('./images/partners/horizons.png')%>" alt="Логотип партнёра «Открывая горизонты»">
+            </button>
           </li>
           <li class="partners__list-item">
-            <img class="partners__img" src="<%=require('./images/partners/himbio.png')%>" alt="Логотип партнёра «Химбио»">
+            <button type="button" class="partners__button" data-partner-id="3">
+              <img class="partners__img" src="<%=require('./images/partners/himbio.png')%>" alt="Логотип партнёра «Химбио»">
+            </button>
           </li>
         </ul>
       </section>
@@ -386,11 +392,6 @@
   <div class="popup popup_type_partner" aria-hidden="true">
     <div class="popup__container rounded">
       <button type="button" class="popup__close"></button>
-      <figure class="popup__figure rounded">
-        <img class="popup__img" src="<%=require('./images/partners/himbio.png')%>" alt="Логотип компании ХимБио">
-      </figure>
-      <p class="popup__text">Фонд работает в 45 регионах и с осени 2021 мы их единственные партнёры в Карачаево-Черкесии.</p>
-      <p class="popup__text">Совместно проводим программу профориентации «Поколение Выбор». В 2021–2022 в ней приняли участие 35 подростков из 2 школ аула Икон-Халк и посёлка Эркен-Шахар. В сезоне 2022–2023 планируются ещё две школы.</p>
       <div class="popup__buttons">
         <a href="#" class="button button_size_m button_color_black" target="_blank" rel="noopener nofollow">Сайт партнёра</a>
       </div>
@@ -435,22 +436,43 @@
     </div>
   </template>
 
-  <div class="popup popup_type_partner" aria-hidden="true">
-    <div class="popup__container rounded">
-      <button type="button" class="popup__close"></button>
+  <template id="partner-id-1" data-link="https://xn----7sbfgufj4abfcqfum7kl6d.xn--p1ai/">
+    <div class="popup__content">
       <figure class="popup__figure rounded">
-        <img class="popup__img" src="<%=require('./images/partners/himbio.png')%>" alt="Логотип компании ХимБио">
+        <img class="popup__img" src="<%=require('./images/partners/horizons.png')%>" alt="Логотип компании «Открывая горизонты»">
+      </figure>
+      <p class="popup__text">Фонд работает в 45 регионах и с осени 2021 мы их единственные партнёры в Карачаево-Черкесии.</p>
+      <p class="popup__text">Совместно проводим программу профориентации «Поколение Выбор». В 2021–2022 в ней приняли участие 35 подростков из 2 школ аула Икон-Халк и посёлка Эркен-Шахар. В сезоне 2022–2023 планируются ещё две школы.</p>
+    </div>
+  </template>
+
+
+  <template id="partner-id-2" data-link="https://lewibo.org/ru">
+    <div class="popup__content">
+      <figure class="popup__figure rounded">
+        <img class="popup__img" src="<%=require('./images/partners/himbio.png')%>" alt="Логотип компании «ХимБио»">
       </figure>
       <p class="popup__text">Фонд работает в 45 регионах и с осени 2021 мы их единственные партнёры в Карачаево-Черкесии.</p>
       <p class="popup__text">
         Совместно проводим программу профориентации «Поколение Выбор». В 2021–2022 в ней приняли участие 35 
         подростков из 2 школ аула Икон-Халк и посёлка Эркен-Шахар. В сезоне 2022–2023 планируются ещё две школы.
       </p>
-      <div class="popup__buttons">
-        <a href="#" class="button button_size_m button_color_black">Сайт партнёра</a>
-      </div>
     </div>
-  </div>
+  </template>
+
+
+  <template id="partner-id-3" data-link="https://himbio.ru/">
+    <div class="popup__content">
+      <figure class="popup__figure rounded">
+        <img class="popup__img" src="<%=require('./images/partners/himbio.png')%>" alt="Логотип компании «ХимБио»">
+      </figure>
+      <p class="popup__text">Фонд работает в 45 регионах и с осени 2021 мы их единственные партнёры в Карачаево-Черкесии.</p>
+      <p class="popup__text">
+        Совместно проводим программу профориентации «Поколение Выбор». В 2021–2022 в ней приняли участие 35 
+        подростков из 2 школ аула Икон-Халк и посёлка Эркен-Шахар. В сезоне 2022–2023 планируются ещё две школы.
+      </p>
+    </div>
+  </template>
 
 </body>
 
