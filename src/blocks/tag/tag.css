@@ -13,3 +13,10 @@
   border-radius: 50px;
   font-feature-settings: 'pnum' on, 'lnum' on;
 }
+
+@media screen and (max-width: 768px) {
+  .tag {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
