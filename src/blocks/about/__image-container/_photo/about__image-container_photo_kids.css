@@ -2,6 +2,12 @@
   background-image: url('../../../../images/kids.png');
 }
 
+@media screen and (max-width: 768px) {
+  .about__image-container_photo_kids {
+    background-size: cover;
+  }
+}
+
 @media screen and (max-width: 468px) {
   .about__image-container_photo_kids {
     width: 289px;

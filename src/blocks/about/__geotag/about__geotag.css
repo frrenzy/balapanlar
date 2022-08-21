@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 468px) {
   .about__geotag {
-    width: 255px;
+    width: calc(100% - 35px);
     margin-left: 0;
     padding-top: 4px;
     padding-left: 35px;

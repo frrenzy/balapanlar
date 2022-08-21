@@ -7,6 +7,7 @@
   height: 524px;
   margin: 0;
   padding: 0;
+  background-size: cover;
 }
 
 .about__image-container::before {
@@ -18,10 +19,3 @@
   background-position: left bottom;
   content: '';
 }
-
-@media screen and (max-width: 468px) {
-  .about__image-container {
-    background-size: cover;
-  }
-}
-

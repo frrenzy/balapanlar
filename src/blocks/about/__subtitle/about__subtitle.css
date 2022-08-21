@@ -10,12 +10,19 @@
   font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
+@media screen and (max-width: 768px) {
+  .about__subtitle {
+    width: 610px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    line-height: 29px;
+  }
+}
+
 @media screen and (max-width: 468px) {
   .about__subtitle {
     width: 290px;
-    margin-bottom: 40px;
     font-size: 24px;
-    line-height: 29px;
-    letter-spacing: -0.5px;
+    letter-spacing: -.5px;
   }
 }
