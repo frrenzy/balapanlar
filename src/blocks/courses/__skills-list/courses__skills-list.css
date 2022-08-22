@@ -1,0 +1,12 @@
+.courses__skills-list {
+  margin: 0;
+  padding: 0;
+  column-count: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .courses__skills-list {
+    padding-top: 15px;
+    column-count: 2;
+  }
+}

@@ -4,4 +4,6 @@
   justify-content: center;
   gap: 10px;
   width: calc(100% - 20px);
+  margin: 0;
+  padding: 0;
 }

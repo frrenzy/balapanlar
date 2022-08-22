@@ -1,0 +1,14 @@
+.about__image-title {
+  z-index: 3;
+  width: 100%;
+  max-width: 429px;
+  margin: 0;
+  padding: 0 0 30px 30px;
+  font-weight: 600;
+  font-size: 48px;
+  font-style: normal;
+  line-height: 56px;
+  letter-spacing: -1px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+

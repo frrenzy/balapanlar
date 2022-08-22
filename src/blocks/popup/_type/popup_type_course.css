@@ -1,0 +1,15 @@
+.popup_type_course .popup__container {
+  max-width: 1200px;
+}
+
+@media screen and (min-width: 768px) {
+  .popup_type_course .courses__spec-list {
+    display: flex;
+    align-items: center;
+    gap: 10px 32px;
+  }
+
+  .popup_type_course .courses__spec {
+    margin: 0;
+  }
+}

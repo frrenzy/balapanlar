@@ -1,0 +1,29 @@
+.courses__skills-item {
+  position: relative;
+  flex-basis: 100%;
+  padding: 0 0 25px 32px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.courses__skills-item:last-of-type {
+  padding-bottom: 0;
+}
+
+.courses__skills-item::before {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url('../../../images/check_mark.svg');
+  background-repeat: no-repeat;
+  content: '';
+}
+
+@media screen and (min-width: 768px) {
+  .courses__skills-item {
+    flex-basis: calc(48% - 34px);
+  }
+}

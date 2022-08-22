@@ -1,0 +1,5 @@
+.courses__price-pay {
+  grid-area: button;
+  width: max-content;
+  margin: 0 0 30px 30px;
+}
