@@ -2,3 +2,9 @@
   display: flex;
   margin-top: auto;
 }
+
+@media screen and (max-width: 767px) {
+  .courses__buttons {
+    flex-direction: column-reverse;
+  }
+}

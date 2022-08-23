@@ -4,4 +4,13 @@
   padding: 0 0 10px;
   background-color: #ffd643;
   border-radius: 70px;
+  box-sizing: border-box;
 }
+
+@media screen and (max-width: 767px) {
+  .courses__code {
+    border-radius: 40px;
+    padding: 0 10px 10px;
+  }
+}
+

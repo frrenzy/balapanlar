@@ -3,3 +3,13 @@
   background: none;
   border: none;
 }
+
+@media (max-width: 767px) {
+  .button_color_transparent {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0;
+    min-width: max-content;
+    margin-bottom: 20px;
+  }
+}

@@ -3,19 +3,17 @@
   max-height: 100%;
   margin: 0 0 15px;
   padding: 0;
-  color: #000000;
-  font-weight: 500;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 22px;
   text-overflow: ellipsis;
-  font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 .courses__skills .courses__card-text {
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.courses__card-text:last-child {
+  margin-bottom: 0;
 }

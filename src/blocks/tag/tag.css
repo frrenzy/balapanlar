@@ -1,7 +1,5 @@
 .tag {
   display: inline-block;
-  box-sizing: border-box;
-  min-height: 42px;
   padding: 9px;
   font-weight: 500;
   font-size: 18px;
