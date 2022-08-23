@@ -6,7 +6,7 @@
   background-color: #ffffff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 
   .header {
     display: flex;
@@ -15,13 +15,5 @@
     min-height: 80px;
   }
 
-  .logo__mob {
-    display: block;
-    margin-left: 20px;
-    width: 192px;
-    height: 36px;
-    background-image: url('../../images/logo-small.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
+
 }
