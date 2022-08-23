@@ -1,5 +1,5 @@
 .principles__image_size_m {
-  width: 610px;
+  aspect-ratio: 61 / 42;
 }
 
 @media screen and (max-width: 615px) {
