@@ -1,7 +1,75 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   position: sticky;
   top: 0;
   z-index: 10;
   width: 100%;
   background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+
+  .header {
+    min-height: 80px;
+  }
+
+  .logo__mob {
+    display: block;
+    margin-left: 20px;
+    width: 192px;
+    height: 36px;
+    background-image: url('../../images/logo-small.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .header__nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 422px;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+
+  .header__menu {
+    flex-direction: column;
+  }
+
+  .logo {
+    padding: 0;
+  }
+
+    .header__burger {
+    position: relative;
+    z-index: 5;
+    width: 30px;
+    height: 10px;
+    margin-right: 20px;
+  }
+
+  .header__burger::after,
+  .header__burger::before {
+    content: '';
+    background-color: #000;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+  }
+
+  .header__burger::after {
+    top: 0;
+  }
+
+    .header__burger::before {
+      bottom: 0;
+    }
 }
