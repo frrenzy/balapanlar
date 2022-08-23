@@ -23,21 +23,25 @@ window.addEventListener('scroll', () => {
 
 gsap.registerPlugin(ScrollTrigger);
 
-let duration = 10;
-let	sections = gsap.utils.toArray(".principles__item");
-let tl = gsap.timeline({
-			scrollTrigger: {
-				trigger: ".principles__list",
-        pin: '.main',
-				scrub: 0.5,
-        snap: 1 / (sections.length - 1),
-				start: "bottom bottom",
-				end: "+=5000"
-			}
-		});
+const mm = gsap.matchMedia();
 
-tl.to(sections, {
-  xPercent: -100 * (sections.length - 1),
-  duration: duration,
-  ease: "none"
+mm.add('(min-width: 768px)', () => {
+  const duration = 10;
+  const	sections = gsap.utils.toArray(".principles__item");
+  const tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".principles__list",
+      pin: '.main',
+      scrub: 0.5,
+      snap: 1 / (sections.length - 1),
+      start: "bottom bottom",
+      end: "+=5000"
+    }
+  });
+
+  tl.to(sections, {
+    xPercent: -100 * (sections.length - 1),
+    duration: duration,
+    ease: "none"
+  })
 });
