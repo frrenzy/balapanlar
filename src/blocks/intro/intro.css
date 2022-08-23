@@ -13,6 +13,7 @@
   background-position: 63% 73%;
   background-size: 156%;
   aspect-ratio: 120 / 71;
+  max-width: 1440px;
 }
 
 @media screen and (max-width: 1050px) {

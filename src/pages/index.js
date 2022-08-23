@@ -37,14 +37,14 @@ gsap.to(sections, {
 });*/
 gsap.registerPlugin(ScrollTrigger);
 
-let duration = 10,
-		sections = gsap.utils.toArray(".principles__item"),
-		sectionIncrement = duration / (sections.length - 1),
-		tl = gsap.timeline({
+let duration = 10;
+let	sections = gsap.utils.toArray(".principles__item");
+let sectionIncrement = duration / (sections.length - 1);
+let tl = gsap.timeline({
 			scrollTrigger: {
 				trigger: ".principles__list",
-        pin: true,
-				scrub: 1,
+        pin: '.main',
+				scrub: 0.5,
         snap: 1 / (sections.length - 1),
 				start: "bottom bottom",
 				end: "+=5000"
