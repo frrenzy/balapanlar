@@ -1,6 +1,7 @@
 .principles {
   align-self: flex-start;
   width: 100vw;
+  min-height: 1000px;
   overflow: hidden;
   background-color: #ae46ff;
 }
