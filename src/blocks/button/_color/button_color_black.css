@@ -1,5 +1,7 @@
 .button_color_black {
   background-color: #252525;
+  width: max-content;
+  height: min-content;
 }
 
 .button_color_black:hover {

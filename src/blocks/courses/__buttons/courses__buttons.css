@@ -1,6 +1,7 @@
 .courses__buttons {
   display: flex;
   margin-top: auto;
+  align-items: center;
 }
 
 @media screen and (max-width: 767px) {
