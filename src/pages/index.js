@@ -1,5 +1,8 @@
 import './index.css';
 
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/all';
+
 import logoBig from '../images/logo.svg';
 import logoScroll from '../images/logo-small.svg';
 
@@ -18,28 +21,10 @@ window.addEventListener('scroll', () => {
   }
 });
 
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/all';
-
-/*gsap.registerPlugin(ScrollTrigger);
-
-let sections = gsap.utils.toArray(".principles__item");
-
-gsap.to(sections, {
-  scrollTrigger: {
-    x: 3000,
-    scroller: '.principles__list',
-    trigger: '.principles__list',
-    pin: '.principles__heading',
-    start: 'bottom bottom',
-    onToggle: self => console.log('puk'),
-  }
-});*/
 gsap.registerPlugin(ScrollTrigger);
 
 let duration = 10;
 let	sections = gsap.utils.toArray(".principles__item");
-let sectionIncrement = duration / (sections.length - 1);
 let tl = gsap.timeline({
 			scrollTrigger: {
 				trigger: ".principles__list",
