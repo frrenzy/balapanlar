@@ -1,13 +1,16 @@
 .principles {
   align-self: flex-start;
   width: 100vw;
-  min-height: 1000px;
+  height: 1000px;
+  max-height: calc(100vh - 80px);
   overflow: hidden;
   background-color: #ae46ff;
 }
 
 @media screen and (max-width: 768px) {
   .principles {
+    height: unset;
+    max-height: unset;
     padding-bottom: 30px;
     border-radius: 40px;
   }

@@ -30,7 +30,7 @@ mm.add('(min-width: 768px)', () => {
   const	sections = gsap.utils.toArray(".principles__item");
   const tl = gsap.timeline({
     scrollTrigger: {
-      trigger: ".principles__list",
+      trigger: ".principles",
       pin: '.main',
       scrub: 0.5,
       snap: 1 / (sections.length - 1),
