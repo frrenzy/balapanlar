@@ -1,7 +1,8 @@
 .principles {
-  width: 300vw;
-  background-color: #ae46ff;
   align-self: flex-start;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #ae46ff;
 }
 
 @media screen and (max-width: 768px) {
