@@ -3,3 +3,9 @@
   width: max-content;
   margin: 0 0 30px 30px;
 }
+
+@media screen and (max-width: 767px) {
+  .courses__price-pay {
+    margin: 0;
+  }
+}

@@ -2,3 +2,11 @@
   font-weight: 600;
   letter-spacing: -.5px;
 }
+
+@media screen and (max-width: 767px) {
+  .courses__includes-title {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+}

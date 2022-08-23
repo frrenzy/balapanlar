@@ -10,3 +10,17 @@
   column-gap: 10px;
   background-color: #d0ddff;
 }
+
+@media screen and (max-width: 868px) {
+  .courses__price {
+    grid-template-areas:
+      'title'
+      'includes'
+      'not-includes'
+      'button';
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, max-content);
+    padding: 15px;
+    gap: 20px;
+  }
+}
