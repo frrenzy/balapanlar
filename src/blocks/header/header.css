@@ -6,7 +6,7 @@
   background-color: #ffffff;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .header {
     display: flex;
     justify-content: space-between;

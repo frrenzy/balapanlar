@@ -1,9 +1,9 @@
-@media (max-width: 1024px) {
-  .logo__mob {
+@media (max-width: 768px) {
+  .logo__mobile {
     display: block;
     width: 192px;
     height: 36px;
-    margin-left: 20px;
+    margin-left: 75px;
     background-image: url('../../../images/logo-small.svg');
     background-repeat: no-repeat;
     background-size: contain;
@@ -11,8 +11,9 @@
 }
 
 @media (max-width: 425px) {
-  .logo__mob {
+  .logo__mobile {
     width: 101px;
     height: 22px;
+    margin-left: 15px;
   }
 }

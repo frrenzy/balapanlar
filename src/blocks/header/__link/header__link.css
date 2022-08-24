@@ -13,3 +13,20 @@
   opacity: .6;
   transition: all ease-in-out .3s;
 }
+
+@media (max-width: 768px) {
+  .header__link {
+    font-size: 30px;
+    font-weight: 600;
+    max-width: 290px;
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .header__link {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
