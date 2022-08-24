@@ -25,7 +25,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const mm = gsap.matchMedia();
 
-mm.add('(min-width: 768px)', () => {
+mm.add('(min-width: 769px)', () => {
   const duration = 10;
   const	sections = gsap.utils.toArray(".principles__item");
   const tl = gsap.timeline({
