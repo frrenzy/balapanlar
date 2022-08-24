@@ -17,3 +17,13 @@
 .courses__card-text:last-child {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .courses__card-text {
+    margin-bottom: 15px;
+  }
+
+  .courses__card-text + .courses__skills {
+    margin-top: 15px;
+  }
+}

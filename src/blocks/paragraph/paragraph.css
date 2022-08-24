@@ -7,7 +7,7 @@
   font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 425px) {
   .paragraph {
     font-size: 16px;
     line-height: 20px;

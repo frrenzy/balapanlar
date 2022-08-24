@@ -9,8 +9,16 @@
 
 @media screen and (max-width: 767px) {
   .courses__code {
+    max-width: 654px;
+    border-radius: 60px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .courses__code {
+    max-width: 654px;
     border-radius: 40px;
     padding: 0 10px 10px;
   }
 }
-

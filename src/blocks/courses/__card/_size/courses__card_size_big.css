@@ -3,3 +3,12 @@
   min-width: 300px;
   min-height: 553px;
 }
+
+@media screen and (max-width: 744px) and (min-width: 426px) {
+  .courses__card_size_big {
+    box-sizing: border-box;
+    border-radius: 50px;
+    max-width: calc(100% - 20px);
+  }
+}
+

@@ -2,20 +2,17 @@
   max-width: 730px;
   margin: 0 0 40px;
   padding: 0;
-  color: #000000;
-  font-weight: 500;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 22px;
   text-align: center;
-  font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 @media screen and (max-width: 767px) {
   .courses__code-text {
-    margin-bottom: 10px;
-    font-size: 16px;
-    line-height: 20px;
+    max-width: 594px;
   }
 }
 
+@media screen and (max-width: 425px) {
+  .courses__code-text {
+    margin-bottom: 10px;
+  }
+}

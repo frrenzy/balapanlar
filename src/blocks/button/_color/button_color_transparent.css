@@ -4,7 +4,7 @@
   border: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 425px) {
   .button_color_transparent {
     font-size: 16px;
     line-height: 20px;

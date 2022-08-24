@@ -13,5 +13,6 @@
   .courses__code-list {
     grid-template-columns: fit-content(595px);
     width: 100%;
+    justify-items: center;
   }
 }
