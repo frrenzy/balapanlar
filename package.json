@@ -40,7 +40,8 @@
     "webpack-dev-server": "^4.9.2"
   },
   "dependencies": {
-    "core-js": "^3.22.8"
+    "core-js": "^3.22.8",
+    "gsap": "^3.11.0"
   },
   "editorconfig-cli": [
     "*.json",
