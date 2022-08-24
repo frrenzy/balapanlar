@@ -4,6 +4,12 @@
   background-color: #ffffff;
 }
 
+@media screen and (max-width: 744px) {
+  .wrapper {
+    padding-top: 80px;
+  }
+}
+
 @media screen and (max-width: 468px) {
   .wrapper {
     padding-top: 30px;

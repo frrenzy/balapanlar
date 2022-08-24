@@ -5,16 +5,9 @@
   max-width: 1200px;
 }
 
-@media screen and (max-width: 768px) {
-  .about {
-    max-width: calc(100% - 170px);
-    padding-left: 20px;
-    scroll-margin-top: 16px;
-  }
-}
-
 @media screen and (max-width: 468px) {
   .about {
     max-width: 290px;
+    scroll-margin-top: 16px;
   }
 }

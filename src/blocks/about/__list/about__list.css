@@ -6,10 +6,9 @@
   margin: 0;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 744px){
   .about__list {
     flex-direction: column;
-    gap: 35px;
   }
 }
 
