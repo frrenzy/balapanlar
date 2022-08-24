@@ -11,7 +11,7 @@
   background-color: #d0ddff;
 }
 
-@media screen and (max-width: 868px) {
+@media screen and (max-width: 768px) {
   .courses__price {
     grid-template-areas:
       'title'
@@ -20,7 +20,17 @@
       'button';
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, max-content);
+    padding: 30px;
+    gap: 30px;
+    border-radius: 50px;
+    max-width: 594px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .courses__price {
     padding: 15px;
     gap: 20px;
+    border-radius: 30px;
   }
 }
