@@ -5,7 +5,7 @@
   font-weight: 600;
   font-size: 86px;
   font-style: normal;
-  line-height: 1.05;
+  line-height: 90px;
   letter-spacing: -1px;
   text-align: center;
   font-feature-settings: 'pnum' on, 'lnum' on;
@@ -50,7 +50,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
   .intro__headline {
     max-width: 92%;
     font-size: 36px;
