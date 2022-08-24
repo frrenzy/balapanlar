@@ -2,20 +2,20 @@
   display: block;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .logo__img {
     width: 100px;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .logo__img {
     width: 150px;
     height: 150px;
   }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .logo__img {
     width: 101px;
     height: 100px;

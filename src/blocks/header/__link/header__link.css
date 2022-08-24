@@ -14,7 +14,7 @@
   transition: all ease-in-out .3s;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .header__link {
     font-size: 30px;
     font-weight: 600;
@@ -24,7 +24,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .header__link {
     font-size: 18px;
     font-weight: 400;

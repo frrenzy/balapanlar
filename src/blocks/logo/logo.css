@@ -2,13 +2,13 @@
   padding: 10px 120px 10px 0;
 }
 
-@media (max-width: 1340px) {
+@media screen and (max-width: 1340px) {
   .logo {
     padding: 10px 0;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .logo {
     padding: 0;
   }
