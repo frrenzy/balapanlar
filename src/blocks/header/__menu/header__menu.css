@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 1024px) {
-    .header__menu {
+  .header__menu {
     flex-direction: column;
     gap: 15px;
     padding: 30px 0;

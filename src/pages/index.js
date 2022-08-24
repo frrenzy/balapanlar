@@ -10,6 +10,7 @@ const navigation = document.querySelector(".header__nav");
 
 burgerButton.addEventListener('click', () => {
   navigation.classList.toggle('header__nav_opened');
+  burgerButton.classList.toggle('header__nav_opened');
 });
 
 window.addEventListener('scroll', () => {

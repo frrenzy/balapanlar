@@ -1,11 +1,18 @@
 @media (max-width: 1024px) {
   .logo__mob {
     display: block;
-    margin-left: 20px;
     width: 192px;
     height: 36px;
+    margin-left: 20px;
     background-image: url('../../../images/logo-small.svg');
     background-repeat: no-repeat;
     background-size: contain;
+  }
+}
+
+@media (max-width: 425px) {
+  .logo__mob {
+    width: 101px;
+    height: 22px;
   }
 }
