@@ -2,13 +2,21 @@
   width: 100%;
   margin: 0 0 40px;
   padding: 0;
-  color: #000000;
+  color: #252525;
   font-weight: 600;
   font-size: 60px;
   font-style: normal;
   line-height: 68px;
   letter-spacing: -1px;
   font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+@media screen and (max-width: 744px) {
+  .about__title {
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 59px;
+  }
 }
 
 @media screen and (max-width: 468px) {

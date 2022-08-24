@@ -5,6 +5,12 @@
   max-width: 1200px;
 }
 
+@media screen and (max-width: 744px) {
+  .about {
+    max-width: 744px;
+  }
+}
+
 @media screen and (max-width: 468px) {
   .about {
     max-width: 290px;

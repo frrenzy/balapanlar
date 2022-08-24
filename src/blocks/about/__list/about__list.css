@@ -9,11 +9,7 @@
 @media screen and (max-width: 744px){
   .about__list {
     flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 468px){
-  .about__list {
     gap: 0;
   }
 }
+
