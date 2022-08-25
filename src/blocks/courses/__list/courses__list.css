@@ -4,3 +4,16 @@
   gap: 13px;
   margin: 12px 10px 0 0;
 }
+
+@media screen and (max-width: 768px) {
+  .courses__list {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .courses__list {
+    gap: 12px;
+    margin-right: 0;
+  }
+}
