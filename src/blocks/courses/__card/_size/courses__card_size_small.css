@@ -12,8 +12,8 @@
   .courses__card_size_small {
     width: calc(100% - 20px);
     min-width: 300px;
-    min-height: unset;
     max-width: 594px;
+    min-height: unset;
   }
 
   .courses__card_size_small:nth-child(3n+2) {

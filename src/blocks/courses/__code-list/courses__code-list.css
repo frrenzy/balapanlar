@@ -1,18 +1,18 @@
 .courses__code-list {
   display: grid;
+  grid-template-columns: fit-content(595px) fit-content(595px);
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
   width: calc(100% - 20px);
   margin: 0;
   padding: 0;
-  grid-template-columns: fit-content(595px) fit-content(595px);
 }
 
 @media screen and (max-width: 767px) {
   .courses__code-list {
     grid-template-columns: fit-content(595px);
-    width: 100%;
     justify-items: center;
+    width: 100%;
   }
 }

@@ -5,9 +5,9 @@
 
 @media screen and (max-width: 767px) {
   .courses__includes-title {
+    margin-bottom: 15px;
     font-size: 18px;
     line-height: 22px;
-    margin-bottom: 15x;
   }
 }
 
