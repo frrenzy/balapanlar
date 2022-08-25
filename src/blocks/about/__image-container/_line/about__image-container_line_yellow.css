@@ -1,16 +1,23 @@
 .about__image-container_line_yellow::before {
+  width: 111%;
+  height: 110%;
   background-image: url('../../../../images/yellow_line.svg');
+  background-position: 0 282px;
 }
 
 @media screen and (max-width: 744px) {
   .about__image-container_line_yellow::before {
-    background-image: url('../../../../images/yellow_line_tablet.svg');
+    width: 109%;
+    height: 98%;
+    background-position: -37px 236px;
   }
 }
 
 @media screen and (max-width: 468px) {
   .about__image-container_line_yellow::before {
-    background-image: url('../../../../images/yellow_line_mobile.svg');
+    width: 107%;
+    height: 108%;
+    background-position: -4px 122px;
   }
 }
 

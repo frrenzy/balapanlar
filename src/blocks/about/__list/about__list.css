@@ -1,7 +1,6 @@
 .about__list {
   display: flex;
   flex-direction: row;
-  gap: 10px;
   width: 100%;
   margin: 0;
 }
@@ -9,7 +8,6 @@
 @media screen and (max-width: 744px){
   .about__list {
     flex-direction: column;
-    gap: 0;
   }
 }
 

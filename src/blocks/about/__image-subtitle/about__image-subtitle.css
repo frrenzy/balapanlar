@@ -1,22 +1,19 @@
 .about__image-subtitle {
-  margin: 40px 0 39px 29px;
-  color: #000000;
+  margin: 39px 0 39px 32px;
   font-weight: 600;
   font-size: 24px;
-  font-style: normal;
   line-height: 29px;
   letter-spacing: -.5px;
   font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
-@media screen and (max-width: 7444px) {
+@media screen and (max-width: 744px) {
   .about__image-subtitle {
     width: 544px;
     margin-top: 40px;
     margin-left: 0;
     font-size: 24px;
     line-height: 29px;
-    letter-spacing: -.5px;
   }
 }
 
@@ -24,7 +21,7 @@
   .about__image-subtitle {
     width: 290px;
     margin-top: 0;
-    margin-bottom: 28px;
+    margin-bottom: 30px;
     font-size: 18px;
     line-height: 22px;
   }

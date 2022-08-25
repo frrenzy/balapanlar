@@ -1,16 +1,23 @@
 .about__image-container_line_orange::before {
+  width: 116%;
+  height: 84%;
   background-image: url('../../../../images/orange_line.svg');
+  background-position: 0 191px;
 }
 
 @media screen and (max-width: 744px) {
   .about__image-container_line_orange::before {
-    background-image: url('../../../../images/orange_line_tablet.svg');
+    width: 115%;
+    height: 84%;
+    background-position: -27px 202px;
   }
 }
 
 @media screen and (max-width: 468px) {
   .about__image-container_line_orange::before {
-    background-image: url('../../../../images/orange_line__mobile.svg');
+    width: 118%;
+    height: 88%;
+    background-position: -2px 102px;
   }
 }
 

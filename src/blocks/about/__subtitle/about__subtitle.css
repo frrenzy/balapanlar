@@ -1,7 +1,6 @@
 .about__subtitle {
   width: 915px;
   margin: 0 0 60px;
-  color: #252525;
   font-weight: 600;
   font-size: 36px;
   font-style: normal;
@@ -23,7 +22,7 @@
 @media screen and (max-width: 468px) {
   .about__subtitle {
     width: 290px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-size: 24px;
     line-height: 29px;
   }

@@ -3,7 +3,8 @@
   z-index: 1;
   display: flex;
   align-items: flex-end;
-  width: 595px;
+  width: 100%;
+  max-width: 595px;
   height: 524px;
   margin: 0;
   padding: 0;
@@ -17,19 +18,15 @@
   height: 100%;
   background-repeat: no-repeat;
   background-position: left bottom;
+  background-size: contain;
   content: '';
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 468px) {
   .about__image-container {
-    width: 507px;
-    height: 447px;
-  }
-}
-
-@media screen and (max-width: 744px) {
-  .about__image-container {
-    width: 594px;
-    height: 524px;
+    max-width: 289px;
+    max-height: 255px;
+    margin-bottom: 30px;
+    background-size: cover;
   }
 }

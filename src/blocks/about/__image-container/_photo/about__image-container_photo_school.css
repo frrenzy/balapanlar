@@ -2,10 +2,3 @@
   background-image: url('../../../../images/school.png');
 }
 
-@media screen and (max-width: 468px) {
-  .about__image-container_photo_school {
-    width: 290px;
-    height: 255px;
-    margin-bottom: 40px;
-  }
-}
