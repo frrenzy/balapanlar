@@ -3,7 +3,13 @@
   padding: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
+  .courses__skills {
+    margin-bottom: 13px;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .courses__skills {
     margin-bottom: 20px;
   }

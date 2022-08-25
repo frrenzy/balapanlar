@@ -5,12 +5,6 @@
   background-color: #ffffff;
 }
 
-@media screen and (max-width: 767px) {
-  .courses__card {
-    padding: 30px;
-  }
-}
-
 @media screen and (max-width: 425px) {
   .courses__card {
     padding: 15px;
