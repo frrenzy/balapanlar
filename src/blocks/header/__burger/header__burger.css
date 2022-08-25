@@ -3,25 +3,25 @@
   display: none;
   z-index: 5;
   width: 28px;
-  height: 9px;
+  height: 29px;
   margin: 0 77px 0 0;
 }
 
 .header__burger::before {
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   left: 0;
   width: 100%;
   border-radius: 2px;
   height: 1px;
   border: 1px solid #252525;
   background-color: #252525;
-  transition: all .5s ease-in-out;
+  transition: all .4s ease-in-out;
   content: '';
 }
 
 .header__burger::after {
-  top: 0;
+  top: 10px;
   position: absolute;
   left: 0;
   width: 100%;
@@ -29,7 +29,7 @@
   height: 1px;
   border: 1px solid #252525;
   background-color: #252525;
-  transition: all .5s ease-in-out;
+  transition: all .4s ease-in-out;
   content: '';
 }
 
