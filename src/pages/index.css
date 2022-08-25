@@ -37,8 +37,10 @@
 @import '../blocks/logo/logo.css';
 @import '../blocks/logo/__img/logo__img.css';
 @import '../blocks/logo/__mobile/logo__mobile.css';
+@import '../blocks/logo/__img/_scrolled/logo__img_scrolled.css';
 
 @import '../blocks/page/page.css';
+@import '../blocks/page/_scrolled/page_scrolled.css';
 
 @import '../blocks/intro/intro.css';
 @import '../blocks/intro/__headline/intro__headline.css';
@@ -118,3 +120,11 @@
 @import '../blocks/about/__features/about__features.css';
 @import '../blocks/about/__feature/about__feature.css';
 @import '../blocks/about/__geotag/about__geotag.css';
+@import '../blocks/principles/principles.css';
+@import '../blocks/principles/__heading/principles__heading.css';
+@import '../blocks/principles/__list/principles__list.css';
+@import '../blocks/principles/__item/principles__item.css';
+@import '../blocks/principles/__image/principles__image.css';
+@import '../blocks/principles/__image/_size/principles__image_size_m.css';
+@import '../blocks/principles/__text/principles__text.css';
+
