@@ -12,6 +12,8 @@
 <body class="page">
 
   <header class="header">
+    <a href="index.html" class="logo__mobile"></a>
+    <div class="header__burger" role="button"></div>
     <nav class="header__nav">
       <a href="index.html" class="logo">
         <img src="<%=require('./images/logo.svg')%>" alt="Логотип" class="logo__img">
@@ -34,7 +36,10 @@
         </li>
       </ul>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform"
-        class="button button_color_black button_size_s">Записаться на курсы</a>
+         class="button button_color_black button_size_s header__button"
+      >
+        Записаться на курсы
+      </a>
     </nav>
   </header>
 
