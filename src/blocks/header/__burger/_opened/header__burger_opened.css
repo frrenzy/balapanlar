@@ -4,8 +4,8 @@
 }
 
 .header__burger_opened::after {
-  transform: rotate(-45deg);
   top: 13px;
+  transform: rotate(-45deg);
 }
 
 @media screen and (max-width: 425px) {

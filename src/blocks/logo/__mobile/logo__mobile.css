@@ -1,12 +1,12 @@
 .logo__mobile {
+  display: none;
   width: 137px;
   height: 30px;
   margin: 0 0 0 75px;
   background-image: url('../../../images/logo-small.svg');
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: center center;
-  display: none;
+  background-size: contain;
 }
 
 @media screen and (max-width: 768px) {

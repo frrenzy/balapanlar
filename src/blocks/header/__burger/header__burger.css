@@ -1,7 +1,7 @@
 .header__burger {
   position: relative;
-  display: none;
   z-index: 5;
+  display: none;
   width: 28px;
   height: 29px;
   margin: 0 77px 0 0;
@@ -12,23 +12,23 @@
   bottom: 10px;
   left: 0;
   width: 100%;
-  border-radius: 2px;
   height: 1px;
-  border: 1px solid #252525;
   background-color: #252525;
+  border: 1px solid #252525;
+  border-radius: 2px;
   transition: all .4s ease-in-out;
   content: '';
 }
 
 .header__burger::after {
-  top: 10px;
   position: absolute;
+  top: 10px;
   left: 0;
   width: 100%;
-  border-radius: 2px;
   height: 1px;
-  border: 1px solid #252525;
   background-color: #252525;
+  border: 1px solid #252525;
+  border-radius: 2px;
   transition: all .4s ease-in-out;
   content: '';
 }

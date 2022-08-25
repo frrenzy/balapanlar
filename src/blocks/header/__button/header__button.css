@@ -1,13 +1,8 @@
 @media screen and (max-width: 768px) and (min-width: 425px) {
   .header__button {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
+    padding: 35px 45px;
     font-size: 28px;
     line-height: 34px;
-    text-align: center;
     letter-spacing: -.5px;
-    font-feature-settings: 'pnum' on, 'lnum' on;
-    padding: 35px 45px;
   }
 }

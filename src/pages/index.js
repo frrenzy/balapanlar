@@ -34,7 +34,7 @@ window.addEventListener('scroll', () => {
   }
 });
 
-document.querySelector('.header__nav').addEventListener('click', evt => {
+navigation.addEventListener('click', evt => {
   console.log(evt);
   if (evt.target.classList.contains('header__link')) {
     toggleBurger();

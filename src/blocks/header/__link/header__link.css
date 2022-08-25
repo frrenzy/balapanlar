@@ -16,11 +16,11 @@
 
 @media screen and (max-width: 768px) {
   .header__link {
+    display: block;
+    max-width: 290px;
+    font-weight: 600;
     font-size: 30px;
     line-height: 37px;
-    font-weight: 600;
-    max-width: 290px;
-    display: block;
     text-align: center;
   }
 }
@@ -33,8 +33,8 @@
 
 @media screen and (max-width: 425px) {
   .header__link {
+    font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    font-weight: 500;
   }
 }
