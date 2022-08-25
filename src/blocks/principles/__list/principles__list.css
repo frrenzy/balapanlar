@@ -1,0 +1,12 @@
+.principles__list {
+  display: flex;
+  width: 300vw;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .principles__list {
+    flex-direction: column;
+    gap: 60px;
+  }
+}

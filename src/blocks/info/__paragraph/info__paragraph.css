@@ -4,26 +4,27 @@
   font-weight: 600;
   font-size: 36px;
   font-style: normal;
-  line-height: 1.23;
+  line-height: 44px;
   letter-spacing: -1px;
   font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 768px) {
   .info__paragraph {
-    margin-left: 50px;
+    max-width: 80%;
+    margin-left: 75px;
     font-size: 30px;
-    line-height: 35px;
+    line-height: 37px;
+    letter-spacing: -.5px;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 425px) {
   .info__paragraph {
     min-width: 290px;
     margin-right: 15px;
     margin-left: 15px;
     font-size: 24px;
     line-height: 29px;
-    letter-spacing: -.5px;
   }
 }
