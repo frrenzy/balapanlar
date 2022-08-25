@@ -9,6 +9,13 @@
   padding-left: 20px;
 }
 
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .header__nav {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .header__nav {
     position: fixed;
@@ -20,8 +27,8 @@
     width: 100%;
     padding: 25px 0 76px;
     background-color: #ffffff;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
     transition: all .5s ease-in-out;
   }
 }
@@ -29,5 +36,7 @@
 @media screen and (max-width: 425px) {
   .header__nav {
     padding: 10px 0 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
   }
 }

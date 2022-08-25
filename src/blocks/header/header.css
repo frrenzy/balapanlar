@@ -11,12 +11,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    min-height: 80px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .header {
-    height: 42px;
+    min-height: 42px;
   }
 }
