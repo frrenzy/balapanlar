@@ -1,5 +1,5 @@
   .header__burger_opened::before {
-    bottom: 3px;
+    bottom: 6px;
     transform: rotate(45deg);
   }
 
