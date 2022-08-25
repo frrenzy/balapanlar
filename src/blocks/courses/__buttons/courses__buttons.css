@@ -13,5 +13,6 @@
 @media screen and (max-width: 425px) {
   .courses__buttons {
     flex-direction: column-reverse;
+    margin-top: 0;
   }
 }
