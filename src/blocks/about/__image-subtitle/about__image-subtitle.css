@@ -7,7 +7,7 @@
   font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
-@media screen and (max-width: 744px) {
+@media screen and (max-width: 768px) {
   .about__image-subtitle {
     width: 544px;
     margin-top: 40px;
@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 425px) {
   .about__image-subtitle {
     width: 290px;
     margin-top: 0;

@@ -6,7 +6,7 @@
   margin: 0 0 0 33px;
 }
 
-@media screen and (max-width: 744px) {
+@media screen and (max-width: 768px) {
   .about__features {
     margin-bottom: 80px;
     margin-left: 0;

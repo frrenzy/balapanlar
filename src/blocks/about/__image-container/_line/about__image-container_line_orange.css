@@ -5,7 +5,7 @@
   background-position: 0 191px;
 }
 
-@media screen and (max-width: 744px) {
+@media screen and (max-width: 768px) {
   .about__image-container_line_orange::before {
     width: 115%;
     height: 84%;
@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 425px) {
   .about__image-container_line_orange::before {
     width: 118%;
     height: 88%;
