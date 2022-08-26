@@ -1,7 +1,24 @@
 .courses__code {
+  box-sizing: border-box;
   width: 100%;
   margin: 0;
   padding: 0 0 10px;
   background-color: #ffd643;
   border-radius: 70px;
+}
+
+@media screen and (max-width: 767px) {
+  .courses__code {
+    max-width: 654px;
+    padding-bottom: 30px;
+    border-radius: 60px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .courses__code {
+    max-width: 654px;
+    padding: 0 10px 10px;
+    border-radius: 40px;
+  }
 }

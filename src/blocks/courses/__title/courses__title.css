@@ -9,3 +9,19 @@
   letter-spacing: -1px;
   font-feature-settings: 'pnum' on, 'lnum' on;
 }
+
+@media screen and (max-width: 768px) {
+  .courses__title {
+    margin: 0 0 40px 75px;
+    font-size: 48px;
+    line-height: 59px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .courses__title {
+    margin: 0 0 30px 15px;
+    font-size: 36px;
+    line-height: 44px;
+  }
+}

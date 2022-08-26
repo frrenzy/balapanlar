@@ -1,20 +1,29 @@
 .courses__card-text {
   min-height: min-content;
   max-height: 100%;
-  margin: 0 0 15px;
+  margin: 0 0 18px;
   padding: 0;
-  font-weight: 500;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 22px;
   text-overflow: ellipsis;
-  font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 .courses__skills .courses__card-text {
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.courses__card-text:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .courses__card-text {
+    margin-bottom: 15px;
+  }
+
+  .courses__card-text + .courses__skills {
+    margin-top: 15px;
+  }
 }

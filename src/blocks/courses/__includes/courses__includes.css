@@ -3,3 +3,8 @@
   margin: 48px 0 48px 29px;
 }
 
+@media screen and (max-width: 767px) {
+  .courses__includes {
+    margin: 0;
+  }
+}

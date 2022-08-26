@@ -1,7 +1,5 @@
 .tag {
   display: inline-block;
-  box-sizing: border-box;
-  min-height: 42px;
   padding: 9px;
   font-weight: 500;
   font-size: 18px;
@@ -14,7 +12,7 @@
   font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .tag {
     font-size: 16px;
     line-height: 20px;
