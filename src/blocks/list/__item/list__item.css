@@ -1,8 +1,6 @@
 .list__item {
   margin-left: -1px;
-  padding-top: 3px;
-  padding-right: 1px;
-  padding-left: 35px;
+  padding: 3px 1px 0 35px;
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 24px 24px;

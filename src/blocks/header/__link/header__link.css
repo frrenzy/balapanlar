@@ -1,11 +1,12 @@
 .header__link {
+  color: #252525;
   font-weight: 500;
   font-size: 18px;
   font-style: normal;
   line-height: 22px;
+  white-space: nowrap;
   text-decoration: none;
   cursor: pointer;
-  white-space: nowrap;
 }
 
 .header__link:hover {
@@ -26,8 +27,8 @@
     font-weight: 600;
     font-size: 30px;
     line-height: 37px;
-    text-align: center;
     white-space: normal;
+    text-align: center;
   }
 }
 

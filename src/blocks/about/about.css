@@ -5,15 +5,8 @@
   max-width: 1200px;
 }
 
-@media screen and (max-width: 768px) {
-  .about {
-    max-width: 744px;
-  }
-}
-
 @media screen and (max-width: 425px) {
   .about {
-    max-width: 290px;
     scroll-margin-top: 16px;
   }
 }

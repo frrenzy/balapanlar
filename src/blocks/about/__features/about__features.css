@@ -13,3 +13,10 @@
   }
 }
 
+@media screen and (max-width: 425px) {
+  .about__features {
+    max-width: 255px;
+    margin-bottom: 60px;
+  }
+}
+

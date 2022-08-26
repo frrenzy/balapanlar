@@ -8,6 +8,7 @@
   height: 524px;
   margin: 0;
   padding: 0;
+  overflow: hidden;
   background-size: cover;
 }
 
@@ -22,11 +23,18 @@
   content: '';
 }
 
+@media screen and (max-width: 768px) {
+  .about__image-container {
+    border-radius: 50px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .about__image-container {
     max-width: 289px;
     max-height: 255px;
     margin-bottom: 30px;
     background-size: cover;
+    border-radius: 30px;
   }
 }
