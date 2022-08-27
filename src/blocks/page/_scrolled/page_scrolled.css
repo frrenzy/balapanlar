@@ -1,3 +1,9 @@
 .page_scrolled {
   background: linear-gradient(180deg, #ffffff 140px, #eaf0ff 0);
 }
+
+@media screen and (max-width: 768px) {
+  .page_scrolled {
+    background: linear-gradient(180deg, #ffffff calc(100vw / (248 / 351) + 80px), #eaf0ff 0);
+  }
+}
