@@ -1,8 +1,9 @@
 .principles {
   align-self: flex-start;
-  width: 100vw;
-  height: 1000px;
-  max-height: calc(100vh - 80px);
+  width: 300%;
+  /* height: 1000px; */
+  /* max-height: calc(100vh - 80px); */
+  height: 100vh;
   overflow: hidden;
   background-color: #ae46ff;
 }
