@@ -1,0 +1,24 @@
+.logo__mobile {
+  display: none;
+  width: 137px;
+  height: 30px;
+  margin: 0 0 0 75px;
+  background-image: url('../../../images/logo-small.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .logo__mobile {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .logo__mobile {
+    width: 101px;
+    height: 22px;
+    margin-left: 15px;
+  }
+}

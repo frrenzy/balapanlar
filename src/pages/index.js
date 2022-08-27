@@ -15,16 +15,36 @@ const coursePopup = new PopupTypeCourse('.popup_type_course');
 const partnerPopup = new PopupTypePartner('.popup_type_partner');
 const logo = document.querySelector('.logo__img');
 const page = document.querySelector('.page');
+const burgerButton = document.querySelector('.header__burger');
+const navigation = document.querySelector('.header__nav');
+
+const toggleBurger = () => {
+  navigation.classList.toggle('header__nav_opened');
+  burgerButton.classList.toggle('header__burger_opened');
+}
+
+burgerButton.addEventListener('click', () => {
+  toggleBurger();
+});
 
 window.addEventListener('scroll', () => {
-  if (window.scrollY > 0) {
-    logo.classList.add('logo__img_scrolled');
-    page.classList.add('page_scrolled');
-    logo.src = logoScroll;
-  } else {
-    logo.src = logoBig;
-    page.classList.remove('page_scrolled');
-    logo.classList.remove('logo__img_scrolled');
+  if (window.matchMedia('(min-width: 769px)').matches) {
+    if (window.scrollY > 0) {
+      logo.classList.add('logo__img_scrolled');
+      page.classList.add('page_scrolled');
+      logo.src = logoScroll;
+    } else {
+      logo.src = logoBig;
+      page.classList.remove('page_scrolled');
+      logo.classList.remove('logo__img_scrolled');
+    }
+  }
+});
+
+navigation.addEventListener('click', evt => {
+  console.log(evt);
+  if (evt.target.classList.contains('header__link')) {
+    toggleBurger();
   }
 });
 
