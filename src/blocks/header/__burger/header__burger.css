@@ -33,7 +33,7 @@
   content: '';
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1110px) {
   .header__burger {
     display: block;
   }

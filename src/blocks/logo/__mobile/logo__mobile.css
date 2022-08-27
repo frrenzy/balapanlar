@@ -1,6 +1,6 @@
 .logo__mobile {
   display: none;
-  width: 137px;
+  width: 165px;
   height: 30px;
   margin: 0 0 0 75px;
   background-image: url('../../../images/logo-small.svg');
@@ -9,7 +9,7 @@
   background-size: contain;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1110px) {
   .logo__mobile {
     display: block;
   }
