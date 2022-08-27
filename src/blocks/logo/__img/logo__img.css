@@ -1,11 +1,14 @@
 .logo__img {
   display: block;
   transition: all .5s ease;
+  width: 101px;
+  height: 100px;
 }
 
 @media screen and (max-width: 1024px) {
   .logo__img {
     width: 80px;
+    height: 79px;
   }
 }
 
