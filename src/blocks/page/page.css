@@ -3,9 +3,9 @@
   width: 100%;
   margin: 0;
   padding: 0;
+  color: #252525;
   font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
   background: linear-gradient(180deg, #ffffff 180px, #eaf0ff 0);
-  color: #252525;
 }
 
 @media screen and (max-width: 768px) {

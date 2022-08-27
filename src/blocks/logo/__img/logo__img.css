@@ -1,8 +1,8 @@
 .logo__img {
   display: block;
-  transition: all .5s ease;
   width: 101px;
   height: 100px;
+  transition: all .5s ease;
 }
 
 @media screen and (max-width: 1110px) {
