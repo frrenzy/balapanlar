@@ -17,6 +17,8 @@ const logo = document.querySelector('.logo__img');
 const page = document.querySelector('.page');
 const burgerButton = document.querySelector('.header__burger');
 const navigation = document.querySelector('.header__nav');
+const courseDetailsButtons = Array.from(document.querySelectorAll('.courses__view-details'));
+const partnersButtons = Array.from(document.querySelectorAll('.partners__button'));
 
 const toggleBurger = () => {
   navigation.classList.toggle('header__nav_opened');
@@ -48,14 +50,14 @@ navigation.addEventListener('click', evt => {
   }
 });
 
-window.addEventListener('click', (evt) => {
-  if (!evt.target.hasAttribute('data-course-id')) return;
-  coursePopup.open(evt.target.dataset.courseId);
+courseDetailsButtons.forEach(button => {
+  button.addEventListener('click', (evt) => {
+    coursePopup.open(evt.target.dataset.courseId);
+  });
 });
 
-document.querySelectorAll('.partners__button').forEach(button => {
+partnersButtons.forEach(button => {
   button.addEventListener('click', (evt) => {
-    if (!evt.currentTarget.hasAttribute('data-partner-id')) return;
     partnerPopup.open(evt.currentTarget.dataset.partnerId);
   });
 });

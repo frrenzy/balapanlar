@@ -111,7 +111,7 @@
               <a href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform"
                 class="button button_color_black button_size_m">Записаться</a>
               <button type="button" 
-                      class="button button_color_transparent button_size_m" 
+                      class="button button_color_transparent button_size_m courses__view-details" 
                       data-course-id="1"
               >
                 Смотреть все навыки
@@ -433,7 +433,7 @@
     </div>
   </div>
 
-  <template id="course-id-1" data-link="https://practicum.yandex.ru/">
+  <template id="course-id-1" data-link="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform">
     <div class="popup__content">
       <h2 class="popup__title">3D технологии</h2>
       <ul class="courses__spec-list list">
@@ -468,55 +468,36 @@
         <li class="courses__skills-item">Автоматизировать работу с графическими файлами</li>
         <li class="courses__skills-item">Работать в команде и создавать проекты от идеи до их публичной презентации</li>
       </ul>
-      <div class="popup__buttons">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform"
-          class="button button_size_m button_color_black">Записаться</a>
-        <button type="button" class="button button_size_m button_color_transparent popup__close">Закрыть</button>
-      </div>
     </div>
   </template>
 
   <template id="partner-id-1" data-link="https://lewibo.org/ru">
     <div class="popup__content">
       <figure class="popup__figure rounded">
-        <img class="popup__img"
-             src="<%=require('./images/partners/himbio.png')%>"
-             alt="Логотип компании ХимБио"
-        ><!-- тут же горизонты пук -->
+        <img class="popup__img" src="<%=require('./images/partners/lecture.png')%>" alt="Логотип компании «Лекторы без границ»">
       </figure>
-      <p class="popup__text">Фонд работает в 45 регионах и с осени 2021 мы их единственные партнёры
-        в Карачаево-Черкесии.</p>
-      <p class="popup__text">
-        Совместно проводим программу профориентации «Поколение Выбор». В 2021–2022 в ней приняли участие 35
-        подростков из 2 школ аула Икон-Халк и посёлка Эркен-Шахар. В сезоне 2022–2023 планируются ещё две школы.
-      </p>
-      <div class="popup__buttons">
-        <a href="https://himbio4you.ru/" class="button button_size_m button_color_black">Сайт партнёра</a>
-        <!-- тут же горизонты пук -->
-      </figure>
-      </div>
+      <p class="popup__text">Лекторы без границ - это некоммерческая неправительственная организация, целью которой является организация научных лекций в школах по всему миру. </p>
+      <p class="popup__text">Лекции могут проходить онлайн или офлайн, на любом языке, которым свободно владеет ученый. Все наши лекции бесплатны, а ученые, участвующие в проекте, - добровольные волонтеры.</p>
     </div>
   </template>
-
 
   <template id="partner-id-2" data-link="https://xn----7sbfgufj4abfcqfum7kl6d.xn--p1ai/">
     <div class="popup__content">
       <figure class="popup__figure rounded">
-        <img class="popup__img" src="<%=require('./images/partners/horizons.png')%>" alt="Логотип компании «ХимБио»">
+        <img class="popup__img" src="<%=require('./images/partners/horizons.png')%>" alt="Логотип компании «Открывая горизонты»">
       </figure>
-      <p class="popup__text">Миссия фонда – открыть горизонты для подрастающего поколения, помочь молодежи успешно начать взрослую жизнь.</p>
-      <p class="popup__text">Мы хотим помочь ребенку стать успешным членом общества, покорить самые высокие вершины, найти «семью» в трудовом коллективе. Как и дети, которые выросли в обычных семьях, они – будущие врачи, ученые, менеджеры и инженеры. Возможно, они просто еще об этом не знают.​</p>
+      <p class="popup__text">Фонд работает в 45 регионах и с осени 2021 мы их единственные партнёры в Карачаево-Черкесии.</p>
+      <p class="popup__text">Совместно проводим программу профориентации «Поколение Выбор». В 2021–2022 в ней приняли участие 35 подростков из 2 школ аула Икон-Халк и посёлка Эркен-Шахар. В сезоне 2022–2023 планируются ещё две школы.​</p>
     </div>
   </template>
 
-
-  <template id="partner-id-3" data-link="https://himbio.ru/">
+  <template id="partner-id-3" data-link="https://himbio4you.ru/">
     <div class="popup__content">
       <figure class="popup__figure rounded">
         <img class="popup__img" src="<%=require('./images/partners/himbio.png')%>" alt="Логотип компании «ХимБио»">
       </figure>
-      <p class="popup__text">Компания «ХимБио» является проверенным и надежным поставщиком оборудования для химических лабораторий от ведущих мировых производителей.</p>
-      <p class="popup__text">Лабораторное оборудование, не уступающее по качеству мировым аналогам, зарекомендовало себя Европейском, Американском и Азиатском рынках. Оно позволяет проводить научные, учебные и производственные изыскания высокого уровня</p>
+      <p class="popup__text">Онлайн-школа ХимБио для детей и их родителей – это невероятный мир, где каждый день дарит новые открытия не только о природе, но и о нас самих.</p>
+      <p class="popup__text">В ХимБио к нам приходят ученики с самыми разными целями. Для многих из них нужна индивидуальная программа занятий. Наши тьюторы составляют персональную программу занятий бесплатно. Идти по ней вместе с нами или самостоятельно, решать вам.</p>
     </div>
   </template>
 
