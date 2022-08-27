@@ -43,12 +43,18 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 400px) {
+  .intro {
+    aspect-ratio: 4 / 9;
+  }
+}
+
+@media screen and (max-width: 330px) {
   .intro {
     grid-template-rows: 244px 52px 1fr;
-    background-position: 59% -30%;
+    background-position: 59% -25%;
     background-size: 306%;
     border-radius: 40px;
-    aspect-ratio: 32 / 77;
+    aspect-ratio: 2 / 5;
   }
 }

@@ -34,15 +34,13 @@
 
 @media screen and (max-width: 500px) {
   .intro__bar {
-    position: relative;
-    bottom: 0;
-    grid-template-rows: 48px 1fr 52px;
-    grid-template-columns: auto;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     width: 100%;
     max-width: 100%;
     margin: 0;
-    padding: 50px 0 0 0;
+    padding: 30px;
     border-radius: 40px;
   }
 }
