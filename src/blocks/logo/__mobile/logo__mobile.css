@@ -9,7 +9,7 @@
   background-size: contain;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1110px) {
   .logo__mobile {
     display: block;
   }

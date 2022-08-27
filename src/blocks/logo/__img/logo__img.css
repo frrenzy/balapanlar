@@ -5,14 +5,7 @@
   height: 100px;
 }
 
-@media screen and (max-width: 1024px) {
-  .logo__img {
-    width: 80px;
-    height: 79px;
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1110px) {
   .logo__img {
     width: 150px;
     height: 150px;

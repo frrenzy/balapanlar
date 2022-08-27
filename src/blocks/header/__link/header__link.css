@@ -15,13 +15,7 @@
   transition: all ease-in-out .3s;
 }
 
-@media screen and (max-width: 1024px) {
-  .header__link {
-    font-size: 15px;
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1110px) {
   .header__link {
     display: block;
     max-width: 290px;
@@ -33,7 +27,7 @@
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 425px) {
+@media screen and (max-width: 1110px) and (min-width: 425px) {
   .header__link {
     letter-spacing: -.5px;
   }

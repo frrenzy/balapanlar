@@ -3,3 +3,9 @@
   height: 31px;
   width: 177px;
 }
+
+@media screen and (max-width: 1200px) and (min-width: 1110px) {
+  .logo__img_scrolled {
+    width: 115px;
+  }
+}
