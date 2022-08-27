@@ -1,15 +1,24 @@
 import './index.css';
 
+
+import { PopupTypeCourse } from '../components/PopupTypeCourse';
+import { PopupTypePartner } from '../components/PopupTypePartner';
+
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
+
 
 import logoBig from '../images/logo.svg';
 import logoScroll from '../images/logo-small.svg';
 
+const coursePopup = new PopupTypeCourse('.popup_type_course');
+const partnerPopup = new PopupTypePartner('.popup_type_partner');
 const logo = document.querySelector('.logo__img');
 const page = document.querySelector('.page');
 const burgerButton = document.querySelector('.header__burger');
 const navigation = document.querySelector('.header__nav');
+const courseDetailsButtons = Array.from(document.querySelectorAll('.courses__view-details'));
+const partnersButtons = Array.from(document.querySelectorAll('.partners__button'));
 
 const toggleBurger = () => {
   navigation.classList.toggle('header__nav_opened');
@@ -39,6 +48,18 @@ navigation.addEventListener('click', evt => {
   if (evt.target.classList.contains('header__link')) {
     toggleBurger();
   }
+});
+
+courseDetailsButtons.forEach(button => {
+  button.addEventListener('click', (evt) => {
+    coursePopup.open(evt.target.dataset.courseId);
+  });
+});
+
+partnersButtons.forEach(button => {
+  button.addEventListener('click', (evt) => {
+    partnerPopup.open(evt.currentTarget.dataset.partnerId);
+  });
 });
 
 gsap.registerPlugin(ScrollTrigger);

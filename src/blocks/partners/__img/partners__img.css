@@ -1,0 +1,12 @@
+.partners__img {
+  width: 60%;
+  max-width: 210px;
+  max-height: 150px;
+  padding: 50px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .partners__img {
+    width: 80%;
+  }
+}

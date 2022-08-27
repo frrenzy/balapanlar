@@ -1,0 +1,18 @@
+.partners__list {
+  display: grid;
+  grid-auto-rows: 200px;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 10px;
+  max-width: 885px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .partners__list {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 235px;
+    grid-gap: unset;
+    border: 2px solid #eaf0ff;
+  }
+}
