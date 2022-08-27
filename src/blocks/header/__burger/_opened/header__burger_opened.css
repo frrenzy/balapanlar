@@ -1,0 +1,21 @@
+.header__burger_opened::before {
+  bottom: 13px;
+  transform: rotate(45deg);
+}
+
+.header__burger_opened::after {
+  top: 13px;
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 425px) {
+  .header__burger_opened::before {
+    bottom: 15px;
+    left: 5px;
+  }
+
+  .header__burger_opened::after {
+    top: 11px;
+    left: 5px;
+  }
+}
