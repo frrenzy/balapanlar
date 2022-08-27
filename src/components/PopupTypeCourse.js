@@ -12,14 +12,14 @@ export class PopupTypeCourse extends Popup {
       .querySelector('.popup__content')
       .cloneNode(true);
     
-    this._element.querySelector('.popup__buttons a').setAttribute('href', document.querySelector(`#course-id-${id}`).dataset.link);
+    this._element.querySelector('.popup__link').setAttribute('href', document.querySelector(`#course-id-${id}`).dataset.link);
 
     return courseContent;
   }
 
   open(courseId) {
     super.open();
-    let courseContent = this._getCourseContent(courseId);
+    const courseContent = this._getCourseContent(courseId);
     this._element.querySelector('.popup__container').prepend(courseContent);
   }
 
@@ -27,7 +27,7 @@ export class PopupTypeCourse extends Popup {
     super.close();
     setTimeout(() => {
       this._element.querySelector('.popup__content').remove();
-      this._element.querySelector('.popup__buttons a').setAttribute('href', '');
+      this._element.querySelector('.popup__link').setAttribute('href', '');
     }, 250);
   }
 }

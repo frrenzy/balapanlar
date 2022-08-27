@@ -12,14 +12,14 @@ export class PopupTypePartner extends Popup {
       .querySelector('.popup__content')
       .cloneNode(true);
     
-    this._element.querySelector('.popup__buttons a').setAttribute('href', document.querySelector(`#partner-id-${id}`).dataset.link);
+    this._element.querySelector('.popup__link').setAttribute('href', document.querySelector(`#partner-id-${id}`).dataset.link);
 
     return partnerContent;
   }
 
   open(partnerId) {
     super.open();
-    let partnerContent = this._getPartnerContent(partnerId);
+    const partnerContent = this._getPartnerContent(partnerId);
     this._element.querySelector('.popup__container').prepend(partnerContent);
   }
 
@@ -27,7 +27,7 @@ export class PopupTypePartner extends Popup {
     super.close();
     setTimeout(() => {
       this._element.querySelector('.popup__content').remove();
-      this._element.querySelector('.popup__buttons a').setAttribute('href', '');
+      this._element.querySelector('.popup__link').setAttribute('href', '');
     }, 250);
   }
 }
