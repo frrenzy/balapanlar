@@ -17,7 +17,7 @@
   display: inline-block;
   width: 30px;
   height: 30px;
-  background-image: url('../../../images/check_mark.svg');
+  background-image: url('../../../images/icons/check_mark.svg');
   background-repeat: no-repeat;
   content: '';
 }
