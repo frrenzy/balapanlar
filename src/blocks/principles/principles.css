@@ -1,17 +1,31 @@
 .principles {
   align-self: flex-start;
   width: 300%;
-  /* height: 1000px; */
-  /* max-height: calc(100vh - 80px); */
   height: 100vh;
   overflow: hidden;
   background-color: #ae46ff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-height: 1200px) {
   .principles {
-    height: unset;
-    max-height: unset;
-    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
+
+@media screen and (max-width: 770px) {
+  .principles {
+    width: 100%;
+    height: unset;
+    max-height: unset;
+    border-radius: 50px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .principles {
+    border-radius: 30px;
+  }
+}
+

@@ -1,4 +1,6 @@
 .button_color_black {
+  width: max-content;
+  height: min-content;
   background-color: #252525;
 }
 

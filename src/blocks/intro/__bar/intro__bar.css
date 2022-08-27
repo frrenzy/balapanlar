@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   align-self: flex-end;
-  width: 84%;
+  width: 83.4%;
   margin: 0 auto 10px;
   padding-right: 5px;
   background-color: #ae46ff;
@@ -12,19 +12,35 @@
 
 @media screen and (max-width: 1050px) {
   .intro__bar {
-    width: 95%;
+    max-width: 95%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro__bar {
-    grid-template-columns: 40px 1fr 166px;
-    padding-right: 3px;
+    grid-template-columns: 37px 1fr 152px;
+    max-width: 79.8%;
+    padding: 15px 20px;
+    border-radius: 50px;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 550px) {
   .intro__bar {
-    display: none;
+    width: 95%;
+    max-width: 95%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro__bar {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 30px;
+    border-radius: 40px;
   }
 }
