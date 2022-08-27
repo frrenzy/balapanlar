@@ -1,5 +1,5 @@
 .about__subtitle {
-  width: 915px;
+  max-width: 915px;
   margin: 0 0 60px;
   font-weight: 600;
   font-size: 36px;

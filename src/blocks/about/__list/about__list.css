@@ -5,6 +5,12 @@
   margin: 0;
 }
 
+@media screen and (max-width: 1439px){
+  .about__list {
+    gap: 10px;
+  }
+}
+
 @media screen and (max-width: 768px){
   .about__list {
     flex-direction: column;

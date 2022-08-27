@@ -5,11 +5,11 @@
   align-items: flex-end;
   width: 100%;
   max-width: 595px;
-  height: 524px;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-size: cover;
+  aspect-ratio: 8/7;
 }
 
 .about__image-container::before {
@@ -17,6 +17,7 @@
   z-index: -1;
   width: 100%;
   height: 100%;
+  overflow: hidden;
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: contain;

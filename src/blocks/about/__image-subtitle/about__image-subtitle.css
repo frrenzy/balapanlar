@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 768px) {
   .about__image-subtitle {
-    width: 544px;
+    max-width: 544px;
     margin-top: 40px;
     margin-left: 0;
     font-size: 24px;
@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 425px) {
   .about__image-subtitle {
-    width: 290px;
+    max-width: 290px;
     margin-top: 0;
     margin-bottom: 30px;
     font-size: 18px;
