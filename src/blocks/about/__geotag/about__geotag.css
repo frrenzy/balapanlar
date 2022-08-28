@@ -1,6 +1,6 @@
 .about__geotag {
   max-width: 100%;
-  margin: 0 0 12px 32px;
+  margin: 0 0 12px 30px;
   padding: 0 0 0 35px;
   background-image: url('../../../images/geo_tag.svg');
   background-repeat: no-repeat;
@@ -9,7 +9,6 @@
 
 @media screen and (max-width: 768px) {
   .about__geotag {
-    width: calc(100% - 35px);
     margin-bottom: 11px;
     margin-left: -1px;
     padding-top: 1px;
@@ -18,8 +17,7 @@
 
 @media screen and (max-width: 425px) {
   .about__geotag {
-    max-width: 210px;
-    margin-bottom: 9px;
+    margin-bottom: 12px;
     margin-left: 1px;
     padding-top: 0;
     padding-left: 34px;

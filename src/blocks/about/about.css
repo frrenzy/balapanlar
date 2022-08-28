@@ -2,11 +2,17 @@
   scroll-margin-top: 120px;
   align-items: flex-start;
   width: 100%;
-  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    scroll-margin-top: 100px;
+  }
 }
 
 @media screen and (max-width: 425px) {
   .about {
-    scroll-margin-top: 30px;
+    scroll-margin-top: 72px;
   }
 }

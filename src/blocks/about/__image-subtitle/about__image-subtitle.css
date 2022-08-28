@@ -1,26 +1,28 @@
 .about__image-subtitle {
-  margin: 39px 0 39px 32px;
+  margin: 0 0 40px;
+  padding: 0 30px 0;
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
+  width: 100%;
+  box-sizing: border-box;
   letter-spacing: -.5px;
   font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
+.about__image-container_line_orange + .about__image-subtitle {
+  padding-right: 0;
+}
+
 @media screen and (max-width: 768px) {
   .about__image-subtitle {
-    max-width: 544px;
-    margin-top: 40px;
-    margin-left: 0;
-    font-size: 24px;
-    line-height: 29px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
 @media screen and (max-width: 425px) {
   .about__image-subtitle {
-    max-width: 290px;
-    margin-top: 0;
     margin-bottom: 30px;
     font-size: 18px;
     line-height: 22px;

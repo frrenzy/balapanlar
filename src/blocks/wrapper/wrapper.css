@@ -1,13 +1,20 @@
 .wrapper {
   width: 100%;
   max-width: 1440px;
-  padding: 120px 122px 0;
+  padding: 120px 120px 0;
   background-color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .wrapper {
-    padding: 80px 75px 0;
+    padding-top: 80px;
   }
 }
 

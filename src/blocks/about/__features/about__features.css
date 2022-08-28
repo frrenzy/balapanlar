@@ -1,23 +1,13 @@
 .about__features {
   align-items: flex-start;
   gap: 13px;
-  max-width: 100%;
   margin: 0 0 0 33px;
-  padding-top: 2px;
+  padding: 2px 0 0;
 }
 
 @media screen and (max-width: 768px) {
   .about__features {
-    margin-bottom: 80px;
     margin-left: 0;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .about__features {
-    justify-content: center;
-    max-width: 255px;
-    margin-bottom: 60px;
   }
 }
 

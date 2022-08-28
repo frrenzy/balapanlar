@@ -1,22 +1,5 @@
 .about__image-container_line_yellow::before {
-  width: 111%;
-  height: 110%;
+  background-size: 77% 56%;
   background-image: url('../../../../images/yellow_line.svg');
-  background-position: 0 282px;
 }
 
-@media screen and (max-width: 768px) {
-  .about__image-container_line_yellow::before {
-    width: 109%;
-    height: 98%;
-    background-position: -37px 236px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .about__image-container_line_yellow::before {
-    width: 107%;
-    height: 108%;
-    background-position: -4px 122px;
-  }
-}
