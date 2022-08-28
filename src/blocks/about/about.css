@@ -1,6 +1,18 @@
 .about {
-  scroll-margin-top: 120px;
   align-items: flex-start;
+  box-sizing: border-box;
   width: 100%;
-  max-width: 1200px;
+  scroll-margin-top: 120px;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    scroll-margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .about {
+    scroll-margin-top: 72px;
+  }
 }

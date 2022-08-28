@@ -1,11 +1,28 @@
 .about__subtitle {
-  width: 915px;
+  width: 100%;
+  max-width: 915px;
   margin: 0 0 60px;
-  color: #000000;
   font-weight: 600;
   font-size: 36px;
   font-style: normal;
   line-height: 44px;
   letter-spacing: -1px;
   font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+@media screen and (max-width: 768px) {
+  .about__subtitle {
+    margin-bottom: 80px;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -.5px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .about__subtitle {
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 29px;
+  }
 }

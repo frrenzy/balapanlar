@@ -4,12 +4,16 @@
 
 @media screen and (min-width: 768px) {
   .popup_type_course .courses__spec-list {
-    display: flex;
     align-items: center;
     gap: 10px 32px;
+    flex-direction: row;
   }
 
   .popup_type_course .courses__spec {
     margin: 0;
   }
+}
+
+.popup_type_course .popup__buttons {
+  justify-content: flex-start;
 }

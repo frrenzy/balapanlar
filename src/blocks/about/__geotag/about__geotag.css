@@ -1,9 +1,25 @@
 .about__geotag {
-  width: 100%;
-  margin: 0 0 13px 27px;
-  padding-top: 1px;
-  padding-left: 36px;
+  max-width: 100%;
+  margin: 0 0 12px 30px;
+  padding: 0 0 0 35px;
   background-image: url('../../../images/icons/geo_tag.svg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 22px 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .about__geotag {
+    margin-bottom: 11px;
+    margin-left: -1px;
+    padding-top: 1px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .about__geotag {
+    margin-bottom: 12px;
+    margin-left: 1px;
+    padding-top: 0;
+    padding-left: 34px;
+  }
 }

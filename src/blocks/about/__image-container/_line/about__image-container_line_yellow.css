@@ -1,3 +1,5 @@
 .about__image-container_line_yellow::before {
   background-image: url('../../../../images/graphics/yellow_line.svg');
+  background-size: 77% 56%;
 }
+

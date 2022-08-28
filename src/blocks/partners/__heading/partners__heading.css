@@ -8,17 +8,19 @@
   letter-spacing: -.5px;
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 425px) {
   .partners__heading {
+    padding-bottom: 80px;
+    font-size: 30px;
+    line-height: 37px;
     text-align: center;
   }
 }
 
 @media screen and (min-width: 768px) {
   .partners__heading {
-    padding-bottom: 80px;
     font-size: 36px;
-    line-height: 46px;
+    line-height: 44px;
     letter-spacing: -1px;
   }
 }
