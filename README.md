@@ -34,7 +34,7 @@
 
 ### Создатели
 - [Иван Сизов](https://github.com/frrenzy)
-- [Анастасия ](https://github.com/anastasiian3)
+- [Анастасия Назинцева](https://github.com/anastasiian3)
 - [Иван Фонин](https://github.com/ivanfonin)
 - [Кирилл Камратов](https://github.com/kirillkamratov)
 - [Николай Бровкин](https://github.com/bronik04)
