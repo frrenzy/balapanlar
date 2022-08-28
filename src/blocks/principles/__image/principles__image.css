@@ -1,13 +1,30 @@
 .principles__image {
-  width: 420px;
   height: 420px;
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .principles__image {
+    height: 47%;
+  }
+}
+
+@media screen and (max-height: 850px) {
+  .principles__image {
+    height: 55%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-height: 770px) {
+  .principles__image {
+    height: 45%;
+  }
 }
 
 @media screen and (max-width: 615px) {
   .principles__image {
     width: 230px;
-    height: 230px;
     margin-bottom: 30px;
   }
 }
