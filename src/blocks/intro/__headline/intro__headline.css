@@ -5,7 +5,7 @@
   font-weight: 600;
   font-size: 86px;
   font-style: normal;
-  line-height: 1.05;
+  line-height: 90px;
   letter-spacing: -1px;
   text-align: center;
   font-feature-settings: 'pnum' on, 'lnum' on;
@@ -22,23 +22,37 @@
 
 @media screen and (max-width: 900px) {
   .intro__headline {
-    margin-bottom: 30px;
-    font-size: 56px;
-    line-height: 67px;
+    margin-bottom: 80px;
+    font-size: 64px;
+    line-height: 78px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__headline {
+    max-width: 77%;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .intro__headline {
+    font-size: 52px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .intro__headline {
-    margin-top: 74px;
+    margin-top: 80px;
     margin-bottom: 30px;
     font-size: 45px;
     line-height: 56px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
   .intro__headline {
+    max-width: 92%;
     font-size: 36px;
     line-height: 44px;
   }
