@@ -1,5 +1,6 @@
 import Popup from './Popup';
 
+
 export default class PopupTypePartner extends Popup {
   constructor(selector) {
     super(selector);
