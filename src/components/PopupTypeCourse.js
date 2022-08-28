@@ -1,17 +1,17 @@
-import { Popup } from './Popup';
+import Popup from './Popup';
 
-export class PopupTypeCourse extends Popup {
+export default class PopupTypeCourse extends Popup {
   constructor(selector) {
     super(selector);
   }
 
-  _getCourseContent(id) {
+  #getCourseContent(id) {
     const courseContent = document
       .querySelector(`#course-id-${id}`)
       .content
       .querySelector('.popup__content')
       .cloneNode(true);
-    
+
     this._element.querySelector('.popup__link').setAttribute('href', document.querySelector(`#course-id-${id}`).dataset.link);
 
     return courseContent;
@@ -19,7 +19,7 @@ export class PopupTypeCourse extends Popup {
 
   open(courseId) {
     super.open();
-    const courseContent = this._getCourseContent(courseId);
+    const courseContent = this.#getCourseContent(courseId);
     this._element.querySelector('.popup__container').prepend(courseContent);
   }
 

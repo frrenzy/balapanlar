@@ -1,15 +1,15 @@
-export class Popup {
+export default class Popup {
   constructor(selector) {
     this._element = document.querySelector(selector);
   }
 
-  _handleCloseByEscape = (evt) => {
+  #handleCloseByEscape = (evt) => {
     if (evt.key === 'Escape') {
       this.close();
     }
   }
 
-  _handleClosePopupClick = (evt) => {
+  #handleClosePopupClick = (evt) => {
     if (evt.target.classList.contains('popup_opened')) {
       this.close();
     }
@@ -18,25 +18,25 @@ export class Popup {
     }
   }
 
-  _setEventListeners() {
-    document.addEventListener('keydown', this._handleCloseByEscape);
-    this._element.addEventListener('mousedown', this._handleClosePopupClick);
+  #setEventListeners() {
+    document.addEventListener('keydown', this.#handleCloseByEscape);
+    this._element.addEventListener('mousedown', this.#handleClosePopupClick);
   }
 
-  _removeEventListeners() {
-    document.removeEventListener('keydown', this._handleCloseByEscape);
-    this._element.removeEventListener('mousedown', this._handleClosePopupClick);
+  #removeEventListeners() {
+    document.removeEventListener('keydown', this.#handleCloseByEscape);
+    this._element.removeEventListener('mousedown', this.#handleClosePopupClick);
   }
 
   open() {
     this._element.classList.add('popup_opened');
     this._element.setAttribute('aria-hidden', false);
-    this._setEventListeners();
+    this.#setEventListeners();
   }
 
   close() {
     this._element.classList.remove('popup_opened');
     this._element.setAttribute('aria-hidden', true);
-    this._removeEventListeners();
+    this.#removeEventListeners();
   }
 }
