@@ -1,17 +1,17 @@
-import { Popup } from './Popup';
+import Popup from './Popup';
 
-export class PopupTypePartner extends Popup {
+export default class PopupTypePartner extends Popup {
   constructor(selector) {
     super(selector);
   }
 
-  _getPartnerContent(id) {
+  #getPartnerContent(id) {
     const partnerContent = document
       .querySelector(`#partner-id-${id}`)
       .content
       .querySelector('.popup__content')
       .cloneNode(true);
-    
+
     this._element.querySelector('.popup__link').setAttribute('href', document.querySelector(`#partner-id-${id}`).dataset.link);
 
     return partnerContent;
@@ -19,7 +19,7 @@ export class PopupTypePartner extends Popup {
 
   open(partnerId) {
     super.open();
-    const partnerContent = this._getPartnerContent(partnerId);
+    const partnerContent = this.#getPartnerContent(partnerId);
     this._element.querySelector('.popup__container').prepend(partnerContent);
   }
 

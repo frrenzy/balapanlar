@@ -1,46 +1,43 @@
 import './index.css';
 
+import logoImgBig from '../images/logo.svg';
+import logoImgSmall from '../images/logo-small.svg';
 
-import { PopupTypeCourse } from '../components/PopupTypeCourse';
-import { PopupTypePartner } from '../components/PopupTypePartner';
+import PopupTypeCourse from '../components/PopupTypeCourse';
+import PopupTypePartner from '../components/PopupTypePartner';
+import HorizontalScroller from '../components/HorizontalScroller';
 
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/all';
+import { logo, page, burgerButton, navigation, courseDetailsButtons, partnersButtons } from '../utils/constants';
+import { toggleBurger } from '../utils/utils';
 
-
-import logoBig from '../images/logo.svg';
-import logoScroll from '../images/logo-small.svg';
 
 const coursePopup = new PopupTypeCourse('.popup_type_course');
 const partnerPopup = new PopupTypePartner('.popup_type_partner');
-const logo = document.querySelector('.logo__img');
-const page = document.querySelector('.page');
-const burgerButton = document.querySelector('.header__burger');
-const navigation = document.querySelector('.header__nav');
-const courseDetailsButtons = Array.from(document.querySelectorAll('.courses__view-details'));
-const partnersButtons = Array.from(document.querySelectorAll('.partners__button'));
 
-const toggleBurger = () => {
-  navigation.classList.toggle('header__nav_opened');
-  burgerButton.classList.toggle('header__burger_opened');
-}
-
-burgerButton.addEventListener('click', () => {
-  toggleBurger();
+const scroller = new HorizontalScroller({
+  containerSelector: '.principles',
+  itemsSelector: '.principles__item',
+  mediaQuery: '(min-width: 769px)',
 });
+scroller.init();
+
 
 window.addEventListener('scroll', () => {
   if (window.matchMedia('(min-width: 769px)').matches) {
     if (window.scrollY > 0) {
       logo.classList.add('logo__img_scrolled');
       page.classList.add('page_scrolled');
-      logo.src = logoScroll;
+      logo.src = logoImgSmall;
     } else {
-      logo.src = logoBig;
+      logo.src = logoImgBig;
       page.classList.remove('page_scrolled');
       logo.classList.remove('logo__img_scrolled');
     }
   }
+});
+
+burgerButton.addEventListener('click', () => {
+  toggleBurger();
 });
 
 navigation.addEventListener('click', evt => {
@@ -59,30 +56,5 @@ courseDetailsButtons.forEach(button => {
 partnersButtons.forEach(button => {
   button.addEventListener('click', (evt) => {
     partnerPopup.open(evt.currentTarget.dataset.partnerId);
-  });
-});
-
-gsap.registerPlugin(ScrollTrigger);
-
-const mm = gsap.matchMedia();
-
-mm.add('(min-width: 769px)', () => {
-  const duration = 10;
-  const sections = gsap.utils.toArray('.principles__item');
-  const tl = gsap.timeline({
-    scrollTrigger: {
-      trigger: '.principles',
-      pin: '.main',
-      scrub: 0.5,
-      snap: 1 / (sections.length - 1),
-      start: 'bottom bottom',
-      end: '+=5000',
-    },
-  });
-
-  tl.to(sections, {
-    xPercent: -100 * (sections.length - 1),
-    duration: duration,
-    ease: 'none',
   });
 });
