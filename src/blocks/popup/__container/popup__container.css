@@ -9,8 +9,16 @@
   background-color: #ffffff;
 }
 
+@media screen and (min-width: 425px) {
+  .popup__container {
+    width: calc(100% - 150px);
+    padding: 30px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .popup__container {
     padding: 30px;
   }
 }
+

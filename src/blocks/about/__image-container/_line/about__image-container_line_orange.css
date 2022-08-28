@@ -1,5 +1,5 @@
 .about__image-container_line_orange::before {
-  background-size: 100% 48%;
   background-image: url('../../../../images/graphics/orange_line.svg');
+  background-size: 100% 48%;
 }
 

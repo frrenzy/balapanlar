@@ -90,6 +90,7 @@
 @import '../blocks/page/__element/_offset/page__element_offset_l.css';
 @import '../blocks/page/__element/_offset/page__element_offset_xl.css';
 @import '../blocks/popup/popup.css';
+@import '../blocks/popup/__link/popup__link.css';
 @import '../blocks/popup/__container/popup__container.css';
 @import '../blocks/popup/__close/popup__close.css';
 @import '../blocks/popup/__title/popup__title.css';
