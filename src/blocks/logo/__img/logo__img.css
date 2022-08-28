@@ -1,15 +1,11 @@
 .logo__img {
   display: block;
+  width: 101px;
+  height: 100px;
   transition: all .5s ease;
 }
 
-@media screen and (max-width: 1024px) {
-  .logo__img {
-    width: 80px;
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1110px) {
   .logo__img {
     width: 150px;
     height: 150px;

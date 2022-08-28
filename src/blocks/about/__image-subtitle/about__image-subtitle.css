@@ -1,10 +1,30 @@
 .about__image-subtitle {
-  margin: 40px 0 39px 29px;
-  color: #000000;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 0 40px;
+  padding: 0 30px 0;
   font-weight: 600;
   font-size: 24px;
-  font-style: normal;
   line-height: 29px;
   letter-spacing: -.5px;
   font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.about__image-container_line_orange + .about__image-subtitle {
+  padding-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .about__image-subtitle {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .about__image-subtitle {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 22px;
+  }
 }

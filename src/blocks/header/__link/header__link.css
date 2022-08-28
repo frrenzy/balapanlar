@@ -1,8 +1,7 @@
 .header__link {
-  color: #000000;
+  color: #252525;
   font-weight: 500;
   font-size: 18px;
-  font-family: 'Montserrat';
   font-style: normal;
   line-height: 22px;
   white-space: nowrap;
@@ -15,27 +14,16 @@
   transition: all ease-in-out .3s;
 }
 
-@media screen and (max-width: 1024px) {
-  .header__link {
-    font-size: 15px;
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1110px) {
   .header__link {
     display: block;
     max-width: 290px;
     font-weight: 600;
     font-size: 30px;
     line-height: 37px;
+    letter-spacing: -.5px;
     white-space: normal;
     text-align: center;
-  }
-}
-
-@media screen and (max-width: 768px) and (min-width: 425px) {
-  .header__link {
-    letter-spacing: -.5px;
   }
 }
 
@@ -44,5 +32,6 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
+    letter-spacing: 0;
   }
 }
