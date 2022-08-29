@@ -21,7 +21,9 @@ export default class PopupTypeCourse extends Popup {
   open(courseId) {
     super.open();
     const courseContent = this.#getCourseContent(courseId);
-    this._element.querySelector('.popup__container').prepend(courseContent);
+    const container = this._element.querySelector('.popup__container');
+    container.classList.add('popup__container_size_medium');
+    container.prepend(courseContent);
   }
 
   close() {
