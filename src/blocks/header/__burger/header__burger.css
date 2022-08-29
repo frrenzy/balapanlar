@@ -5,6 +5,13 @@
   width: 28px;
   height: 29px;
   margin: 0 77px 0 0;
+  border: none;
+  background-color: transparent;
+}
+
+.header__burger:hover {
+  opacity: .6;
+  cursor: pointer;
 }
 
 .header__burger::before {

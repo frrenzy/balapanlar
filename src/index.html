@@ -12,8 +12,8 @@
 <body class="page">
 
   <header class="header">
-    <a href="index.html" class="logo__mobile"></a>
-    <div class="header__burger" role="button"></div>
+    <a href="index.html" class="header__mobile-logo"></a>
+    <button class="header__burger" type="button"></button>
     <nav class="header__nav">
       <a href="index.html" class="logo">
         <img src="<%=require('./images/logo.svg')%>" alt="Логотип" class="logo__img">
@@ -36,9 +36,7 @@
         </li>
       </ul>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform"
-         target="_blank"
-         class="button button_color_black button_size_s header__button"
-      >
+        target="_blank" class="button button_color_black button_size_s header__button">
         Записаться на курсы
       </a>
     </nav>
@@ -110,12 +108,9 @@
             </ul>
             <div class="courses__buttons">
               <a href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform"
-                 target="_blank"
-                 class="button button_color_black button_size_m">Записаться</a>
-              <button type="button"
-                      class="button button_color_transparent button_size_m courses__view-details"
-                      data-course-id="1"
-              >
+                target="_blank" class="button button_color_black button_size_m">Записаться</a>
+              <button type="button" class="button button_color_transparent button_size_m courses__view-details"
+                data-course-id="1">
                 Смотреть все навыки
               </button>
             </div>
@@ -176,8 +171,7 @@
             </p>
             <div class="courses__buttons">
               <a href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform"
-                 target="_blank"
-                 class="button button_color_black button_size_m">Записаться</a>
+                target="_blank" class="button button_color_black button_size_m">Записаться</a>
             </div>
           </li>
 
@@ -198,13 +192,13 @@
               <li class="tag">сленг</li>
             </ul>
             <p class="courses__card-text paragraph">
-              Мы&nbsp;не&nbsp;только учим грамматике, но&nbsp;и&nbsp;смотрим фильмы, привыкаем к&nbsp;сленгу и&nbsp;деловой
+              Мы&nbsp;не&nbsp;только учим грамматике, но&nbsp;и&nbsp;смотрим фильмы, привыкаем к&nbsp;сленгу
+              и&nbsp;деловой
               переписке, читаем статьи и&nbsp;общаемся онлайн с&nbsp;носителями языка из&nbsp;разных стран!
             </p>
             <div class="courses__buttons">
               <a href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform"
-                 target="_blank"
-                 class="button button_color_black button_size_m">Записаться</a>
+                target="_blank" class="button button_color_black button_size_m">Записаться</a>
             </div>
           </li>
 
@@ -230,8 +224,7 @@
             </p>
             <div class="courses__buttons">
               <a href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform"
-                 target="_blank"
-                 class="button button_color_black button_size_m">Записаться</a>
+                target="_blank" class="button button_color_black button_size_m">Записаться</a>
             </div>
           </li>
         </ul>
@@ -240,8 +233,7 @@
       <section class="courses__price rounded">
         <h3 class="courses__price-title">Стоимость курсов 3500 руб./мес</h3>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform"
-           target="_blank"
-           class="button button_color_black button_size_m courses__price-pay">Оплатить курсы</a>
+          target="_blank" class="button button_color_black button_size_m courses__price-pay">Оплатить курсы</a>
         <article class="courses__includes">
           <h4 class="paragraph courses__includes-title">Что входит в&nbsp;стоимость?</h4>
           <ul class="list courses__list">
@@ -379,17 +371,20 @@
         <ul class="list partners__list rounded">
           <li class="partners__list-item">
             <button type="button" class="partners__button" data-partner-id="1">
-              <img class="partners__img" src="<%=require('./images/partners/lecture.png')%>" alt="Логотип партнёра «Lectures Without Borders»">
+              <img class="partners__img" src="<%=require('./images/partners/lecture.png')%>"
+                alt="Логотип партнёра «Lectures Without Borders»">
             </button>
           </li>
           <li class="partners__list-item">
             <button type="button" class="partners__button" data-partner-id="2">
-              <img class="partners__img" src="<%=require('./images/partners/horizons.png')%>" alt="Логотип партнёра «Открывая горизонты»">
+              <img class="partners__img" src="<%=require('./images/partners/horizons.png')%>"
+                alt="Логотип партнёра «Открывая горизонты»">
             </button>
           </li>
           <li class="partners__list-item">
             <button type="button" class="partners__button" data-partner-id="3">
-              <img class="partners__img" src="<%=require('./images/partners/himbio.png')%>" alt="Логотип партнёра «Химбио»">
+              <img class="partners__img" src="<%=require('./images/partners/himbio.png')%>"
+                alt="Логотип партнёра «Химбио»">
             </button>
           </li>
         </ul>
@@ -400,24 +395,18 @@
       <h2 class="principles__heading">Наши принципы</h2>
       <ul class="principles__list list">
         <li class="principles__item column">
-          <img src="<%=require('./images/principles/principles-1.png')%>"
-               alt="Фото для иллюстрации"
-               class="principles__image principles__image_size_m"
-          >
+          <img src="<%=require('./images/principles/principles-1.png')%>" alt="Фото для иллюстрации"
+            class="principles__image principles__image_size_m">
           <p class="principles__text">Актуальные знания и&nbsp;навыки</p>
         </li>
         <li class="principles__item column">
-          <img src="<%=require('./images/principles/principles-2.png')%>"
-               alt="Фото для иллюстрации"
-               class="principles__image"
-          >
+          <img src="<%=require('./images/principles/principles-2.png')%>" alt="Фото для иллюстрации"
+            class="principles__image">
           <p class="principles__text">Равный доступ к&nbsp;образованию</p>
         </li>
         <li class="principles__item column">
-          <img src="<%=require('./images/principles/principles-3.png')%>"
-               alt="Фото для иллюстрации"
-               class="principles__image"
-          >
+          <img src="<%=require('./images/principles/principles-3.png')%>" alt="Фото для иллюстрации"
+            class="principles__image">
           <p class="principles__text">
             Инвестируем в&nbsp;развитие местных специалистов и&nbsp;экспертов
           </p>
@@ -427,13 +416,14 @@
 
   </main>
 
-    <footer class="footer"></footer>
+  <footer class="footer"></footer>
 
   <div class="popup popup_type_course" aria-hidden="true">
     <div class="popup__container rounded">
       <button type="button" class="popup__close"></button>
       <div class="popup__buttons">
-        <a href="#" class="button button_size_m button_color_black popup__link" target="_blank" rel="noopener nofollow">Записаться</a>
+        <a href="#" class="button button_size_m button_color_black popup__link" target="_blank"
+          rel="noopener nofollow">Записаться</a>
         <button type="button" class="button button_size_m button_color_transparent popup__close">Закрыть</button>
       </div>
     </div>
@@ -443,12 +433,14 @@
     <div class="popup__container rounded">
       <button type="button" class="popup__close"></button>
       <div class="popup__buttons">
-        <a href="#" class="button button_size_m button_color_black popup__link" target="_blank" rel="noopener nofollow">Сайт партнёра</a>
+        <a href="#" class="button button_size_m button_color_black popup__link" target="_blank"
+          rel="noopener nofollow">Сайт партнёра</a>
       </div>
     </div>
   </div>
 
-  <template id="course-id-1" data-link="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform">
+  <template id="course-id-1"
+    data-link="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform">
     <div class="popup__content">
       <h2 class="popup__title">3D технологии</h2>
       <ul class="courses__spec-list list">
@@ -489,19 +481,27 @@
   <template id="partner-id-1" data-link="https://lewibo.org/ru">
     <div class="popup__content">
       <figure class="popup__figure rounded">
-        <img class="popup__img" src="<%=require('./images/partners/lecture.png')%>" alt="Логотип компании «Лекторы без границ»">
+        <img class="popup__img" src="<%=require('./images/partners/lecture.png')%>"
+          alt="Логотип компании «Лекторы без границ»">
       </figure>
-      <p class="popup__text">Lecturers Without Borders&nbsp;&mdash; сообщество молодых учёных со&nbsp;всего мира, которые проводят лекции и&nbsp;мастер-классы для школ. Среди лекторов много учёных из&nbsp;России. Для нас математики из&nbsp;Сорбонны проводили занятия по&nbsp;квази-кристаллам, а&nbsp;в&nbsp;будущем мы&nbsp;планируем привозить лекторов в&nbsp;наш центр.</p>
+      <p class="popup__text">Lecturers Without Borders&nbsp;&mdash; сообщество молодых учёных со&nbsp;всего мира,
+        которые проводят лекции и&nbsp;мастер-классы для школ. Среди лекторов много учёных из&nbsp;России. Для нас
+        математики из&nbsp;Сорбонны проводили занятия по&nbsp;квази-кристаллам, а&nbsp;в&nbsp;будущем мы&nbsp;планируем
+        привозить лекторов в&nbsp;наш центр.</p>
     </div>
   </template>
 
   <template id="partner-id-2" data-link="https://xn----7sbfgufj4abfcqfum7kl6d.xn--p1ai/">
     <div class="popup__content">
       <figure class="popup__figure rounded">
-        <img class="popup__img" src="<%=require('./images/partners/horizons.png')%>" alt="Логотип компании «Открывая горизонты»">
+        <img class="popup__img" src="<%=require('./images/partners/horizons.png')%>"
+          alt="Логотип компании «Открывая горизонты»">
       </figure>
-      <p class="popup__text">Фонд работает в&nbsp;45&nbsp;регионах и&nbsp;с&nbsp;осени 2021&nbsp;мы их&nbsp;единственные партнёры в&nbsp;Карачаево-Черкесии.</p>
-      <p class="popup__text">Совместно проводим программу профориентации &laquo;Поколение Выбор&raquo;. В&nbsp;2021&ndash;2022&nbsp;в ней приняли участие 35&nbsp;подростков из&nbsp;2&nbsp;школ аула Икон-Халк и&nbsp;посёлка Эркен-Шахар. В&nbsp;сезоне 2022&ndash;2023 планируются ещё две школы.</p>
+      <p class="popup__text">Фонд работает в&nbsp;45&nbsp;регионах и&nbsp;с&nbsp;осени 2021&nbsp;мы их&nbsp;единственные
+        партнёры в&nbsp;Карачаево-Черкесии.</p>
+      <p class="popup__text">Совместно проводим программу профориентации &laquo;Поколение Выбор&raquo;.
+        В&nbsp;2021&ndash;2022&nbsp;в ней приняли участие 35&nbsp;подростков из&nbsp;2&nbsp;школ аула Икон-Халк
+        и&nbsp;посёлка Эркен-Шахар. В&nbsp;сезоне 2022&ndash;2023 планируются ещё две школы.</p>
 
     </div>
   </template>
@@ -511,7 +511,10 @@
       <figure class="popup__figure rounded">
         <img class="popup__img" src="<%=require('./images/partners/himbio.png')%>" alt="Логотип компании «ХимБио»">
       </figure>
-      <p class="popup__text">ХимБио&nbsp;&mdash; онлайн-школа и&nbsp;выездные программы для детей и&nbsp;подростков со&nbsp;всего мира! Занимаются здесь химией, биологией и&nbsp;физикой, много практики и&nbsp;опытов. Летом детей и&nbsp;подростков ждут экспедиции, а&nbsp;во&nbsp;время учебного года&nbsp;&mdash; курсы по&nbsp;самым разным направлениям.</p>
+      <p class="popup__text">ХимБио&nbsp;&mdash; онлайн-школа и&nbsp;выездные программы для детей и&nbsp;подростков
+        со&nbsp;всего мира! Занимаются здесь химией, биологией и&nbsp;физикой, много практики и&nbsp;опытов. Летом детей
+        и&nbsp;подростков ждут экспедиции, а&nbsp;во&nbsp;время учебного года&nbsp;&mdash; курсы по&nbsp;самым разным
+        направлениям.</p>
     </div>
   </template>
 
