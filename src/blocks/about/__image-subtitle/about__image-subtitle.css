@@ -2,16 +2,12 @@
   box-sizing: border-box;
   width: 100%;
   margin: 0 0 40px;
-  padding: 0 30px 0;
+  padding: 0 0 0 30px;
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
   letter-spacing: -.5px;
   font-feature-settings: 'pnum' on, 'lnum' on;
-}
-
-.about__image-container_line_orange + .about__image-subtitle {
-  padding-right: 0;
 }
 
 @media screen and (max-width: 768px) {
