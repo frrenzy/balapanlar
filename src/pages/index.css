@@ -92,6 +92,8 @@
 @import '../blocks/popup/__link/popup__link.css';
 @import '../blocks/popup/__container/popup__container.css';
 @import '../blocks/popup/__close/popup__close.css';
+@import '../blocks/popup/__close/_type/popup__close_type_button.css';
+@import '../blocks/popup/__close/_type/popup__close_type_icon.css';
 @import '../blocks/popup/__title/popup__title.css';
 @import '../blocks/popup/__text/popup__text.css';
 @import '../blocks/popup/__figure/popup__figure.css';
