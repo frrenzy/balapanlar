@@ -600,10 +600,8 @@
        aria-hidden="true"
   >
     <div class="popup__container rounded">
-      <button type="button"
-              class="popup__close"
-      ></button>
-      <div class="popup__buttons">
+      <button type="button" class="popup__close popup__close_type_icon"></button>
+      <div class="popup__buttons popup__buttons_type_course">
         <a href="#"
            class="button button_size_m button_color_black popup__link"
            target="_blank"
@@ -612,7 +610,7 @@
           Записаться
         </a>
         <button type="button"
-                class="button button_size_m button_color_transparent popup__close"
+                class="button button_size_m button_color_transparent popup__close popup__close_type_button"
         >
           Закрыть
         </button>
@@ -625,9 +623,9 @@
   >
     <div class="popup__container rounded">
       <button type="button"
-              class="popup__close"
+              class="popup__close popup__close_type_icon"
       ></button>
-      <div class="popup__buttons">
+      <div class="popup__buttons popup__buttons_type_partner">
         <a href="#"
            class="button button_size_m button_color_black popup__link"
            target="_blank"
@@ -646,13 +644,13 @@
       <h2 class="popup__title">
         3D технологии
       </h2>
-      <ul class="courses__spec-list list">
-        <li class="courses__spec courses__spec_type_human">
+      <ul class="courses__spec-list popup__spec-list list">
+        <li class="courses__spec courses__spec_type_human popup__spec">
           <p class="courses__spec-text">
             группы 8+&nbsp;лет
           </p>
         </li>
-        <li class="courses__spec courses__spec_type_time">
+        <li class="courses__spec courses__spec_type_time popup__spec">
           <p class="courses__spec-text">
             блоки по&nbsp;3&nbsp;месяца
           </p>
