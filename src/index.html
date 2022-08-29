@@ -4,76 +4,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
-        content="width=device-width, initial-scale=1.0"
-  >
+        content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible"
-        content="ie=edge"
-  >
+        content="ie=edge">
   <link rel="icon"
-        href="<%=require('./images/logo.svg')%>"
-  >
+        href="<%=require('./images/logo.svg')%>">
   <title>Балапанлар</title>
 </head>
 
 <body class="page">
 
   <header class="header">
-    <a href="index.html"
-       class="logo__mobile"
+    <a href="index.html" 
+       class="header__mobile-logo"
     ></a>
-    <div class="header__burger"
-         role="button"
-    ></div>
+    <button class="header__burger" 
+            type="button"
+    ></button>
     <nav class="header__nav">
       <a href="index.html"
-         class="logo"
-      >
+         class="logo">
         <img src="<%=require('./images/logo.svg')%>"
              alt="Логотип"
-             class="logo__img"
-        >
+             class="logo__img">
       </a>
       <ul class="header__menu list">
         <li class="header__links">
           <a href="#courses"
-             class="header__link"
-          >
+             class="header__link">
             Наши курсы
           </a>
         </li>
         <li class="header__links">
           <a href="#about"
-             class="header__link"
-          >
+             class="header__link">
             О нас
           </a>
         </li>
         <li class="header__links">
           <a href="#team"
-             class="header__link"
-          >
+             class="header__link">
             Команда
           </a>
         </li>
         <li class="header__links">
           <a href="#contacts"
-             class="header__link"
-          >
+             class="header__link">
             Как нас найти
           </a>
         </li>
         <li class="header__links">
           <a href="#support"
-             class="header__link"
-          >
+             class="header__link">
             Поддержать проект
           </a>
         </li>
       </ul>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform"
-         target="_blank"
-         class="button button_color_black button_size_s header__button"
-      >
+        target="_blank" class="button button_color_black button_size_s header__button">
         Записаться на курсы
       </a>
     </nav>
@@ -87,23 +75,20 @@
       </h1>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform"
          target="_blank"
-         class="button button_size_l button_color_orange"
-      >
+         class="button button_size_l button_color_orange">
         Записаться на курсы
       </a>
       <div class="intro__bar rounded">
         <img src="<%=require('./images/icons/telegram_icon.svg')%>"
              alt="Иконка телеграма"
-             class="intro__icon"
-        >
+             class="intro__icon">
         <p class="intro__text">
           Следите за&nbsp;последними анонсами и&nbsp;событиями
           &laquo;Уя&raquo; в&nbsp;нашем Telegram канале
         </p>
         <a href="https://t.me/balapanlar"
            target="_blank"
-           class="button button_size_s button_color_black"
-        >
+           class="button button_size_s button_color_black">
           Подписаться
         </a>
       </div>
@@ -117,8 +102,7 @@
     </section>
 
     <section class="page__element courses column page__element_offset_xl"
-             id="courses"
-    >
+             id="courses">
       <h2 class="courses__title">Наши курсы</h2>
 
       <section class="courses__code column">
@@ -168,14 +152,12 @@
             <div class="courses__buttons">
               <a href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform"
                  target="_blank"
-                 class="button button_color_black button_size_m"
-              >
+                 class="button button_color_black button_size_m">
                 Записаться
               </a>
               <button type="button"
                       class="button button_color_transparent button_size_m courses__view-details"
-                      data-course-id="1"
-              >
+                      data-course-id="1">
                 Смотреть все навыки
               </button>
             </div>
@@ -253,8 +235,7 @@
             <div class="courses__buttons">
               <a href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform"
                  target="_blank"
-                 class="button button_color_black button_size_m"
-              >
+                 class="button button_color_black button_size_m">
                 Записаться
               </a>
             </div>
@@ -283,14 +264,14 @@
               <li class="tag">сленг</li>
             </ul>
             <p class="courses__card-text paragraph">
-              Мы&nbsp;не&nbsp;только учим грамматике, но&nbsp;и&nbsp;смотрим фильмы, привыкаем к&nbsp;сленгу и&nbsp;деловой
+              Мы&nbsp;не&nbsp;только учим грамматике, но&nbsp;и&nbsp;смотрим фильмы, привыкаем к&nbsp;сленгу
+              и&nbsp;деловой
               переписке, читаем статьи и&nbsp;общаемся онлайн с&nbsp;носителями языка из&nbsp;разных стран!
             </p>
             <div class="courses__buttons">
               <a href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform"
                  target="_blank"
-                 class="button button_color_black button_size_m"
-              >
+                 class="button button_color_black button_size_m">
                 Записаться
               </a>
             </div>
@@ -325,8 +306,7 @@
             <div class="courses__buttons">
               <a href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform"
                  target="_blank"
-                 class="button button_color_black button_size_m"
-              >
+                 class="button button_color_black button_size_m">
                 Записаться
               </a>
             </div>
@@ -340,8 +320,7 @@
         </h3>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform"
            target="_blank"
-           class="button button_color_black button_size_m courses__price-pay"
-        >
+           class="button button_color_black button_size_m courses__price-pay">
           Оплатить курсы
         </a>
         <article class="courses__includes">
@@ -525,34 +504,28 @@
           <li class="partners__list-item">
             <button type="button"
                     class="partners__button"
-                    data-partner-id="1"
-            >
+                    data-partner-id="1">
               <img class="partners__img"
                    src="<%=require('./images/partners/lecture.png')%>"
-                   alt="Логотип партнёра «Lectures Without Borders»"
-              >
+                   alt="Логотип партнёра «Lectures Without Borders»">
             </button>
           </li>
           <li class="partners__list-item">
             <button type="button"
                     class="partners__button"
-                    data-partner-id="2"
-            >
+                    data-partner-id="2">
               <img class="partners__img"
                    src="<%=require('./images/partners/horizons.png')%>"
-                   alt="Логотип партнёра «Открывая горизонты»"
-              >
+                   alt="Логотип партнёра «Открывая горизонты»">
             </button>
           </li>
           <li class="partners__list-item">
             <button type="button"
                     class="partners__button"
-                    data-partner-id="3"
-            >
+                    data-partner-id="3">
               <img class="partners__img"
                    src="<%=require('./images/partners/himbio.png')%>"
-                   alt="Логотип партнёра «Химбио»"
-              >
+                   alt="Логотип партнёра «Химбио»">
             </button>
           </li>
         </ul>
@@ -567,8 +540,7 @@
         <li class="principles__item column">
           <img src="<%=require('./images/principles/principles-1.png')%>"
                alt="Фото для иллюстрации"
-               class="principles__image principles__image_size_m"
-          >
+               class="principles__image principles__image_size_m">
           <p class="principles__text">
             Актуальные знания и&nbsp;навыки
           </p>
@@ -576,17 +548,15 @@
         <li class="principles__item column">
           <img src="<%=require('./images/principles/principles-2.png')%>"
                alt="Фото для иллюстрации"
-               class="principles__image"
-          >
+               class="principles__image">
           <p class="principles__text">
             Равный доступ к&nbsp;образованию
           </p>
         </li>
         <li class="principles__item column">
-          <img src="<%=require('./images/principles/principles-3.png')%>"
+          <img src="<%=require('./images/principles/principles-3.png')%>" 
                alt="Фото для иллюстрации"
-               class="principles__image"
-          >
+               class="principles__image">
           <p class="principles__text">
             Инвестируем в&nbsp;развитие местных специалистов и&nbsp;экспертов
           </p>
@@ -597,21 +567,18 @@
   </main>
 
   <div class="popup popup_type_course"
-       aria-hidden="true"
-  >
+       aria-hidden="true">
     <div class="popup__container rounded">
       <button type="button" class="popup__close popup__close_type_icon"></button>
       <div class="popup__buttons popup__buttons_type_course">
         <a href="#"
            class="button button_size_m button_color_black popup__link"
            target="_blank"
-           rel="noopener nofollow"
-        >
+           rel="noopener nofollow">
           Записаться
         </a>
         <button type="button"
-                class="button button_size_m button_color_transparent popup__close popup__close_type_button"
-        >
+                class="button button_size_m button_color_transparent popup__close popup__close_type_button">
           Закрыть
         </button>
       </div>
@@ -619,8 +586,7 @@
   </div>
 
   <div class="popup popup_type_partner"
-       aria-hidden="true"
-  >
+       aria-hidden="true">
     <div class="popup__container rounded">
       <button type="button"
               class="popup__close popup__close_type_icon"
@@ -629,8 +595,7 @@
         <a href="#"
            class="button button_size_m button_color_black popup__link"
            target="_blank"
-           rel="noopener nofollow"
-        >
+           rel="noopener nofollow">
           Сайт партнёра
         </a>
       </div>
@@ -638,8 +603,7 @@
   </div>
 
   <template id="course-id-1"
-            data-link="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform"
-  >
+            data-link="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform">
     <div class="popup__content">
       <h2 class="popup__title">
         3D технологии
@@ -702,14 +666,12 @@
   </template>
 
   <template id="partner-id-1"
-            data-link="https://lewibo.org/ru"
-  >
+            data-link="https://lewibo.org/ru">
     <div class="popup__content">
       <figure class="popup__figure rounded">
         <img class="popup__img"
              src="<%=require('./images/partners/lecture.png')%>"
-             alt="Логотип компании «Лекторы без границ»"
-        >
+             alt="Логотип компании «Лекторы без границ»">
       </figure>
       <p class="popup__text">
         Lecturers Without Borders&nbsp;&mdash; сообщество молодых учёных со&nbsp;всего мира, которые проводят лекции и&nbsp;мастер-классы
@@ -720,14 +682,12 @@
   </template>
 
   <template id="partner-id-2"
-            data-link="https://xn----7sbfgufj4abfcqfum7kl6d.xn--p1ai/"
-  >
+            data-link="https://xn----7sbfgufj4abfcqfum7kl6d.xn--p1ai/">
     <div class="popup__content">
       <figure class="popup__figure rounded">
         <img class="popup__img"
              src="<%=require('./images/partners/horizons.png')%>"
-             alt="Логотип компании «Открывая горизонты»"
-        >
+             alt="Логотип компании «Открывая горизонты»">
       </figure>
       <p class="popup__text">
         Фонд работает в&nbsp;45&nbsp;регионах и&nbsp;с&nbsp;осени 2021&nbsp;мы их&nbsp;единственные партнёры в&nbsp;Карачаево-Черкесии.
@@ -744,8 +704,7 @@
       <figure class="popup__figure rounded">
         <img class="popup__img"
              src="<%=require('./images/partners/himbio.png')%>"
-             alt="Логотип компании «ХимБио»"
-        >
+             alt="Логотип компании «ХимБио»">
       </figure>
       <p class="popup__text">
         ХимБио&nbsp;&mdash; онлайн-школа и&nbsp;выездные программы для детей и&nbsp;подростков со&nbsp;всего мира! Занимаются здесь химией,

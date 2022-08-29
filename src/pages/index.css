@@ -41,7 +41,7 @@
 
 @import '../blocks/logo/logo.css';
 @import '../blocks/logo/__img/logo__img.css';
-@import '../blocks/logo/__mobile/logo__mobile.css';
+@import '../blocks/header/__mobile-logo/header__mobile-logo.css';
 @import '../blocks/logo/__img/_scrolled/logo__img_scrolled.css';
 
 @import '../blocks/intro/intro.css';
