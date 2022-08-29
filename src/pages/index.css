@@ -5,11 +5,10 @@
 
 @import '../blocks/list/list.css';
 @import ' ../blocks/list/__item/list__item.css';
-@import '../blocks/column/column.css';
-@import '../blocks/rounded/rounded.css';
-@import '../blocks/list/__item/list__item.css';
 @import '../blocks/list/__item/_type/list__item_type_checked.css';
 @import '../blocks/list/__item/_type/list__item_type_crossed.css';
+@import '../blocks/column/column.css';
+@import '../blocks/rounded/rounded.css';
 @import '../blocks/paragraph/paragraph.css';
 @import '../blocks/tag/tag.css';
 
@@ -25,6 +24,12 @@
 
 /* blocks */
 
+@import '../blocks/page/page.css';
+@import '../blocks/page/_scrolled/page_scrolled.css';
+@import '../blocks/page/__element/page__element.css';
+@import '../blocks/page/__element/_offset/page__element_offset_l.css';
+@import '../blocks/page/__element/_offset/page__element_offset_xl.css';
+
 @import '../blocks/header/header.css';
 @import '../blocks/header/__nav/header__nav.css';
 @import '../blocks/header/__menu/header__menu.css';
@@ -38,9 +43,6 @@
 @import '../blocks/logo/__img/logo__img.css';
 @import '../blocks/header/__mobile-logo/header__mobile-logo.css';
 @import '../blocks/logo/__img/_scrolled/logo__img_scrolled.css';
-
-@import '../blocks/page/page.css';
-@import '../blocks/page/_scrolled/page_scrolled.css';
 
 @import '../blocks/intro/intro.css';
 @import '../blocks/intro/__headline/intro__headline.css';
@@ -86,21 +88,25 @@
 @import '../blocks/courses/__includes-title/courses__includes-title.css';
 @import '../blocks/courses/__list/courses__list.css';
 
-@import '../blocks/page/__element/page__element.css';
-@import '../blocks/page/__element/_offset/page__element_offset_l.css';
-@import '../blocks/page/__element/_offset/page__element_offset_xl.css';
 @import '../blocks/popup/popup.css';
 @import '../blocks/popup/__link/popup__link.css';
 @import '../blocks/popup/__container/popup__container.css';
+@import '../blocks/popup/__container/_size/popup__container_size_small.css';
+@import '../blocks/popup/__container/_size/popup__container_size_medium.css';
+@import '../blocks/popup/__container/popup__container.css';
 @import '../blocks/popup/__close/popup__close.css';
+@import '../blocks/popup/__close/_type/popup__close_type_button.css';
+@import '../blocks/popup/__close/_type/popup__close_type_icon.css';
 @import '../blocks/popup/__title/popup__title.css';
 @import '../blocks/popup/__text/popup__text.css';
 @import '../blocks/popup/__figure/popup__figure.css';
 @import '../blocks/popup/__img/popup__img.css';
+@import '../blocks/popup/__spec/popup__spec.css';
+@import '../blocks/popup/__spec-list/popup__spec-list.css';
 @import '../blocks/popup/__buttons/popup__buttons.css';
+@import '../blocks/popup/__buttons/_type/popup__buttons_type_course.css';
+@import '../blocks/popup/__buttons/_type/popup__buttons_type_partner.css';
 @import '../blocks/popup/_opened/popup_opened.css';
-@import '../blocks/popup/_type/popup_type_course.css';
-@import '../blocks/popup/_type/popup_type_partner.css';
 
 @import '../blocks/wrapper/wrapper.css';
 

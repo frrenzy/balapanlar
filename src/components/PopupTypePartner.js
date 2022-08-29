@@ -1,5 +1,6 @@
 import Popup from './Popup';
 
+
 export default class PopupTypePartner extends Popup {
   constructor(selector) {
     super(selector);
@@ -20,7 +21,9 @@ export default class PopupTypePartner extends Popup {
   open(partnerId) {
     super.open();
     const partnerContent = this.#getPartnerContent(partnerId);
-    this._element.querySelector('.popup__container').prepend(partnerContent);
+    const container = this._element.querySelector('.popup__container');
+    container.classList.add('popup__container_size_small');
+    container.prepend(partnerContent);
   }
 
   close() {

@@ -2,4 +2,10 @@
   background-color: unset;
   border: 0;
   cursor: pointer;
+  transition: opacity .25s ease-in-out;
+}
+
+.partners__button:hover,
+.partners__button:focus {
+  opacity: .7;
 }
