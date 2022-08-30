@@ -21,3 +21,15 @@
     max-width: 594px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .courses__card_size_small {
+    width: 100%;
+    min-width: unset;
+  }
+
+  .courses__card_size_small:nth-child(3n+2) {
+    width: 100%;
+    min-width: unset;
+  }
+}

@@ -17,7 +17,6 @@
 
 @media screen and (max-width: 425px) {
   .courses__code {
-    max-width: 654px;
     padding: 0 10px 10px;
     border-radius: 40px;
   }

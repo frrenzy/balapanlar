@@ -13,3 +13,11 @@
     background: linear-gradient(180deg, #ffffff calc(100vw / (248 / 351) + 80px), #eaf0ff 0);
   }
 }
+
+li {
+  background-color: blue;
+}
+
+li > p {
+  background-color: red;
+}

@@ -7,5 +7,6 @@
 @media screen and (max-width: 767px) {
   .courses__not-includes {
     margin: 0;
+    padding: 0;
   }
 }
