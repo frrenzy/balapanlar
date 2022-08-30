@@ -1,7 +1,7 @@
 .about__image-title {
   z-index: 3;
   width: 100%;
-  max-width: 90%;
+  max-width: 75%;
   margin: 0;
   font-weight: 600;
   font-size: 48px;
@@ -11,8 +11,9 @@
   font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .about__image-title {
+    width: 59%;
     font-size: 30px;
     line-height: 39px;
   }
