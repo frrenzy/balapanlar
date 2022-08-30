@@ -10,10 +10,10 @@
 
 @media screen and (min-width: 425px) {
   .popup__title {
+    padding-bottom: 30px;
     font-size: 30px;
     line-height: 37px;
     letter-spacing: -1px;
-    padding-bottom: 30px;
   }
 }
 

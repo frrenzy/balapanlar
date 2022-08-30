@@ -8,7 +8,7 @@
   width: calc((100% + 20px) / 3);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .courses__card_size_small {
     width: calc(100% - 20px);
     min-width: 300px;

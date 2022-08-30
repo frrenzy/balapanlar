@@ -5,14 +5,14 @@
   width: 28px;
   height: 29px;
   margin: 0 77px 0 0;
-  border: none;
   background-color: transparent;
+  border: none;
   outline: none;
 }
 
 .header__burger:hover {
-  opacity: .6;
   cursor: pointer;
+  opacity: .6;
 }
 
 .header__burger::before {
