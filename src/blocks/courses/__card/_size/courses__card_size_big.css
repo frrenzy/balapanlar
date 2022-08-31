@@ -11,3 +11,8 @@
   }
 }
 
+@media screen and (max-width: 425px) {
+  .courses__card_size_big {
+    min-width: unset;
+  }
+}

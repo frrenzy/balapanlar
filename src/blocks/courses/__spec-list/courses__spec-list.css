@@ -1,5 +1,11 @@
 .courses__spec-list {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .courses__spec-list {
+    gap: 2px;
+  }
 }

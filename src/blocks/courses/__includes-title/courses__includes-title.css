@@ -3,7 +3,7 @@
   letter-spacing: -.5px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .courses__includes-title {
     margin-bottom: 15px;
     font-size: 18px;

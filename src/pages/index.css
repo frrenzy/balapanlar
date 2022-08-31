@@ -76,6 +76,7 @@
 @import '../blocks/courses/__skills/courses__skills.css';
 @import '../blocks/courses/__skills-list/courses__skills-list.css';
 @import '../blocks/courses/__skills-item/courses__skills-item.css';
+@import '../blocks/courses/__skills-item/_unclamped/courses__skills-item_unclamped.css';
 @import '../blocks/courses/__buttons/courses__buttons.css';
 @import '../blocks/courses/__all-button/courses__all-button.css';
 @import '../blocks/courses/__others/courses__others.css';
@@ -93,7 +94,6 @@
 @import '../blocks/popup/__container/popup__container.css';
 @import '../blocks/popup/__container/_size/popup__container_size_small.css';
 @import '../blocks/popup/__container/_size/popup__container_size_medium.css';
-@import '../blocks/popup/__container/popup__container.css';
 @import '../blocks/popup/__close/popup__close.css';
 @import '../blocks/popup/__close/_type/popup__close_type_button.css';
 @import '../blocks/popup/__close/_type/popup__close_type_icon.css';
