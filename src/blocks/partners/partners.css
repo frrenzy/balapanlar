@@ -1,12 +1,19 @@
 .partners {
+  align-items: center;
+  box-sizing: content-box;
   width: 100%;
   margin: 0 auto;
-  padding: 30px 0;
+  padding: 80px calc(50% - 443px) 160px;
+  background-color: #ffffff;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 @media screen and (min-width: 425px) {
   .partners {
     padding-bottom: 80px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
   }
 }
 
