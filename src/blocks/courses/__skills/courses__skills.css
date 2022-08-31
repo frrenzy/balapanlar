@@ -1,16 +1,23 @@
 .courses__skills {
+  display: -webkit-box;
   margin: 0 0 30px;
   padding: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }
 
 @media screen and (max-width: 768px) {
   .courses__skills {
-    margin-bottom: 13px;
+    margin-bottom: 14px;
+    padding-top: 14px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .courses__skills {
     margin-bottom: 20px;
+    padding-top: 0;
   }
 }

@@ -1,0 +1,3 @@
+.courses__skills-item_unclamped {
+  -webkit-line-clamp: unset;
+}

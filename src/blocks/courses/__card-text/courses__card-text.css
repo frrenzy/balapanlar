@@ -1,29 +1,23 @@
 .courses__card-text {
   min-height: min-content;
   max-height: 100%;
-  margin: 0 0 18px;
-  padding: 0;
+  margin: 0 0 14px;
   text-overflow: ellipsis;
-}
-
-.courses__skills .courses__card-text {
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.courses__card-text:last-child {
-  margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) and (min-width: 426px) {
   .courses__card-text {
     margin-bottom: 15px;
   }
+}
 
-  .courses__card-text + .courses__skills {
-    margin-top: 15px;
+@media screen and (max-width: 425px) {
+  .courses__card-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .courses__card-text:last-of-type {
+    margin-bottom: 18px;
   }
 }

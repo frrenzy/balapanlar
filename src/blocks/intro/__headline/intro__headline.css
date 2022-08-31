@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
   .intro__headline {
     margin-bottom: 80px;
     font-size: 64px;
@@ -38,6 +38,7 @@
 @media screen and (max-width: 660px) {
   .intro__headline {
     font-size: 52px;
+    line-height: 64px;
   }
 }
 

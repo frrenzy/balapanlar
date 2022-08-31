@@ -23,7 +23,7 @@ scroller.init();
 
 
 window.addEventListener('scroll', () => {
-  if (window.matchMedia('(min-width: 769px)').matches) {
+  if (window.matchMedia('(min-width: 1111px)').matches) {
     if (window.scrollY > 0) {
       logo.classList.add('logo__img_scrolled');
       page.classList.add('page_scrolled');
