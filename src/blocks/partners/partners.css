@@ -1,10 +1,8 @@
 .partners {
-  align-items: center;
-  box-sizing: content-box;
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 80px calc(50% - 443px) 160px;
+  padding: 30px 0 50px;
   background-color: #ffffff;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
