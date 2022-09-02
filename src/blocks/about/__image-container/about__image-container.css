@@ -30,6 +30,13 @@
   }
 }
 
+@media screen and (max-width: 610px) {
+  .about__image-container {
+    padding-bottom: 19px;
+    padding-left: 19px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .about__image-container {
     margin-bottom: 30px;
