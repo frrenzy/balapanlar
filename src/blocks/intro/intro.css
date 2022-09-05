@@ -1,8 +1,10 @@
 .intro {
   display: grid;
-  grid-template-rows: 340px 104px 1fr;
+  grid-template-rows: auto 1fr auto;
   justify-items: center;
-  align-items: center;
+  align-items: baseline;
+  box-sizing: border-box;
+  width: 100%;
   max-width: 1440px;
   background-image: linear-gradient(
     180deg,
@@ -16,15 +18,8 @@
   aspect-ratio: 120 / 71;
 }
 
-@media screen and (max-width: 1050px) {
-  .intro {
-    grid-template-rows: 238px 66px 1fr;
-  }
-}
-
 @media screen and (max-width: 835px) {
   .intro {
-    grid-template-rows: 402px 104px 1fr;
     background-position: 59% 31%;
     background-size: 220%;
     aspect-ratio: 248 / 351;
@@ -34,8 +29,7 @@
 
 @media screen and (max-width: 500px) {
   .intro {
-    grid-template-rows: 350px 104px 1fr;
-    background-image: linear-gradient(178.6deg, rgba(0, 0, 0, .4) 39.03%, rgba(0, 0, 0, 0) 61.77%),
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .4) 39.03%, rgba(0, 0, 0, 0) 61.77%),
       url('../../images/intro_image.jpg');
     background-position: 59% -10%;
     background-size: 275%;
@@ -51,7 +45,6 @@
 
 @media screen and (max-width: 330px) {
   .intro {
-    grid-template-rows: 244px 52px 1fr;
     background-position: 59% -25%;
     background-size: 306%;
     border-radius: 40px;
