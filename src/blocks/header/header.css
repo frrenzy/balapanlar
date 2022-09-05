@@ -1,0 +1,22 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 1110px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    min-height: 42px;
+  }
+}

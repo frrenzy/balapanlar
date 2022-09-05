@@ -1,0 +1,17 @@
+.intro__icon {
+  width: 22px;
+  height: 22px;
+  margin: 25px 10px 25px 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__icon {
+    margin: 0 15px 38px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro__icon {
+    margin: 0;
+  }
+}

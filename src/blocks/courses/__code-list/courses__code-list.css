@@ -1,0 +1,22 @@
+.courses__code-list {
+  display: grid;
+  grid-template-columns: fit-content(595px) fit-content(595px);
+  justify-content: center;
+  gap: 10px;
+  width: calc(100% - 20px);
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .courses__code-list {
+    grid-template-columns: fit-content(595px);
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .courses__code-list {
+    width: 100%;
+  }
+}

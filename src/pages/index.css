@@ -1,1 +1,145 @@
+@import '../vendor/fonts/montserrat/montserrat.css';
 @import '../vendor/normalize.css';
+
+/* mixins */
+
+@import '../blocks/list/list.css';
+@import ' ../blocks/list/__item/list__item.css';
+@import '../blocks/list/__item/_type/list__item_type_checked.css';
+@import '../blocks/list/__item/_type/list__item_type_crossed.css';
+@import '../blocks/column/column.css';
+@import '../blocks/rounded/rounded.css';
+@import '../blocks/paragraph/paragraph.css';
+@import '../blocks/tag/tag.css';
+
+/* button */
+
+@import '../blocks/button/button.css';
+@import '../blocks/button/_size/button_size_l.css';
+@import '../blocks/button/_size/button_size_m.css';
+@import '../blocks/button/_size/button_size_s.css';
+@import '../blocks/button/_color/button_color_orange.css';
+@import '../blocks/button/_color/button_color_black.css';
+@import '../blocks/button/_color/button_color_transparent.css';
+
+/* blocks */
+
+@import '../blocks/page/page.css';
+@import '../blocks/page/_scrolled/page_scrolled.css';
+@import '../blocks/page/__element/page__element.css';
+@import '../blocks/page/__element/_offset/page__element_offset_l.css';
+@import '../blocks/page/__element/_offset/page__element_offset_xl.css';
+
+@import '../blocks/header/header.css';
+@import '../blocks/header/__nav/header__nav.css';
+@import '../blocks/header/__menu/header__menu.css';
+@import '../blocks/header/__link/header__link.css';
+@import '../blocks/header/__burger/header__burger.css';
+@import '../blocks/header/__nav/_opened/header__nav_opened.css';
+@import '../blocks/header/__burger/_opened/header__burger_opened.css';
+@import '../blocks/header/__button/header__button.css';
+
+@import '../blocks/logo/logo.css';
+@import '../blocks/logo/__img/logo__img.css';
+@import '../blocks/header/__mobile-logo/header__mobile-logo.css';
+@import '../blocks/logo/__img/_scrolled/logo__img_scrolled.css';
+
+@import '../blocks/intro/intro.css';
+@import '../blocks/intro/__headline/intro__headline.css';
+@import '../blocks/intro/__bar/intro__bar.css';
+@import '../blocks/intro/__icon/intro__icon.css';
+@import '../blocks/intro/__text/intro__text.css';
+
+@import '../blocks/info/info.css';
+@import '../blocks/info/__paragraph/info__paragraph.css';
+
+@import '../blocks/main/main.css';
+
+@import '../blocks/courses/courses.css';
+@import '../blocks/courses/__title/courses__title.css';
+@import '../blocks/courses/__wrapper/courses__wrapper.css';
+@import '../blocks/courses/__code/courses__code.css';
+@import '../blocks/courses/__code-title/courses__code-title.css';
+@import '../blocks/courses/__code-text/courses__code-text.css';
+@import '../blocks/courses/__code-list/courses__code-list.css';
+@import '../blocks/courses/__card/courses__card.css';
+@import '../blocks/courses/__card/_size/courses__card_size_big.css';
+@import '../blocks/courses/__card/_size/courses__card_size_small.css';
+@import '../blocks/courses/__card-title/courses__card-title.css';
+@import '../blocks/courses/__spec-list/courses__spec-list.css';
+@import '../blocks/courses/__spec/courses__spec.css';
+@import '../blocks/courses/__spec/_type/courses__spec_type_human.css';
+@import '../blocks/courses/__spec/_type/courses__spec_type_time.css';
+@import '../blocks/courses/__tags/courses__tags.css';
+@import '../blocks/courses/__spec-text/courses__spec-text.css';
+@import '../blocks/courses/__card-text/courses__card-text.css';
+@import '../blocks/courses/__skills/courses__skills.css';
+@import '../blocks/courses/__skills-list/courses__skills-list.css';
+@import '../blocks/courses/__skills-item/courses__skills-item.css';
+@import '../blocks/courses/__skills-item/_unclamped/courses__skills-item_unclamped.css';
+@import '../blocks/courses/__buttons/courses__buttons.css';
+@import '../blocks/courses/__all-button/courses__all-button.css';
+@import '../blocks/courses/__others/courses__others.css';
+@import '../blocks/courses/__others-list/courses__others-list.css';
+@import '../blocks/courses/__price/cources__price.css';
+@import '../blocks/courses/__price-pay/courses__price-pay.css';
+@import '../blocks/courses/__price-title/courses__price-title.css';
+@import '../blocks/courses/__not-includes/courses__not-includes.css';
+@import '../blocks/courses/__includes/courses__includes.css';
+@import '../blocks/courses/__includes-title/courses__includes-title.css';
+@import '../blocks/courses/__list/courses__list.css';
+
+@import '../blocks/popup/popup.css';
+@import '../blocks/popup/__link/popup__link.css';
+@import '../blocks/popup/__container/popup__container.css';
+@import '../blocks/popup/__container/_size/popup__container_size_small.css';
+@import '../blocks/popup/__container/_size/popup__container_size_medium.css';
+@import '../blocks/popup/__close/popup__close.css';
+@import '../blocks/popup/__close/_type/popup__close_type_button.css';
+@import '../blocks/popup/__close/_type/popup__close_type_icon.css';
+@import '../blocks/popup/__title/popup__title.css';
+@import '../blocks/popup/__text/popup__text.css';
+@import '../blocks/popup/__figure/popup__figure.css';
+@import '../blocks/popup/__img/popup__img.css';
+@import '../blocks/popup/__spec/popup__spec.css';
+@import '../blocks/popup/__spec-list/popup__spec-list.css';
+@import '../blocks/popup/__buttons/popup__buttons.css';
+@import '../blocks/popup/__buttons/_type/popup__buttons_type_course.css';
+@import '../blocks/popup/__buttons/_type/popup__buttons_type_partner.css';
+@import '../blocks/popup/_opened/popup_opened.css';
+
+@import '../blocks/wrapper/wrapper.css';
+
+@import '../blocks/about/about.css';
+@import '../blocks/about/__title/about__title.css';
+@import '../blocks/about/__subtitle/about__subtitle.css';
+@import '../blocks/about/__list/about__list.css';
+@import '../blocks/about/__list-item/about__list-item.css';
+@import '../blocks/about/__element/about__element.css';
+@import '../blocks/about/__image-container/about__image-container.css';
+@import '../blocks/about/__image-container/_photo/about__image-container_photo_kids.css';
+@import '../blocks/about/__image-container/_line/about__image-container_line_yellow.css';
+@import '../blocks/about/__image-container/_line/about__image-container_line_orange.css';
+@import '../blocks/about/__image-container/_photo/about__image-container_photo_school.css';
+@import '../blocks/about/__image-title/about__image-title.css';
+@import '../blocks/about/__image-title/_color/about__image-title_color_white.css';
+@import '../blocks/about/__image-title/_color/about__image-title_color_black.css';
+@import '../blocks/about/__image-subtitle/about__image-subtitle.css';
+@import '../blocks/about/__features/about__features.css';
+@import '../blocks/about/__feature/about__feature.css';
+@import '../blocks/about/__geotag/about__geotag.css';
+
+@import '../blocks/partners/partners.css';
+@import '../blocks/partners/__heading/partners__heading.css';
+@import '../blocks/partners/__list/partners__list.css';
+@import '../blocks/partners/__list-item/partners__list-item.css';
+@import '../blocks/partners/__button/partners__button.css';
+@import '../blocks/partners/__img/partners__img.css';
+
+@import '../blocks/principles/principles.css';
+@import '../blocks/principles/__heading/principles__heading.css';
+@import '../blocks/principles/__list/principles__list.css';
+@import '../blocks/principles/__item/principles__item.css';
+@import '../blocks/principles/__image/principles__image.css';
+@import '../blocks/principles/__image/_size/principles__image_size_m.css';
+@import '../blocks/principles/__text/principles__text.css';

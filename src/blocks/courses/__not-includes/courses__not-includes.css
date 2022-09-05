@@ -1,0 +1,12 @@
+.courses__not-includes {
+  grid-area: not-includes;
+  margin: 48px 0 48px 30px;
+  padding: 0 50px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .courses__not-includes {
+    margin: 0;
+    padding: 0;
+  }
+}

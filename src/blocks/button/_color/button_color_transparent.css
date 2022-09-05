@@ -1,0 +1,15 @@
+.button_color_transparent {
+  color: #000000;
+  background: none;
+  border: none;
+}
+
+@media (max-width: 425px) {
+  .button_color_transparent {
+    min-width: max-content;
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,11 @@
+.courses__price-pay {
+  grid-area: button;
+  width: max-content;
+  margin: 0 0 30px 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .courses__price-pay {
+    margin: 0;
+  }
+}

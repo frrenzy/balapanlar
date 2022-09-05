@@ -1,0 +1,11 @@
+.popup__buttons_type_course {
+  justify-content: flex-start;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 490px) {
+  .popup__buttons_type_course {
+    flex-direction: column-reverse;
+    padding-top: 20px;
+  }
+}

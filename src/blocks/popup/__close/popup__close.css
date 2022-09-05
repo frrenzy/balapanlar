@@ -1,0 +1,9 @@
+.popup__close {
+  transition: opacity .25s ease-in-out;
+}
+
+.popup__close:hover,
+.popup__close:focus {
+  color: #555555;
+  opacity: .7;
+}

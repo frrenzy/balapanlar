@@ -1,0 +1,9 @@
+.button_color_black {
+  width: max-content;
+  height: min-content;
+  background-color: #252525;
+}
+
+.button_color_black:hover {
+  background-color: #333333;
+}

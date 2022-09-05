@@ -1,0 +1,28 @@
+.partners__heading {
+  margin: 0;
+  padding: 0 15px 30px;
+  font-weight: 600;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 29px;
+  letter-spacing: -.5px;
+}
+
+@media screen and (min-width: 425px) {
+  .partners__heading {
+    padding-right: 0;
+    padding-bottom: 80px;
+    padding-left: 0;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .partners__heading {
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -1px;
+  }
+}

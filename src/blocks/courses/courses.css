@@ -1,0 +1,13 @@
+.courses {
+  scroll-margin-top: 120px;
+  width: 100%;
+  max-width: 1220px;
+  padding: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .courses {
+    scroll-margin-top: 72px;
+    margin-bottom: 10px;
+  }
+}

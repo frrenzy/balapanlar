@@ -1,0 +1,29 @@
+.header__mobile-logo {
+  display: none;
+  width: 165px;
+  height: 30px;
+  margin: 0 0 0 75px;
+  background-image: url('../../../images/logo-small.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.header__mobile-logo:hover {
+  cursor: pointer;
+  opacity: .6;
+}
+
+@media screen and (max-width: 1110px) {
+  .header__mobile-logo {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__mobile-logo {
+    width: 101px;
+    height: 22px;
+    margin-left: 15px;
+  }
+}

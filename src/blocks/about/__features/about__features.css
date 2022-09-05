@@ -1,0 +1,13 @@
+.about__features {
+  align-items: flex-start;
+  gap: 13px;
+  margin: 0 0 0 33px;
+  padding: 2px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .about__features {
+    margin-left: 0;
+  }
+}
+

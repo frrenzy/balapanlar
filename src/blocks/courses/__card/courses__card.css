@@ -1,0 +1,13 @@
+.courses__card {
+  align-items: start;
+  margin: 0;
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 425px) {
+  .courses__card {
+    padding: 15px;
+  }
+}
+

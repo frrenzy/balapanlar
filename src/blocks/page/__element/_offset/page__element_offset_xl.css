@@ -1,0 +1,15 @@
+.page__element_offset_xl {
+  margin-bottom: 120px;
+}
+
+@media screen and (max-width: 768px) {
+  .page__element_offset_xl {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .page__element_offset_xl {
+    margin-bottom: 40px;
+  }
+}

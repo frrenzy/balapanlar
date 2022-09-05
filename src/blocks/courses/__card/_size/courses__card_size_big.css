@@ -1,0 +1,18 @@
+.courses__card_size_big {
+  width: 100%;
+  min-width: 300px;
+  min-height: 553px;
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .courses__card_size_big {
+    box-sizing: border-box;
+    border-radius: 50px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .courses__card_size_big {
+    min-width: unset;
+  }
+}

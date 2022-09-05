@@ -1,0 +1,11 @@
+.rounded {
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+@media screen and (min-width: 425px) {
+  .rounded {
+    border-radius: 60px;
+  }
+}

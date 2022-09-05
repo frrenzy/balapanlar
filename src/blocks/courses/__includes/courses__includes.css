@@ -1,0 +1,10 @@
+.courses__includes {
+  grid-area: includes;
+  margin: 48px 0 48px 29px;
+}
+
+@media screen and (max-width: 768px) {
+  .courses__includes {
+    margin: 0;
+  }
+}

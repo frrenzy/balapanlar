@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack serve",
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d dist",
     "editorconfig": "editorconfig-cli",
     "stylelint": "stylelint \"src/**/*.css\"",
@@ -40,11 +40,12 @@
     "webpack-dev-server": "^4.9.2"
   },
   "dependencies": {
-    "core-js": "^3.22.8"
+    "core-js": "^3.22.8",
+    "gsap": "^3.11.0"
   },
   "editorconfig-cli": [
     "*.json",
-    "src/**/*.*"
+    "src/**/*.{js,css,html}"
   ],
   "lint-staged": {
     "*": "npm run test"

@@ -1,0 +1,13 @@
+.courses__tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 5px;
+  margin: 30px 0;
+}
+
+@media screen and (max-width: 425px) {
+  .courses__tags {
+    margin: 21px 0;
+  }
+}

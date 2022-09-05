@@ -47,7 +47,7 @@
     "function-parentheses-space-inside": "never-single-line",
     "function-url-quotes": "always",
     "function-whitespace-after": "always",
-    "number-leading-zero": "always",
+    "number-leading-zero": "never",
     "number-no-trailing-zeros": true,
     "string-quotes": "single",
     "length-zero-no-unit": true,
@@ -76,7 +76,7 @@
     "declaration-block-trailing-semicolon": "always",
     "declaration-empty-line-before": "never",
     "declaration-property-unit-allowed-list": {
-      "line-height": []
+      "line-height": ["px"]
     },
     "block-closing-brace-empty-line-before": "never",
     "block-closing-brace-newline-after": "always-multi-line",
@@ -122,8 +122,10 @@
       "always",
       {
         "except": [
-          "blockless-after-blockless",
           "first-nested"
+        ],
+        "ignore": [
+          "blockless-after-blockless"
         ]
       }
     ],
@@ -140,7 +142,7 @@
       }
     ],
     "comment-whitespace-inside": "always",
-    "indentation": "tab",
+    "indentation": 2,
     "max-empty-lines": 2,
     "no-eol-whitespace": true,
     "no-missing-end-of-source-newline": true,

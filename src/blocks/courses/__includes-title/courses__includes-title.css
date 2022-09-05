@@ -1,0 +1,18 @@
+.courses__includes-title {
+  font-weight: 600;
+  letter-spacing: -.5px;
+}
+
+@media screen and (max-width: 768px) {
+  .courses__includes-title {
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .courses__includes-title {
+    margin-bottom: 20px;
+  }
+}
