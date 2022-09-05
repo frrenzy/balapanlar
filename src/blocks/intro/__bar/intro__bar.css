@@ -36,6 +36,7 @@
   .intro__bar {
     display: flex;
     flex-direction: column;
+    align-self: flex-end;
     gap: 15px;
     width: 100%;
     max-width: 100%;
